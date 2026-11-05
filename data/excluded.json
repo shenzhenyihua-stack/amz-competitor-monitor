@@ -1,0 +1,20 @@
+[
+  {
+    "sellerId": "ADRRYB6BJD8LK",
+    "businessName": "JUANREZ BUSINESS, SOCIEDAD LIMITADA",
+    "site": "Amazon.de",
+    "reason": "Edge调试模式排查结果：页面明确显示 0 Ergebnisse (0在售)，当前无在售商品，已标记排除"
+  },
+  {
+    "sellerId": "AGOP06Q1UFBM3",
+    "businessName": "MOMOCHICOA SL",
+    "site": "Amazon.de",
+    "reason": "Edge调试模式排查结果：页面明确显示 0 Ergebnisse (0在售)，当前无在售商品，已标记排除"
+  },
+  {
+    "sellerId": "AQJ0PJSZQRQGE",
+    "businessName": "KIROLOS VIOFIL SISTEM S.R.L.",
+    "site": "Amazon.de",
+    "reason": "Edge调试模式排查结果：页面明确显示 0 Ergebnisse (0在售)，当前无在售商品，已标记排除"
+  }
+]

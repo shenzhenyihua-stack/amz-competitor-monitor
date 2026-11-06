@@ -93,7 +93,7 @@
     "displayName": "Auto-Home",
     "shopName": "Auto-Home",
     "note": "车载杯架手机支架/厨房围裙/喂鸟器",
-    "scrapedCount": 16
+    "scrapedCount": 15
   },
   {
     "sellerId": "A35R3AFD5OLVO7",
@@ -101,7 +101,7 @@
     "displayName": "KESSER",
     "shopName": "KESSER",
     "note": "德国著名家居户外大牌/特技滑板车/户外工具",
-    "scrapedCount": 16
+    "scrapedCount": 15
   },
   {
     "sellerId": "A315FL7N6MS5DZ",
@@ -158,5 +158,18 @@
     "shopName": "Creative-Stationery",
     "note": "可擦中性笔/卡皮巴拉文具盒/创意硅胶模具",
     "scrapedCount": 16
+  },
+  {
+    "sellerId": "A16QV2T7BU3ZKC",
+    "brand": "TerraGrow-EU",
+    "displayName": "TerraGrow-EU",
+    "shopName": "TerraGrow-EU",
+    "site": "Amazon.de",
+    "url": "https://www.amazon.de/s?me=A16QV2T7BU3ZKC&language=en&marketplaceID=A1PA6795UKMFR9",
+    "submitter": "于以安",
+    "submissionId": "sub_1793959693879",
+    "scrapedCount": 336,
+    "scrapedAt": "2026-11-06T10:31:17.882Z",
+    "sourcePages": 22
   }
 ]

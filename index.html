@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>亚马逊竞对品牌产品与新品监控看板 (德国站)</title>
+  <title>亚马逊竞对品牌产品与新品监控看板</title>
   <style>
     :root {
       --bg-primary: #0d1117;
@@ -801,14 +801,14 @@
       .submit-form { grid-template-columns: 1fr; }
       .modal-content { grid-template-columns: 1fr; }
     }
-  .dashboard-tabs{gap:12px;flex-wrap:wrap}.dash-tab{font-size:17px;font-weight:800;padding:15px 24px;border:2px solid #61718f;background:#25334a;border-radius:12px;box-shadow:0 3px 10px #0003}.dash-tab.active{background:#1765d1;color:white;border-color:#8bc5ff;box-shadow:0 0 0 3px #3b82f633}.dash-tab.new-mode.active{background:#a63036;border-color:#ffb3a9}#tabFollow.active{background:#865f08;border-color:#f7d272}.site-badge{font-size:10px;background:#1e293b;color:#b7d5ff;padding:3px 6px;position:absolute;bottom:6px;left:6px;border-radius:5px}.submitter-label{font-size:12px;color:var(--text-secondary);margin-bottom:6px}.submit-form{grid-template-columns:2fr 1fr 1.5fr auto}#submitSection{scroll-margin-top:160px}@media(max-width:900px){.submit-form{grid-template-columns:1fr}.dash-tab{font-size:14px;padding:12px 14px}}</style>
+  .dashboard-tabs{gap:12px;flex-wrap:wrap}.dash-tab{font-size:17px;font-weight:800;padding:15px 24px;border:2px solid #61718f;background:#25334a;border-radius:12px;box-shadow:0 3px 10px #0003}.dash-tab.active{background:#1765d1;color:white;border-color:#8bc5ff;box-shadow:0 0 0 3px #3b82f633}.dash-tab.new-mode.active{background:#a63036;border-color:#ffb3a9}#tabFollow.active{background:#865f08;border-color:#f7d272}.site-badge{font-size:10px;background:#1e293b;color:#b7d5ff;padding:3px 6px;position:absolute;bottom:6px;left:6px;border-radius:5px}.submitter-label{font-size:12px;color:var(--text-secondary);margin-bottom:6px}.submit-form{grid-template-columns:2fr 1fr 1.5fr auto}#submitSection{scroll-margin-top:160px}@media(max-width:900px){.submit-form{grid-template-columns:1fr}.dash-tab{font-size:14px;padding:12px 14px}}.dash-tab{color:#e6edf3}.site-badge{position:static;display:inline-block}.img-box .site-badge{position:absolute;bottom:6px;left:6px}.title-site-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.header-title{white-space:nowrap}.header-subtitle{font-size:16px;font-weight:650;color:var(--text-heading)}.top-site-switch{display:inline-flex;align-items:center;gap:8px;background:#16345c;border:2px solid #58a6ff;border-radius:10px;padding:7px 10px;box-shadow:0 0 0 3px #3b82f61a;font-size:12px;color:#badaff;font-weight:700}.top-site-switch select{background:#1b416f;color:#fff;border:1px solid #80b7ff;border-radius:6px;padding:7px 30px 7px 10px;font-size:15px;font-weight:800;cursor:pointer;max-width:220px}.top-site-switch:focus-within{outline:2px solid #c2e0ff;outline-offset:2px}@media(max-width:600px){.title-site-row{gap:8px}.header-subtitle{width:100%;font-size:13px}.top-site-switch select{font-size:14px;max-width:180px}}</style>
 </head>
 <body>
 
   <header>
     <div class="header-container">
       <div class="header-left">
-        <h1 class="header-title">📊 亚马逊 · 竞对品牌产品与新品监控看板</h1>
+        <div class="title-site-row"><h1 class="header-title">📊 亚马逊</h1><label class="top-site-switch" for="siteFilter"><span>站点</span><select id="siteFilter" aria-label="切换亚马逊站点" onchange="changeSite()"><option value="all">全部站点</option></select></label><span class="header-subtitle">竞对品牌产品与新品监控看板</span></div>
         
         <div class="dashboard-tabs">
           <button class="dash-tab active" id="tabAll" onclick="switchDashboardMode('all')">
@@ -877,7 +877,6 @@
       <div class="shop-chips" id="shopChipsContainer"></div>
 
       <div class="secondary-filters">
-        <label>站点 <select id="siteFilter" class="filter-select" onchange="changeSite()"><option value="all">全部站点</option></select></label>
         <input type="text" id="searchInput" class="search-input" placeholder="🔍 搜索 ASIN、标题、品牌、或自定义备注关键词...">
         
         <select id="priceFilter" class="filter-select">
@@ -17335,12 +17334,24 @@
     function isRadarNew(p) { return !!p.asin && !radarBaseline.has(p.asin); }
 
     let selectedSite='all';
-    function siteOf(p) { const m=String(p.site||p.url||'').toLowerCase().match(/amazon\.(com\.au|com\.br|com\.mx|co\.uk|co\.jp|com|de|fr|it|es|ca|nl|se|pl|be|ie)/);return m?'amazon.'+m[1]:'未知站点'; }
+    function siteOf(p) { const m=String(p.site||p.url||p.marketplace||'').toLowerCase().match(/amazon\.(com\.au|com\.br|com\.mx|co\.uk|co\.jp|com|de|fr|it|es|ca|nl|se|pl|be|ie)/);return m?'amazon.'+m[1]:'未知站点'; }
     function siteProducts(){return selectedSite==='all'?rawProducts:rawProducts.filter(p=>siteOf(p)===selectedSite);}
     function submitterOf(p){const s=rawShops.find(s=>s.sellerId===p.sellerId);return s?.submitter||p.submitter||'';}
-    function initSites(){const s=document.getElementById('siteFilter');s.innerHTML='<option value="all">全部站点</option>';for(const site of [...new Set(rawProducts.map(siteOf))]){const o=document.createElement('option');o.value=site;o.textContent=site;s.appendChild(o);}s.value='all';}
-    function refreshSiteCounts(){document.getElementById('tabBadgeAll').textContent=siteProducts().length;document.getElementById('tabBadgeNew').textContent=siteProducts().filter(isRadarNew).length;refreshFollowCount();document.getElementById('kpiProducts').textContent=dashboardPool().length+' 款';document.getElementById('kpiShops').textContent=new Set(siteProducts().map(p=>p.sellerId)).size+' 个';document.getElementById('kpiSub1').textContent=selectedSite==='all'?'全部站点':selectedSite;}
-    function changeSite(){selectedSite=document.getElementById('siteFilter').value;currentShop='all';renderShopChips();applyFilters();refreshSiteCounts();document.getElementById('siteStatus').textContent=selectedSite==='all'?'当前：全部站点 · 售价保留采集币种':'当前：'+selectedSite+' · 售价保留采集币种';}
+    function initSites(){const s=document.getElementById('siteFilter');s.innerHTML='<option value="all">全部站点</option>';for(const site of [...new Set([...rawProducts,...rawShops].map(siteOf).filter(site=>site!=='未知站点'))]){const o=document.createElement('option');o.value=site;o.textContent=site;s.appendChild(o);}s.value='all';}
+
+    function updatePriceControls(){
+      const pool=siteProducts();const codes=[...new Set(pool.map(p=>p.currency && p.currency!=='未知'?p.currency:/€/.test(p.price||'')?'EUR':/US\$|^\$/.test(p.price||'')?'USD':'未知'))];
+      const mixed=selectedSite==='all' && [...new Set(pool.map(siteOf))].length>1;
+      const code=mixed?'':codes.length===1&&codes[0]!=='未知'?codes[0]:'';
+      const filter=document.getElementById('priceFilter');filter.disabled=mixed||!code;
+      filter.options[0].textContent=mixed?'跨站点不比较金额，请先选站点':code?'所有'+code+'价格区间':'售价币种待核实';
+      const labels=['','15 以下','15 ~ 40','40 ~ 100','100 以上'];for(let i=1;i<filter.options.length;i++)filter.options[i].textContent=(code?code+' ':'')+labels[i];
+      const sort=document.getElementById('sortSelect');for(const o of sort.options){if(o.value==='priceAsc'||o.value==='priceDesc'){o.disabled=mixed||!code;o.textContent=(o.value==='priceAsc'?'售价从低到高':'售价从高到低')+(code?'（'+code+'）':'（请先选站点）');}}
+      if(filter.disabled)filter.value='all';if((mixed||!code)&&/^price/.test(sort.value))sort.value='default';
+    }
+
+    function refreshSiteCounts(){updatePriceControls();document.getElementById('tabBadgeAll').textContent=siteProducts().length;document.getElementById('tabBadgeNew').textContent=siteProducts().filter(isRadarNew).length;refreshFollowCount();document.getElementById('kpiProducts').textContent=dashboardPool().length+' 款';document.getElementById('kpiShops').textContent=new Set(siteProducts().map(p=>p.sellerId)).size+' 个';document.getElementById('kpiSub1').textContent=selectedSite==='all'?'全部站点':selectedSite;}
+    function changeSite(){selectedSite=document.getElementById('siteFilter').value;currentShop='all';document.getElementById('priceFilter').value='all';updatePriceControls();renderShopChips();applyFilters();refreshSiteCounts();document.getElementById('siteStatus').textContent=selectedSite==='all'?'当前：全部站点 · 售价保留采集币种':'当前：'+selectedSite+' · 售价保留采集币种';}
     async function persistSubmission(record){const url='https://api.github.com/repos/'+GITHUB_REPO_OWNER+'/'+GITHUB_REPO_NAME+'/contents/data/pending_submissions.json';const headers={Authorization:'token '+GITHUB_COLLAB_TOKEN,Accept:'application/vnd.github+json','Content-Type':'application/json'};for(let attempt=0;attempt<3;attempt++){const r=await fetch(url+'?t='+Date.now(),{headers,cache:'no-store'});if(!r.ok)throw Error('读取提报队列失败 '+r.status);const old=await r.json();const list=JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(old.content.replace(/\s/g,'')),c=>c.charCodeAt(0))));if(!list.some(x=>x.id===record.id))list.push(record);const bytes=new TextEncoder().encode(JSON.stringify(list,null,2));let binary='';bytes.forEach(x=>binary+=String.fromCharCode(x));const save=await fetch(url,{method:'PUT',headers,body:JSON.stringify({message:'New shop submission with submitter',sha:old.sha,content:btoa(binary),branch:'main'})});if(save.ok)return;if(save.status!==409)throw Error('保存提报失败 '+save.status);}throw Error('队列更新冲突，请重试');}
 
     function dashboardPool() {
@@ -17453,7 +17464,7 @@
         tabNew.className = 'dash-tab';
         banner.className = 'mode-banner';
         bTitle.textContent = '📦 当前视图：全量竞对产品看板';
-        bDesc.textContent = '展示已监控的 27 个品牌在售全量产品（包含新品与常规在售款）。';
+        bDesc.textContent = '展示当前站点范围内的全部登记产品；NEW 表示基线之外新增ASIN。';
         document.getElementById('kpiTitle2').textContent = '当前在售产品总数';
         document.getElementById('kpiProducts').textContent = siteProducts().length + ' 款';
       } else {
@@ -17535,6 +17546,7 @@
         }
 
         if (priceR !== 'all') {
+          if (typeof p.priceVal !== 'number' || !Number.isFinite(p.priceVal)) return false;
           const val = p.priceVal || 0;
           if (priceR === 'p1' && val >= 15) return false;
           if (priceR === 'p2' && (val < 15 || val >= 40)) return false;
@@ -17705,3 +17717,5 @@
   </script>
 </body>
 </html>
+
+

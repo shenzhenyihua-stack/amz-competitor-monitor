@@ -17955,9 +17955,6 @@
         submitter: submitter
       };
 
-      const issueTitle = encodeURIComponent(`[新店铺提报] ${newRecord.brandHint} (${sellerId})`);
-      const issueBody = encodeURIComponent(`提报时间: ${newRecord.submitTime}\n店铺链接: ${url}\n卖家ID: ${sellerId}\n提报人: ${submitter}\n备注: ${note}`);
-      const githubIssueUrl = `https://github.com/shenzhenyihua-stack/amz-competitor-monitor/issues/new?title=${issueTitle}&body=${issueBody}&labels=new-shop`;
 
       try {
         await persistSubmission(newRecord);
@@ -17982,10 +17979,17 @@
         submitBtn.textContent = '🚀 提交到排查队列';
       }
 
-      const confirmOpen = confirm(`🎉 提报成功！链接已登记至排查队列！\n\n是否同步跳转至 GitHub Issue 创建永久云端追踪凭据？（点击“确定”可直达云端 Issue 留痕，点击“取消”亦已在本地队列登记）`);
-      if (confirmOpen) {
-        window.open(githubIssueUrl, '_blank');
+      let message = document.getElementById('submissionSuccess');
+      if (!message) {
+        message = document.createElement('div');
+        message.id = 'submissionSuccess';
+        message.setAttribute('role', 'status');
+        message.setAttribute('aria-live', 'polite');
+        message.style.cssText = 'margin-top:12px;padding:10px 14px;border:1px solid var(--success-color);border-radius:8px;color:var(--success-text);';
+        document.querySelector('.submit-form').after(message);
       }
+      message.textContent = '✅ 提报成功，链接已保存至云端排查队列。提报人：' + submitter;
+      message.hidden = false;
     }
 
     function switchDashboardMode(mode) {

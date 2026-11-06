@@ -5,9 +5,15 @@
     "url": "https://www.amazon.de/s?me=A16QV2T7BU3ZKC&language=en&marketplaceID=A1PA6795UKMFR9",
     "sellerId": "A16QV2T7BU3ZKC",
     "brandHint": "待定品牌 (A16QV2T7BU3ZKC)",
-    "status": "processing",
+    "status": "completed",
     "submitter": "于以安",
     "claimedBy": "codex-monitor-01a19b26",
-    "claimedAt": "2026-11-06T10:15:15.893Z"
+    "claimedAt": "2026-11-06T10:15:15.893Z",
+    "completedAt": "2026-11-06T10:55:38.830Z",
+    "shopName": "TerraGrow-EU",
+    "capturedAsinCount": 347,
+    "productCount": 336,
+    "sourcePages": 22,
+    "result": "Published verified list-page capture with main images, ratings, prices and submitter"
   }
 ]

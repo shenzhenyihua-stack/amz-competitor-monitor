@@ -17769,7 +17769,53 @@
 
     function refreshSiteCounts(){updatePriceControls();document.getElementById('tabBadgeAll').textContent=siteProducts().length;document.getElementById('tabBadgeNew').textContent=siteProducts().filter(isRadarNew).length;refreshFollowCount();document.getElementById('kpiProducts').textContent=dashboardPool().length+' 款';document.getElementById('kpiShops').textContent=new Set(siteProducts().map(p=>p.sellerId)).size+' 个';document.getElementById('kpiSub1').textContent=selectedSite==='all'?'全部站点':selectedSite;}
     function changeSite(){selectedSite=document.getElementById('siteFilter').value;currentShop='all';document.getElementById('priceFilter').value='all';updatePriceControls();renderShopChips();applyFilters();refreshSiteCounts();document.getElementById('siteStatus').textContent=selectedSite==='all'?'当前：全部站点 · 售价保留采集币种':'当前：'+selectedSite+' · 售价保留采集币种';}
-    async function persistSubmission(record){const url='https://api.github.com/repos/'+GITHUB_REPO_OWNER+'/'+GITHUB_REPO_NAME+'/contents/data/pending_submissions.json';const headers={Authorization:'token '+GITHUB_COLLAB_TOKEN,Accept:'application/vnd.github+json','Content-Type':'application/json'};for(let attempt=0;attempt<3;attempt++){const r=await fetch(url+'?t='+Date.now(),{headers,cache:'no-store'});if(!r.ok)throw Error('读取提报队列失败 '+r.status);const old=await r.json();const list=JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(old.content.replace(/\s/g,'')),c=>c.charCodeAt(0))));if(!list.some(x=>x.id===record.id))list.push(record);const bytes=new TextEncoder().encode(JSON.stringify(list,null,2));let binary='';bytes.forEach(x=>binary+=String.fromCharCode(x));const save=await fetch(url,{method:'PUT',headers,body:JSON.stringify({message:'New shop submission with submitter',sha:old.sha,content:btoa(binary),branch:'main'})});if(save.ok)return;if(save.status!==409)throw Error('保存提报失败 '+save.status);}throw Error('队列更新冲突，请重试');}
+    function normalizeShopUrl(rawUrl) {
+      if (!rawUrl) return '';
+      let str = rawUrl.trim();
+      const m = str.match(/[?&](?:me|seller)=([A-Z0-9]+)/i);
+      if (m) {
+        return 'SELLER:' + m[1].toUpperCase();
+      }
+      return str.split('#')[0].replace(/\/+$/, '');
+    }
+
+    async function persistSubmission(record){
+      const url='https://api.github.com/repos/'+GITHUB_REPO_OWNER+'/'+GITHUB_REPO_NAME+'/contents/data/pending_submissions.json';
+      const headers={Authorization:'token '+GITHUB_COLLAB_TOKEN,Accept:'application/vnd.github+json','Content-Type':'application/json'};
+      for(let attempt=0;attempt<3;attempt++){
+        const r=await fetch(url+'?t='+Date.now(),{headers,cache:'no-store'});
+        if(!r.ok)throw Error('读取提报队列失败 '+r.status);
+        const old=await r.json();
+        const list=JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(old.content.replace(/\s/g,'')),c=>c.charCodeAt(0))));
+        
+        // 云端去重防并发重复提交
+        const targetKey = normalizeShopUrl(record.url);
+        const exists = list.some(x => {
+          if (x.id === record.id) return true;
+          if (record.sellerId && record.sellerId !== '提取中' && x.sellerId === record.sellerId) {
+            return x.status !== 'completed' && x.status !== 'excluded';
+          }
+          if (normalizeShopUrl(x.url) === targetKey) {
+            return x.status !== 'completed' && x.status !== 'excluded';
+          }
+          return false;
+        });
+
+        if (exists) {
+          // 云端已存在正在排队或处理的相同链接，跳过重复写入并直接返回成功
+          return;
+        }
+
+        list.push(record);
+        const bytes=new TextEncoder().encode(JSON.stringify(list,null,2));
+        let binary='';
+        bytes.forEach(x=>binary+=String.fromCharCode(x));
+        const save=await fetch(url,{method:'PUT',headers,body:JSON.stringify({message:'New shop submission with deduplication: '+(record.sellerId||record.brandHint),sha:old.sha,content:btoa(binary),branch:'main'})});
+        if(save.ok)return;
+        if(save.status!==409)throw Error('保存提报失败 '+save.status);
+      }
+      throw Error('队列更新冲突，请重试');
+    }
 
     function dashboardPool() {
       if(dashboardMode==='new') return siteProducts().filter(isRadarNew);
@@ -17817,19 +17863,66 @@
     async function submitNewShop() {
       const urlInput = document.getElementById('newShopUrl');
       const noteInput = document.getElementById('newShopNote');
+      const submitterInput = document.getElementById('newShopSubmitter');
+      const submitBtn = document.querySelector('.btn-submit');
+
       const url = urlInput.value.trim();
       const note = noteInput.value.trim();
-      const submitter=document.getElementById('newShopSubmitter').value.trim();
-      if(!submitter){alert('请填写提报人');document.getElementById('newShopSubmitter').focus();return;}
+      const submitter = (submitterInput ? submitterInput.value : '').trim();
+      if(!submitter){
+        alert('请填写提报人！');
+        if (submitterInput) submitterInput.focus();
+        return;
+      }
 
       if (!url || !url.startsWith('http')) {
         alert('请粘贴合法的亚马逊店铺链接（以 http:// 或 https:// 开头）！');
         return;
       }
 
+      // 防抖动与并发重复点击锁
+      if (submitBtn && submitBtn.disabled) return;
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = '⏳ 正在校验并登记...';
+      }
+
       let sellerId = '';
       const m = url.match(/[?&](?:me|seller)=([A-Z0-9]+)/i);
-      if (m) sellerId = m[1];
+      if (m) sellerId = m[1].toUpperCase();
+
+      // 1. 检查是否已经在已抓取入库的店铺中 (rawShops)
+      const alreadyInShops = rawShops.some(s => {
+        if (sellerId && s.sellerId && s.sellerId.toUpperCase() === sellerId) return true;
+        if (s.url && normalizeShopUrl(s.url) === normalizeShopUrl(url)) return true;
+        return false;
+      });
+
+      if (alreadyInShops) {
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.textContent = '🚀 提交到排查队列';
+        }
+        alert('💡 该店铺链接此前已经抓取并收录在看板中，无需重复提报！');
+        return;
+      }
+
+      // 2. 检查当前本地与排队队列中是否已存在相同的待排查任务
+      const alreadyQueued = pendingSubmissions.some(item => {
+        if (item.status === 'completed' || item.status === 'excluded') return false;
+        if (sellerId && item.sellerId && item.sellerId.toUpperCase() === sellerId) return true;
+        if (item.url && normalizeShopUrl(item.url) === normalizeShopUrl(url)) return true;
+        return false;
+      });
+
+      if (alreadyQueued) {
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.textContent = '🚀 提交到排查队列';
+        }
+        alert('⚠️ 该店铺链接此前已提交并正在排队排查中，请勿重复点击提交！');
+        return;
+      }
 
       const newRecord = {
         id: 'sub_' + Date.now(),
@@ -17845,13 +17938,28 @@
       const issueBody = encodeURIComponent(`提报时间: ${newRecord.submitTime}\n店铺链接: ${url}\n卖家ID: ${sellerId}\n提报人: ${submitter}\n备注: ${note}`);
       const githubIssueUrl = `https://github.com/shenzhenyihua-stack/amz-competitor-monitor/issues/new?title=${issueTitle}&body=${issueBody}&labels=new-shop`;
 
-      try{await persistSubmission(newRecord);}catch(e){alert(e.message+'，提报尚未保存，请重试');return;}
+      try {
+        await persistSubmission(newRecord);
+      } catch(e) {
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.textContent = '🚀 提交到排查队列';
+        }
+        alert(e.message + '，提报尚未保存，请重试');
+        return;
+      }
+
       pendingSubmissions.push(newRecord);
       renderPendingQueue();
 
       urlInput.value = '';
       noteInput.value = '';
-      document.getElementById('newShopSubmitter').value='';
+      if (submitterInput) submitterInput.value = '';
+
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.textContent = '🚀 提交到排查队列';
+      }
 
       const confirmOpen = confirm(`🎉 提报成功！链接已登记至排查队列！\n\n是否同步跳转至 GitHub Issue 创建永久云端追踪凭据？（点击“确定”可直达云端 Issue 留痕，点击“取消”亦已在本地队列登记）`);
       if (confirmOpen) {

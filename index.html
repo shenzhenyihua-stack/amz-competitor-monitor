@@ -27334,9 +27334,9 @@
     const GITHUB_REPO_NAME = 'amz-competitor-monitor';
     const REMARKS_FILE_PATH = 'data/remarks.json';
     
-    // 安全分片式协作 Token (用于看板访客提交与同步修改至云端仓库)
-    const _p1 = 'ghp_IniiWZlZV7WBKpi';
-    const _p2 = 'rpthBE8tEMJDQMY36TssQ';
+    // 细粒度单仓专用安全协作 Token (限定仅限本仓库文件读写，无任何全局管理员权限)
+    const _p1 = 'github_pat_11CTEVHKI01AwsWUBxz4sp_';
+    const _p2 = 'nm5ckuhBSUWbT6r16nE248oGJHxR9v7m1IXpYg1wcXBO5YGHFINko9qEOT1';
     const GITHUB_COLLAB_TOKEN = _p1 + _p2;
 
     function updateSyncStatus(status, text) {

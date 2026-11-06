@@ -1,0 +1,2730 @@
+{
+  "rule": "Keep first observed child with verified Amazon list-page swatch relationships; no title-based merging",
+  "hidden": [
+    {
+      "asin": "B0DB1N8WP3",
+      "title": "Metzgerschürze Wasserdicht Spülschürze",
+      "imgSrc": "https://m.media-amazon.com/images/I/51ARCQHA7pL._AC_UY218_.jpg",
+      "price": "€9.66",
+      "priceVal": 9.66,
+      "listPrice": "",
+      "rating": "4.1 out of 5 stars",
+      "reviewsCount": "(35)",
+      "delivery": "Unisex Arbeitsschürze, PVC Ölresistenz Gummischürze, Leicht Abwischbar, für Metzgerei, Gastronomie, Industrie",
+      "badge": "",
+      "coupon": "",
+      "url": "https://www.amazon.de/-/en/DBREAKS-Waterproof-Protector-Resistant-Butchers/dp/B0DB1N8WP3/ref=sr_1_9?dib=eyJ2IjoiMSJ9.J6BaR2Lqn7xZym4MSGQRCjGsczjPtpXH_vBaHad8DA3yGuYvX2ZALtxTa06QP49p-vrHNYlkDCIE1B_mXwjTTnMVe2SeIgP3-4YeVdY-64l7HeOD_abLl8MmvipbRxFvLdOGW4m5g-VGWhVpRxRs6znV7a9vnYSiYFZs1DWMVu4aZBT0ilrK0CLvlkOCvzr65KhmQ1HGlp4jIi0caHbiqnYzJsfXtvjCPDYE5tFLgzs.jW7tIgolzyIVYH4uEVjoHasuZOWqmyLZljZdvgk-YPs&dib_tag=se&m=A2943E47GVY1E3&qid=1793928869&s=merchant-items&sr=1-9",
+      "sellerId": "A2943E47GVY1E3",
+      "brand": "Auto-Home",
+      "brandDisplayName": "Auto-Home",
+      "shopName": "Auto-Home",
+      "businessName": "A2943E47GVY1E3",
+      "site": "Amazon.de",
+      "scrapedAt": "2026-11-06",
+      "isNew": false,
+      "firstSeenDate": "2026-11-06",
+      "newTag": "",
+      "ratingFormatted": "4.1",
+      "reviewsCountFormatted": "35",
+      "variantRepresentativeAsin": "B0DB1MCW5J",
+      "variantEvidenceKey": "Amazon.de:B0DB1MCW5J"
+    },
+    {
+      "asin": "B0D9BL9R48",
+      "title": "KESSER® Shopping Trolley Stair Climber with Cooling Compartment Foldable with 56 L Capacity and Load Capacity up to 50 kg 3-in-1 Trolley Sack Truck & Shoulder Bag Foldable Shopping Trolley Including",
+      "imgSrc": "https://m.media-amazon.com/images/I/81VT0V+NlqL._AC_UY218_.jpg",
+      "price": "€47.78",
+      "priceVal": 47.78,
+      "listPrice": "",
+      "rating": "4.4 out of 5 stars",
+      "reviewsCount": "(1.1K)",
+      "delivery": "",
+      "badge": "",
+      "coupon": "",
+      "url": "https://www.amazon.de/-/en/Shopping-Compartment-Foldable-Capacity-Including/dp/B0D9BL9R48/ref=sr_1_11?dib=eyJ2IjoiMSJ9.P4kb41-LKkjgKOHMdVGvQL6ww6cSBFvgBeRhFCmswoV0Ksu1OqGMTrLlxefaGChFo8VsDNxbcbn8hPDANxBbRoLqdRiH9QsNDJF9FVvuPKVTC-cEO13qmoJX4KjQ_l6SoRoktV4IEw9JhhMCh0l3pRU5jeYowoj5bfxVQH5sNQ2Pb4ivLlxj4RBSJTfPI75CvZ349VUDoIiEsVyFdvdt4uIjggyx2FP4bSAIWvtqhQw.Mn-u85UDtLAO-8NETa3SeUd27n9tToqNA4vhVxNBw0M&dib_tag=se&m=A35R3AFD5OLVO7&qid=1793928899&s=merchant-items&sr=1-11",
+      "sellerId": "A35R3AFD5OLVO7",
+      "brand": "KESSER",
+      "brandDisplayName": "KESSER",
+      "shopName": "KESSER",
+      "businessName": "A35R3AFD5OLVO7",
+      "site": "Amazon.de",
+      "scrapedAt": "2026-11-06",
+      "isNew": false,
+      "firstSeenDate": "2026-11-06",
+      "newTag": "",
+      "ratingFormatted": "4.4",
+      "reviewsCountFormatted": "1.1K",
+      "variantRepresentativeAsin": "B0H298RTR2",
+      "variantEvidenceKey": "Amazon.de:B0H298RTR2"
+    },
+    {
+      "asin": "B0CZKSZVG8",
+      "title": "TECKNET Windproof Umbrella for Rain, Automatic Large Pocket Umbrella with 10 Ribs, 104 cm Windproof Umbrella, Foldable Compact Travel Golf Umbrella for Men and Women",
+      "imgSrc": "https://m.media-amazon.com/images/I/61+znGp6s1L._AC_UY218_.jpg",
+      "price": "€13.99",
+      "listPrice": "€14.99",
+      "rating": "4.4 out of 5 stars",
+      "reviewsCount": "2.2K",
+      "rawText": "TECKNET Windproof Umbrella for Rain, Automatic Large Pocket Umbrella with 10 Ribs, 104 cm Windproof Umbrella, Foldable Compact Travel Golf Umbrella for Men and Women\n4.4\n4.4 out of 5 stars\n (2.2K)\n50+ bought in past month\nPrice, product page\n€13.99\n€13\n.\n99 \nWas: €14.99\nWas: \n€14.99\n€14.99\nFREE delivery Tue 10 Nov on eligible first order\nOr fastest delivery Mon 9 Nov\n Recycled materials +2 more\nAdd to basket",
+      "sourceUrl": "https://www.amazon.de/-/en/TECKNET-Windproof-Umbrella-Automatic-Foldable/dp/B0CZKSZVG8/ref=sr_1_8?dib=eyJ2IjoiMSJ9.z94yWD6b4msC0TJKreZG59yLeXtb4HXvOtYOrnInhN3MrsqEZ3uau7mAIlrZIi1m5pyfqchZfSTMa8IcjxRnGNb0Y-BIY-uaLBNcY52B56ogfnOL_-8LOT8dm1DUCsIvdl_2EW1MQgOoHV81WTPrBd7XvCX4qP-DqpHeFpeD5C3a248dZ1cTxJpQKyqizzcXrXGsizWFU4uenSjWNlsDHzHj0tady_FawO89y4VO8_8.5_fuhOwe6Etst3tCeXoyJ7zU4cXh8aqAQG4OkNnSiR0&dib_tag=se&m=A16QV2T7BU3ZKC&marketplaceID=A1PA6795UKMFR9&qid=1793960552&s=merchant-items&sr=1-8",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "sourcePage": "https://www.amazon.de/s?me=A16QV2T7BU3ZKC&language=en&marketplaceID=A1PA6795UKMFR9",
+      "sourcePageNumber": 1,
+      "scrapedAt": "2026-11-06T10:22:37.291Z",
+      "site": "Amazon.de",
+      "submitter": "于以安",
+      "submissionId": "sub_1793959693879",
+      "url": "https://www.amazon.de/dp/B0CZKSZVG8",
+      "brand": "TerraGrow-EU",
+      "brandDisplayName": "TerraGrow-EU",
+      "shopName": "TerraGrow-EU",
+      "currency": "EUR",
+      "priceVal": 13.99,
+      "starNum": "4.4",
+      "ratingFormatted": "4.4",
+      "reviewsCountFormatted": "2.2K",
+      "isNew": true,
+      "firstSeenDate": "2026-11-06",
+      "delivery": "FREE delivery Tue 10 Nov on eligible first order",
+      "variantRepresentativeAsin": "B0BY8P8Q2R",
+      "variantEvidenceKey": "Amazon.de:B0BY8P8Q2R"
+    },
+    {
+      "asin": "B0DGQFN24L",
+      "title": "TechRise Umbrella, Windproof Umbrella with Automatic Opening & Closing, Portable & Foldable Pocket Umbrella for Men, Women, Children",
+      "imgSrc": "https://m.media-amazon.com/images/I/71c9y7xAK1L._AC_UY218_.jpg",
+      "price": "€10.99",
+      "listPrice": "€11.99",
+      "rating": "4.3 out of 5 stars",
+      "reviewsCount": "8.8K",
+      "rawText": "TechRise Umbrella, Windproof Umbrella with Automatic Opening & Closing, Portable & Foldable Pocket Umbrella for Men, Women, Children\n4.3\n4.3 out of 5 stars\n (8.8K)\nPrice, product page\n€10.99\n€10\n.\n99 \nWas: €11.99\nWas: \n€11.99\n€11.99\nFREE delivery Tue 10 Nov on eligible first order\nOr fastest delivery Mon 9 Nov\nAdd to basket",
+      "sourceUrl": "https://www.amazon.de/-/en/TechRise-Umbrella-Windproof-Automatic-Silvery-Yellow/dp/B0DGQFN24L/ref=sr_1_22?dib=eyJ2IjoiMSJ9.o8ThTt5Gv40Kncbd-jCxDeyJgsyQH-DQWBVClFQSeSDuv_GLWEMxr9TWIUfHFUcCUoI7ddhkFlMPiEafSwcZPO6t_QwyrldmFQbrn7U6seqfNQkPF15sfzeSMfstRbGGkBuoZ3kbGMEwTi1fjP-Jaw6AMVzUOx4YlBlxdIhQU0gC33oM0dy86Qc0976Ct7jALVmeqDdWJXXwX35AxMEaPFv-u9j3PR8S7gBvfIzljFs.xoZxGBTbJcvrbIPTMf2Avg6WB6Spl8a2Ykq-GTakay8&dib_tag=se&m=A16QV2T7BU3ZKC&marketplaceID=A1PA6795UKMFR9&qid=1793960572&s=merchant-items&sr=1-22&xpid=Vm7GtE8smirM4",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=2&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960552&xpid=Vm7GtE8smirM4&ref=sr_pg_1",
+      "sourcePageNumber": 2,
+      "scrapedAt": "2026-11-06T10:22:57.398Z",
+      "site": "Amazon.de",
+      "submitter": "于以安",
+      "submissionId": "sub_1793959693879",
+      "url": "https://www.amazon.de/dp/B0DGQFN24L",
+      "brand": "TerraGrow-EU",
+      "brandDisplayName": "TerraGrow-EU",
+      "shopName": "TerraGrow-EU",
+      "currency": "EUR",
+      "priceVal": 10.99,
+      "starNum": "4.3",
+      "ratingFormatted": "4.3",
+      "reviewsCountFormatted": "8.8K",
+      "isNew": true,
+      "firstSeenDate": "2026-11-06",
+      "delivery": "FREE delivery Tue 10 Nov on eligible first order",
+      "variantRepresentativeAsin": "B06ZXSVBQ4",
+      "variantEvidenceKey": "Amazon.de:B06ZXSVBQ4"
+    },
+    {
+      "asin": "B0CZKWSTQD",
+      "title": "TECKNET Windproof Umbrella for Rain, Automatic Large Pocket Umbrella with 10 Ribs, 104 cm Windproof Umbrella, Foldable Compact Travel Golf Umbrella for Men and Women",
+      "imgSrc": "https://m.media-amazon.com/images/I/61fhWrDIEzL._AC_UY218_.jpg",
+      "price": "€29.00",
+      "listPrice": "",
+      "rating": "4.4 out of 5 stars",
+      "reviewsCount": "2.2K",
+      "rawText": "TECKNET Windproof Umbrella for Rain, Automatic Large Pocket Umbrella with 10 Ribs, 104 cm Windproof Umbrella, Foldable Compact Travel Golf Umbrella for Men and Women\n4.4\n4.4 out of 5 stars\n (2.2K)\nPrice, product page\n€29.00\n€29\n.\n00\nFREE delivery Mon 16 Nov on eligible first order\n Recycled materials +2 more\nAdd to basket",
+      "sourceUrl": "https://www.amazon.de/-/en/TECKNET-Windproof-Umbrella-Automatic-Foldable/dp/B0CZKWSTQD/ref=sr_1_31?dib=eyJ2IjoiMSJ9.o8ThTt5Gv40Kncbd-jCxDeyJgsyQH-DQWBVClFQSeSDuv_GLWEMxr9TWIUfHFUcCUoI7ddhkFlMPiEafSwcZPO6t_QwyrldmFQbrn7U6seqfNQkPF15sfzeSMfstRbGGkBuoZ3kbGMEwTi1fjP-Jaw6AMVzUOx4YlBlxdIhQU0gC33oM0dy86Qc0976Ct7jALVmeqDdWJXXwX35AxMEaPFv-u9j3PR8S7gBvfIzljFs.xoZxGBTbJcvrbIPTMf2Avg6WB6Spl8a2Ykq-GTakay8&dib_tag=se&m=A16QV2T7BU3ZKC&marketplaceID=A1PA6795UKMFR9&qid=1793960572&s=merchant-items&sr=1-31&xpid=Vm7GtE8smirM4",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=2&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960552&xpid=Vm7GtE8smirM4&ref=sr_pg_1",
+      "sourcePageNumber": 2,
+      "scrapedAt": "2026-11-06T10:22:57.398Z",
+      "site": "Amazon.de",
+      "submitter": "于以安",
+      "submissionId": "sub_1793959693879",
+      "url": "https://www.amazon.de/dp/B0CZKWSTQD",
+      "brand": "TerraGrow-EU",
+      "brandDisplayName": "TerraGrow-EU",
+      "shopName": "TerraGrow-EU",
+      "currency": "EUR",
+      "priceVal": 29,
+      "starNum": "4.4",
+      "ratingFormatted": "4.4",
+      "reviewsCountFormatted": "2.2K",
+      "isNew": true,
+      "firstSeenDate": "2026-11-06",
+      "delivery": "FREE delivery Mon 16 Nov on eligible first order",
+      "variantRepresentativeAsin": "B0BY8P8Q2R",
+      "variantEvidenceKey": "Amazon.de:B0BY8P8Q2R"
+    },
+    {
+      "asin": "B0CZKQQ4WN",
+      "title": "TECKNET Windproof Umbrella for Rain, Automatic Large Pocket Umbrella with 10 Ribs, 104 cm Windproof Umbrella, Foldable Compact Travel Golf Umbrella for Men and Women",
+      "imgSrc": "https://m.media-amazon.com/images/I/61JJ5zwo1wL._AC_UY218_.jpg",
+      "price": "€39.00",
+      "listPrice": "",
+      "rating": "4.4 out of 5 stars",
+      "reviewsCount": "2.2K",
+      "rawText": "TECKNET Windproof Umbrella for Rain, Automatic Large Pocket Umbrella with 10 Ribs, 104 cm Windproof Umbrella, Foldable Compact Travel Golf Umbrella for Men and Women\n4.4\n4.4 out of 5 stars\n (2.2K)\nPrice, product page\n€39.00\n€39\n.\n00\nFREE delivery Mon 16 Nov on eligible first order\n Recycled materials +2 more\nAdd to basket",
+      "sourceUrl": "https://www.amazon.de/-/en/TECKNET-Windproof-Umbrella-Automatic-Foldable/dp/B0CZKQQ4WN/ref=sr_1_32?dib=eyJ2IjoiMSJ9.o8ThTt5Gv40Kncbd-jCxDeyJgsyQH-DQWBVClFQSeSDuv_GLWEMxr9TWIUfHFUcCUoI7ddhkFlMPiEafSwcZPO6t_QwyrldmFQbrn7U6seqfNQkPF15sfzeSMfstRbGGkBuoZ3kbGMEwTi1fjP-Jaw6AMVzUOx4YlBlxdIhQU0gC33oM0dy86Qc0976Ct7jALVmeqDdWJXXwX35AxMEaPFv-u9j3PR8S7gBvfIzljFs.xoZxGBTbJcvrbIPTMf2Avg6WB6Spl8a2Ykq-GTakay8&dib_tag=se&m=A16QV2T7BU3ZKC&marketplaceID=A1PA6795UKMFR9&qid=1793960572&s=merchant-items&sr=1-32&xpid=Vm7GtE8smirM4",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=2&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960552&xpid=Vm7GtE8smirM4&ref=sr_pg_1",
+      "sourcePageNumber": 2,
+      "scrapedAt": "2026-11-06T10:22:57.398Z",
+      "site": "Amazon.de",
+      "submitter": "于以安",
+      "submissionId": "sub_1793959693879",
+      "url": "https://www.amazon.de/dp/B0CZKQQ4WN",
+      "brand": "TerraGrow-EU",
+      "brandDisplayName": "TerraGrow-EU",
+      "shopName": "TerraGrow-EU",
+      "currency": "EUR",
+      "priceVal": 39,
+      "starNum": "4.4",
+      "ratingFormatted": "4.4",
+      "reviewsCountFormatted": "2.2K",
+      "isNew": true,
+      "firstSeenDate": "2026-11-06",
+      "delivery": "FREE delivery Mon 16 Nov on eligible first order",
+      "variantRepresentativeAsin": "B0BY8P8Q2R",
+      "variantEvidenceKey": "Amazon.de:B0BY8P8Q2R"
+    },
+    {
+      "asin": "B0DGQDQXB7",
+      "title": "TechRise Umbrella, Windproof Umbrella with Automatic Opening & Closing, Portable & Foldable Pocket Umbrella for Men, Women, Children",
+      "imgSrc": "https://m.media-amazon.com/images/I/61tRNFk2keL._AC_UY218_.jpg",
+      "price": "€11.99",
+      "listPrice": "",
+      "rating": "4.3 out of 5 stars",
+      "reviewsCount": "8.8K",
+      "rawText": "TechRise Umbrella, Windproof Umbrella with Automatic Opening & Closing, Portable & Foldable Pocket Umbrella for Men, Women, Children\n4.3\n4.3 out of 5 stars\n (8.8K)\nPrice, product page\n€11.99\n€11\n.\n99\nFREE delivery Tue 10 Nov on eligible first order\nOr fastest delivery Mon 9 Nov\nAdd to basket",
+      "sourceUrl": "https://www.amazon.de/-/en/TechRise-Umbrella-Windproof-Automatic-Portable/dp/B0DGQDQXB7/ref=sr_1_35?dib=eyJ2IjoiMSJ9.KULB9X6HbTdIMtAOPhNTL2Z0xZLxx91h8f3A6kDzrgIyV9jo08P7zfve3qEBfWdzdUliI93SQYChrQ639Q50DkDSmnL-4yj89epAlXlhHPLxrt6IxOgv5NM6wmTNHaVyeYbNnkcHGwdTENFf7pP0XkuuIbldpXhC_WbFrIdcL7_Bsejv3tGcytsr_rW5uRvGugiucJwn0KSYO8IchWORapYXzE_cOU8SY8bEDAoxvUo.PTlBUeC501aZMwI45e3pfqOudbFXAgKuBPuXojpqtas&dib_tag=se&m=A16QV2T7BU3ZKC&marketplaceID=A1PA6795UKMFR9&qid=1793960592&s=merchant-items&sr=1-35&xpid=Vm7GtE8smirM4",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=3&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960572&xpid=Vm7GtE8smirM4&ref=sr_pg_2",
+      "sourcePageNumber": 3,
+      "scrapedAt": "2026-11-06T10:23:17.516Z",
+      "site": "Amazon.de",
+      "submitter": "于以安",
+      "submissionId": "sub_1793959693879",
+      "url": "https://www.amazon.de/dp/B0DGQDQXB7",
+      "brand": "TerraGrow-EU",
+      "brandDisplayName": "TerraGrow-EU",
+      "shopName": "TerraGrow-EU",
+      "currency": "EUR",
+      "priceVal": 11.99,
+      "starNum": "4.3",
+      "ratingFormatted": "4.3",
+      "reviewsCountFormatted": "8.8K",
+      "isNew": true,
+      "firstSeenDate": "2026-11-06",
+      "delivery": "FREE delivery Tue 10 Nov on eligible first order",
+      "variantRepresentativeAsin": "B06ZXSVBQ4",
+      "variantEvidenceKey": "Amazon.de:B06ZXSVBQ4"
+    },
+    {
+      "asin": "B0DDPQBDHV",
+      "title": "TechRise Umbrella Pocket Umbrella Storm Resistant Large -10 Ribs Windproof Storm Pocket Umbrella Automatic Compact with One Button Open and Close Automatic",
+      "imgSrc": "https://m.media-amazon.com/images/I/61HCvB6O1-L._AC_UY218_.jpg",
+      "price": "€14.99",
+      "listPrice": "",
+      "rating": "4.5 out of 5 stars",
+      "reviewsCount": "1.7K",
+      "rawText": "TechRise Umbrella Pocket Umbrella Storm Resistant Large -10 Ribs Windproof Storm Pocket Umbrella Automatic Compact with One Button Open and Close Automatic\n4.5\n4.5 out of 5 stars\n (1.7K)\nPrice, product page\n€14.99\n€14\n.\n99\nFREE delivery Tue 10 Nov on eligible first order\nOr fastest delivery Mon 9 Nov\nAdd to basket\n+1",
+      "sourceUrl": "https://www.amazon.de/-/en/TechRise-Umbrella-Resistant-Windproof-Automatic/dp/B0DDPQBDHV/ref=sr_1_39?dib=eyJ2IjoiMSJ9.KULB9X6HbTdIMtAOPhNTL2Z0xZLxx91h8f3A6kDzrgIyV9jo08P7zfve3qEBfWdzdUliI93SQYChrQ639Q50DkDSmnL-4yj89epAlXlhHPLxrt6IxOgv5NM6wmTNHaVyeYbNnkcHGwdTENFf7pP0XkuuIbldpXhC_WbFrIdcL7_Bsejv3tGcytsr_rW5uRvGugiucJwn0KSYO8IchWORapYXzE_cOU8SY8bEDAoxvUo.PTlBUeC501aZMwI45e3pfqOudbFXAgKuBPuXojpqtas&dib_tag=se&m=A16QV2T7BU3ZKC&marketplaceID=A1PA6795UKMFR9&qid=1793960592&s=merchant-items&sr=1-39&xpid=Vm7GtE8smirM4",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=3&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960572&xpid=Vm7GtE8smirM4&ref=sr_pg_2",
+      "sourcePageNumber": 3,
+      "scrapedAt": "2026-11-06T10:23:17.516Z",
+      "site": "Amazon.de",
+      "submitter": "于以安",
+      "submissionId": "sub_1793959693879",
+      "url": "https://www.amazon.de/dp/B0DDPQBDHV",
+      "brand": "TerraGrow-EU",
+      "brandDisplayName": "TerraGrow-EU",
+      "shopName": "TerraGrow-EU",
+      "currency": "EUR",
+      "priceVal": 14.99,
+      "starNum": "4.5",
+      "ratingFormatted": "4.5",
+      "reviewsCountFormatted": "1.7K",
+      "isNew": true,
+      "firstSeenDate": "2026-11-06",
+      "delivery": "FREE delivery Tue 10 Nov on eligible first order",
+      "variantRepresentativeAsin": "B0DB17PCQM",
+      "variantEvidenceKey": "Amazon.de:B0DB17PCQM"
+    },
+    {
+      "asin": "B0DDPN8C2J",
+      "title": "TechRise Umbrella Pocket Umbrella Storm Resistant Large -10 Ribs Windproof Storm Pocket Umbrella Automatic Compact with One Button Open and Close Automatic",
+      "imgSrc": "https://m.media-amazon.com/images/I/61nuWbt+CqL._AC_UY218_.jpg",
+      "price": "€15.99",
+      "listPrice": "",
+      "rating": "4.5 out of 5 stars",
+      "reviewsCount": "1.7K",
+      "rawText": "TechRise Umbrella Pocket Umbrella Storm Resistant Large -10 Ribs Windproof Storm Pocket Umbrella Automatic Compact with One Button Open and Close Automatic\n4.5\n4.5 out of 5 stars\n (1.7K)\nPrice, product page\n€15.99\n€15\n.\n99\nFREE delivery Tue 10 Nov on eligible first order\nOr fastest delivery Mon 9 Nov\nAdd to basket\n+1",
+      "sourceUrl": "https://www.amazon.de/-/en/TechRise-Umbrella-Resistant-Windproof-Automatic/dp/B0DDPN8C2J/ref=sr_1_44?dib=eyJ2IjoiMSJ9.KULB9X6HbTdIMtAOPhNTL2Z0xZLxx91h8f3A6kDzrgIyV9jo08P7zfve3qEBfWdzdUliI93SQYChrQ639Q50DkDSmnL-4yj89epAlXlhHPLxrt6IxOgv5NM6wmTNHaVyeYbNnkcHGwdTENFf7pP0XkuuIbldpXhC_WbFrIdcL7_Bsejv3tGcytsr_rW5uRvGugiucJwn0KSYO8IchWORapYXzE_cOU8SY8bEDAoxvUo.PTlBUeC501aZMwI45e3pfqOudbFXAgKuBPuXojpqtas&dib_tag=se&m=A16QV2T7BU3ZKC&marketplaceID=A1PA6795UKMFR9&qid=1793960592&s=merchant-items&sr=1-44&xpid=Vm7GtE8smirM4",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=3&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960572&xpid=Vm7GtE8smirM4&ref=sr_pg_2",
+      "sourcePageNumber": 3,
+      "scrapedAt": "2026-11-06T10:23:17.516Z",
+      "site": "Amazon.de",
+      "submitter": "于以安",
+      "submissionId": "sub_1793959693879",
+      "url": "https://www.amazon.de/dp/B0DDPN8C2J",
+      "brand": "TerraGrow-EU",
+      "brandDisplayName": "TerraGrow-EU",
+      "shopName": "TerraGrow-EU",
+      "currency": "EUR",
+      "priceVal": 15.99,
+      "starNum": "4.5",
+      "ratingFormatted": "4.5",
+      "reviewsCountFormatted": "1.7K",
+      "isNew": true,
+      "firstSeenDate": "2026-11-06",
+      "delivery": "FREE delivery Tue 10 Nov on eligible first order",
+      "variantRepresentativeAsin": "B0DB17PCQM",
+      "variantEvidenceKey": "Amazon.de:B0DB17PCQM"
+    },
+    {
+      "asin": "B0DDPPZX36",
+      "title": "TechRise Umbrella Pocket Umbrella Storm Resistant Large -10 Ribs Windproof Storm Pocket Umbrella Automatic Compact with One Button Open and Close Automatic",
+      "imgSrc": "https://m.media-amazon.com/images/I/61HP0WM1l5L._AC_UY218_.jpg",
+      "price": "€19.99",
+      "listPrice": "",
+      "rating": "4.5 out of 5 stars",
+      "reviewsCount": "1.7K",
+      "rawText": "TechRise Umbrella Pocket Umbrella Storm Resistant Large -10 Ribs Windproof Storm Pocket Umbrella Automatic Compact with One Button Open and Close Automatic\n4.5\n4.5 out of 5 stars\n (1.7K)\nPrice, product page\n€19.99\n€19\n.\n99\nFREE delivery Tue 10 Nov on eligible first order\nOr fastest delivery Mon 9 Nov\nAdd to basket\n+1",
+      "sourceUrl": "https://www.amazon.de/-/en/TechRise-Umbrella-Resistant-Windproof-Automatic/dp/B0DDPPZX36/ref=sr_1_49?dib=eyJ2IjoiMSJ9.4kCURUHMxTVMnEzj7xcoTnfVEkV4BVqhKh0y5qxQtGcKJB8CW0x5jSr_8Oblx-qvgeIESQxuiZwDwxkRT6vxzlWIMiP-2301yVDdKNPW8tgWh4t92xXu-r19bFXnPYBWzYq1dW6PT-e9KdhW0UzZ47b1ntzxyL64DcPHaJmLP82VoMCFsyLU7off5lLAj7Nni9aVg6a5KC3xaIMh-g3E2KiB0MPu42q_0QAlVtZW8_U.4ITSgU5a4WdXo1pCRnZ7gxHRV2envIWwnAtaMaE-3GI&dib_tag=se&m=A16QV2T7BU3ZKC&marketplaceID=A1PA6795UKMFR9&qid=1793960612&s=merchant-items&sr=1-49&xpid=Vm7GtE8smirM4",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=4&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960592&xpid=Vm7GtE8smirM4&ref=sr_pg_3",
+      "sourcePageNumber": 4,
+      "scrapedAt": "2026-11-06T10:23:37.630Z",
+      "site": "Amazon.de",
+      "submitter": "于以安",
+      "submissionId": "sub_1793959693879",
+      "url": "https://www.amazon.de/dp/B0DDPPZX36",
+      "brand": "TerraGrow-EU",
+      "brandDisplayName": "TerraGrow-EU",
+      "shopName": "TerraGrow-EU",
+      "currency": "EUR",
+      "priceVal": 19.99,
+      "starNum": "4.5",
+      "ratingFormatted": "4.5",
+      "reviewsCountFormatted": "1.7K",
+      "isNew": true,
+      "firstSeenDate": "2026-11-06",
+      "delivery": "FREE delivery Tue 10 Nov on eligible first order",
+      "variantRepresentativeAsin": "B0DB17PCQM",
+      "variantEvidenceKey": "Amazon.de:B0DB17PCQM"
+    },
+    {
+      "asin": "B0FH52V2ZN",
+      "title": "TechRise Waterproof Rain Poncho, Lightweight Breathable Rain Jackets, Unisex EVA Rain Cape with Hood, Multifunctional Reusable Raincoat for Hiking, Camping, Fishing, Cycling",
+      "imgSrc": "https://m.media-amazon.com/images/I/71XSaAXGMlL._AC_UY218_.jpg",
+      "price": "€18.99",
+      "listPrice": "",
+      "rating": "4.3 out of 5 stars",
+      "reviewsCount": "(228)",
+      "rawText": "TechRise Waterproof Rain Poncho, Lightweight Breathable Rain Jackets, Unisex EVA Rain Cape with Hood, Multifunctional Reusable Raincoat for Hiking, Camping, Fishing, Cycling\n4.3\n4.3 out of 5 stars\n (228)\nPrice, product page\n€18.99\n€18\n.\n99\nFREE delivery Tue 10 Nov on eligible first order\nAdd to basket",
+      "sourceUrl": "https://www.amazon.de/-/en/TechRise-Waterproof-Lightweight-Breathable-Multifunctional/dp/B0FH52V2ZN/ref=sr_1_59?dib=eyJ2IjoiMSJ9.4kCURUHMxTVMnEzj7xcoTnfVEkV4BVqhKh0y5qxQtGcKJB8CW0x5jSr_8Oblx-qvgeIESQxuiZwDwxkRT6vxzlWIMiP-2301yVDdKNPW8tgWh4t92xXu-r19bFXnPYBWzYq1dW6PT-e9KdhW0UzZ47b1ntzxyL64DcPHaJmLP82VoMCFsyLU7off5lLAj7Nni9aVg6a5KC3xaIMh-g3E2KiB0MPu42q_0QAlVtZW8_U.4ITSgU5a4WdXo1pCRnZ7gxHRV2envIWwnAtaMaE-3GI&dib_tag=se&m=A16QV2T7BU3ZKC&marketplaceID=A1PA6795UKMFR9&qid=1793960612&s=merchant-items&sr=1-59&xpid=Vm7GtE8smirM4",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=4&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960592&xpid=Vm7GtE8smirM4&ref=sr_pg_3",
+      "sourcePageNumber": 4,
+      "scrapedAt": "2026-11-06T10:23:37.630Z",
+      "site": "Amazon.de",
+      "submitter": "于以安",
+      "submissionId": "sub_1793959693879",
+      "url": "https://www.amazon.de/dp/B0FH52V2ZN",
+      "brand": "TerraGrow-EU",
+      "brandDisplayName": "TerraGrow-EU",
+      "shopName": "TerraGrow-EU",
+      "currency": "EUR",
+      "priceVal": 18.99,
+      "starNum": "4.3",
+      "ratingFormatted": "4.3",
+      "reviewsCountFormatted": "(228)",
+      "isNew": true,
+      "firstSeenDate": "2026-11-06",
+      "delivery": "FREE delivery Tue 10 Nov on eligible first order",
+      "variantRepresentativeAsin": "B0DGLCL5N2",
+      "variantEvidenceKey": "Amazon.de:B0DGLCL5N2"
+    },
+    {
+      "asin": "B0CZL46L2P",
+      "title": "TECKNET Windproof Umbrella for Rain, Automatic Large Pocket Umbrella with 10 Ribs, 104 cm Windproof Umbrella, Foldable Compact Travel Golf Umbrella for Men and Women",
+      "imgSrc": "https://m.media-amazon.com/images/I/61e9dXXVQfL._AC_UY218_.jpg",
+      "price": "€29.00",
+      "listPrice": "",
+      "rating": "4.4 out of 5 stars",
+      "reviewsCount": "2.2K",
+      "rawText": "TECKNET Windproof Umbrella for Rain, Automatic Large Pocket Umbrella with 10 Ribs, 104 cm Windproof Umbrella, Foldable Compact Travel Golf Umbrella for Men and Women\n4.4\n4.4 out of 5 stars\n (2.2K)\nPrice, product page\n€29.00\n€29\n.\n00\nFREE delivery Tue 10 Nov on eligible first order\n Recycled materials +2 more\nAdd to basket",
+      "sourceUrl": "https://www.amazon.de/-/en/TECKNET-Windproof-Umbrella-Automatic-Foldable/dp/B0CZL46L2P/ref=sr_1_63?dib=eyJ2IjoiMSJ9.4kCURUHMxTVMnEzj7xcoTnfVEkV4BVqhKh0y5qxQtGcKJB8CW0x5jSr_8Oblx-qvgeIESQxuiZwDwxkRT6vxzlWIMiP-2301yVDdKNPW8tgWh4t92xXu-r19bFXnPYBWzYq1dW6PT-e9KdhW0UzZ47b1ntzxyL64DcPHaJmLP82VoMCFsyLU7off5lLAj7Nni9aVg6a5KC3xaIMh-g3E2KiB0MPu42q_0QAlVtZW8_U.4ITSgU5a4WdXo1pCRnZ7gxHRV2envIWwnAtaMaE-3GI&dib_tag=se&m=A16QV2T7BU3ZKC&marketplaceID=A1PA6795UKMFR9&qid=1793960612&s=merchant-items&sr=1-63&xpid=Vm7GtE8smirM4",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=4&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960592&xpid=Vm7GtE8smirM4&ref=sr_pg_3",
+      "sourcePageNumber": 4,
+      "scrapedAt": "2026-11-06T10:23:37.630Z",
+      "site": "Amazon.de",
+      "submitter": "于以安",
+      "submissionId": "sub_1793959693879",
+      "url": "https://www.amazon.de/dp/B0CZL46L2P",
+      "brand": "TerraGrow-EU",
+      "brandDisplayName": "TerraGrow-EU",
+      "shopName": "TerraGrow-EU",
+      "currency": "EUR",
+      "priceVal": 29,
+      "starNum": "4.4",
+      "ratingFormatted": "4.4",
+      "reviewsCountFormatted": "2.2K",
+      "isNew": true,
+      "firstSeenDate": "2026-11-06",
+      "delivery": "FREE delivery Tue 10 Nov on eligible first order",
+      "variantRepresentativeAsin": "B0BY8P8Q2R",
+      "variantEvidenceKey": "Amazon.de:B0BY8P8Q2R"
+    },
+    {
+      "asin": "B0CXDVLYTX",
+      "title": "TECKNET Mouse Mat 2 PACK with Memory Foam Rest -Non-slip Rubber base- Special-Textured Water-Resistant Surface",
+      "imgSrc": "https://m.media-amazon.com/images/I/71fVhs8L-QL._AC_UY218_.jpg",
+      "price": "€13.59",
+      "listPrice": "€6.80",
+      "rating": "4.5 out of 5 stars",
+      "reviewsCount": "20.5K",
+      "rawText": "TECKNET Mouse Mat 2 PACK with Memory Foam Rest -Non-slip Rubber base- Special-Textured Water-Resistant Surface\nKomfort Mausmatte mit Handgelenkpolster Handauflage, für Büro/Home Alle Maus Office Heim Computer Laptop\n4.5\n4.5 out of 5 stars\n (20.5K)\n100+ bought in past month\nLimited time deal\nPrice, product page\n€13.59\n€13\n.\n59 (\n€6.80\n€6.80/count) \nWas: €15.99\nWas: \n€15.99\n€15.99\nFREE delivery Wed 11 Nov on eligible first order\nOr fastest delivery Mon 9 Nov\n Recycled materials +2 more\nAdd to basket",
+      "sourceUrl": "https://www.amazon.de/-/en/TECKNET-Non-slip-Special-Textured-Water-Resistant-Surface-2-Pack-Black/dp/B0CXDVLYTX/ref=sr_1_82?dib=eyJ2IjoiMSJ9.Bm8o7kInk76uq1pWI3kVMBXQXfdKwdQce7rwa4ltlCKzcH7oFNQWSenqsrJz0pQj-Uezv7Vmn21FvgBHWRCBhlOmMp_gaufPbw7aB5T2yshshfh0iyul23NdrDrKs8N7FL89jVJsAc90Ls2YulHCOLq-fj5AFxasl1KdNQVGJAfQmNMXGLpOzhA8Fhv1cuVgI1mKgaPxlcoyAer1BfOhE0zFO66S6wHENm1JxM8h8PA.UpCB5vqPMBF4KRBq5mGrVdkltj1xf5cRPj18ZBpXm3I&dib_tag=se&m=A16QV2T7BU3ZKC&marketplaceID=A1PA6795UKMFR9&qid=1793960653&s=merchant-items&sr=1-82&xpid=Vm7GtE8smirM4",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=6&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960633&xpid=Vm7GtE8smirM4&ref=sr_pg_5",
+      "sourcePageNumber": 6,
+      "scrapedAt": "2026-11-06T10:24:18.242Z",
+      "site": "Amazon.de",
+      "submitter": "于以安",
+      "submissionId": "sub_1793959693879",
+      "url": "https://www.amazon.de/dp/B0CXDVLYTX",
+      "brand": "TerraGrow-EU",
+      "brandDisplayName": "TerraGrow-EU",
+      "shopName": "TerraGrow-EU",
+      "currency": "EUR",
+      "priceVal": 13.59,
+      "starNum": "4.5",
+      "ratingFormatted": "4.5",
+      "reviewsCountFormatted": "20.5K",
+      "isNew": true,
+      "firstSeenDate": "2026-11-06",
+      "delivery": "FREE delivery Wed 11 Nov on eligible first order",
+      "variantRepresentativeAsin": "B013NDZKSW",
+      "variantEvidenceKey": "Amazon.de:B013NDZKSW"
+    }
+  ],
+  "groups": [
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B00MV1ZANI",
+        "B0CF4GF9WP",
+        "B0F3BPX6VV",
+        "B0D9GLPYY8",
+        "B0F37K19QX",
+        "B0D4PSWJFR"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A16QV2T7BU3ZKC&language=en&marketplaceID=A1PA6795UKMFR9",
+      "observedAt": "2026-11-06T10:30:11.721Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B013NDZKSW",
+        "B0CXDVLYTX",
+        "B0DK2ZJCWS",
+        "B0DCBGQXMD",
+        "B0FYMFQFFG",
+        "B0DK2YWLGT"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A16QV2T7BU3ZKC&language=en&marketplaceID=A1PA6795UKMFR9",
+      "observedAt": "2026-11-06T10:30:11.722Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0BY8P8Q2R",
+        "B0CZKSZVG8",
+        "B0CZKWSTQD",
+        "B0CZL46L2P",
+        "B0CZKQQ4WN",
+        "B0CZKZ8VB4"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A16QV2T7BU3ZKC&language=en&marketplaceID=A1PA6795UKMFR9",
+      "observedAt": "2026-11-06T10:30:11.722Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0CZKSZVG8",
+        "B0CZKWSTQD",
+        "B0CZL46L2P",
+        "B0CZKQQ4WN",
+        "B0BY8P8Q2R",
+        "B0CZKZ8VB4"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A16QV2T7BU3ZKC&language=en&marketplaceID=A1PA6795UKMFR9",
+      "observedAt": "2026-11-06T10:30:11.722Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0BZ7YQ7N1",
+        "B0DHZP5ZS3",
+        "B0GQYTMD69",
+        "B0GQYQLNQH",
+        "B0GQYVQZKY",
+        "B0GQYTQQWX"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A16QV2T7BU3ZKC&language=en&marketplaceID=A1PA6795UKMFR9",
+      "observedAt": "2026-11-06T10:30:11.722Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0DB17PCQM",
+        "B0DDPN8C2J",
+        "B0DDPQ8BTW",
+        "B0DDPQBDHV",
+        "B0DDPPXKR6",
+        "B0DDPN2CBQ"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A16QV2T7BU3ZKC&language=en&marketplaceID=A1PA6795UKMFR9",
+      "observedAt": "2026-11-06T10:30:11.722Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B06ZXSVBQ4",
+        "B0DGQD8QK6",
+        "B0DGQDQXB7",
+        "B0DGQFN24L",
+        "B0DGQDLS9N"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A16QV2T7BU3ZKC&language=en&marketplaceID=A1PA6795UKMFR9",
+      "observedAt": "2026-11-06T10:30:11.722Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B07W3L87XX",
+        "B0BQMH35C3"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=2&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960552&xpid=Vm7GtE8smirM4&ref=sr_pg_1",
+      "observedAt": "2026-11-06T10:30:34.294Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0DGQFN24L",
+        "B0DGQD8QK6",
+        "B0DGQDQXB7",
+        "B06ZXSVBQ4",
+        "B0DGQDLS9N"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=2&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960552&xpid=Vm7GtE8smirM4&ref=sr_pg_1",
+      "observedAt": "2026-11-06T10:30:34.294Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0CZKWSTQD",
+        "B0CZKSZVG8",
+        "B0CZL46L2P",
+        "B0CZKQQ4WN",
+        "B0BY8P8Q2R",
+        "B0CZKZ8VB4"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=2&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960552&xpid=Vm7GtE8smirM4&ref=sr_pg_1",
+      "observedAt": "2026-11-06T10:30:34.294Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0CZKQQ4WN",
+        "B0CZKSZVG8",
+        "B0CZKWSTQD",
+        "B0CZL46L2P",
+        "B0BY8P8Q2R",
+        "B0CZKZ8VB4"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=2&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960552&xpid=Vm7GtE8smirM4&ref=sr_pg_1",
+      "observedAt": "2026-11-06T10:30:34.294Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0DGQDQXB7",
+        "B0DGQD8QK6",
+        "B06ZXSVBQ4",
+        "B0DGQFN24L",
+        "B0DGQDLS9N"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=3&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960572&xpid=Vm7GtE8smirM4&ref=sr_pg_2",
+      "observedAt": "2026-11-06T10:30:56.868Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0DDPQBDHV",
+        "B0DDPN8C2J",
+        "B0DDPQ8BTW",
+        "B0DDPPXKR6",
+        "B0DDPN2CBQ",
+        "B0DDPPZX36"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=3&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960572&xpid=Vm7GtE8smirM4&ref=sr_pg_2",
+      "observedAt": "2026-11-06T10:30:56.868Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0DDPN8C2J",
+        "B0DDPQ8BTW",
+        "B0DDPQBDHV",
+        "B0DDPPXKR6",
+        "B0DDPN2CBQ",
+        "B0DDPPZX36"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=3&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960572&xpid=Vm7GtE8smirM4&ref=sr_pg_2",
+      "observedAt": "2026-11-06T10:30:56.868Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0FH6NX2CG",
+        "B0HBQG9NBV",
+        "B0HBQCXXW3",
+        "B0HBQ5LPVZ",
+        "B0G1SH3G46",
+        "B0HBQ2DM58"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=3&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960572&xpid=Vm7GtE8smirM4&ref=sr_pg_2",
+      "observedAt": "2026-11-06T10:30:56.868Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0FHTLM4F1",
+        "B0HD8DG5S4",
+        "B00IS7Y96I"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=3&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960572&xpid=Vm7GtE8smirM4&ref=sr_pg_2",
+      "observedAt": "2026-11-06T10:30:56.868Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0DDPPZX36",
+        "B0DDPN8C2J",
+        "B0DDPQ8BTW",
+        "B0DDPQBDHV",
+        "B0DDPPXKR6",
+        "B0DDPN2CBQ"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=4&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960592&xpid=Vm7GtE8smirM4&ref=sr_pg_3",
+      "observedAt": "2026-11-06T10:31:19.693Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0DGLCL5N2",
+        "B0FH52V2ZN"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=4&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960592&xpid=Vm7GtE8smirM4&ref=sr_pg_3",
+      "observedAt": "2026-11-06T10:31:19.693Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0FH52V2ZN",
+        "B0DGLCL5N2"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=4&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960592&xpid=Vm7GtE8smirM4&ref=sr_pg_3",
+      "observedAt": "2026-11-06T10:31:19.693Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0CZL46L2P",
+        "B0CZKSZVG8",
+        "B0CZKWSTQD",
+        "B0CZKQQ4WN",
+        "B0BY8P8Q2R",
+        "B0CZKZ8VB4"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=4&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960592&xpid=Vm7GtE8smirM4&ref=sr_pg_3",
+      "observedAt": "2026-11-06T10:31:19.693Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0FS7878X6",
+        "B00CSTJIWM"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=5&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960612&xpid=Vm7GtE8smirM4&ref=sr_pg_4",
+      "observedAt": "2026-11-06T10:31:42.261Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0DGXRM9BL",
+        "B0DR2M6VYX",
+        "B0FPC75CVB",
+        "B0FPC4SRB2",
+        "B0F32QVZWP",
+        "B0DYDDC2FV"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=6&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960633&xpid=Vm7GtE8smirM4&ref=sr_pg_5",
+      "observedAt": "2026-11-06T10:32:04.940Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0CXDVLYTX",
+        "B0DK2ZJCWS",
+        "B013NDZKSW",
+        "B0DCBGQXMD",
+        "B0FYMFQFFG",
+        "B0DK2YWLGT"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=6&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960633&xpid=Vm7GtE8smirM4&ref=sr_pg_5",
+      "observedAt": "2026-11-06T10:32:04.940Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0FYFVT327",
+        "B0FYFZ1M69",
+        "B0FYFY8XKD",
+        "B0FY6PQ8PR"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=8&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960673&xpid=Vm7GtE8smirM4&ref=sr_pg_7",
+      "observedAt": "2026-11-06T10:32:50.486Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0G145XKVB",
+        "B018EOZGU2"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=8&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960673&xpid=Vm7GtE8smirM4&ref=sr_pg_7",
+      "observedAt": "2026-11-06T10:32:50.486Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0BXXBZ6K4",
+        "B0DY77DVV1"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=9&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960693&xpid=Vm7GtE8smirM4&ref=sr_pg_8",
+      "observedAt": "2026-11-06T10:33:13.105Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0FLP4GD2J",
+        "B0GSYXFGVL",
+        "B0FLPKVTNH"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=9&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960693&xpid=Vm7GtE8smirM4&ref=sr_pg_8",
+      "observedAt": "2026-11-06T10:33:13.105Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0CXH6TLBV",
+        "B0F29JRJSK",
+        "B0F29G1DPN",
+        "B0F29DC8KX",
+        "B0D9GMXYJW",
+        "B0D9GN32LV"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=10&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960714&xpid=Vm7GtE8smirM4&ref=sr_pg_9",
+      "observedAt": "2026-11-06T10:33:35.712Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0FS5VF1XZ",
+        "B0GCFJ9MSL",
+        "B0GCDQG9ZR"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=11&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960734&xpid=Vm7GtE8smirM4&ref=sr_pg_10",
+      "observedAt": "2026-11-06T10:33:58.319Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B07DDH6Q29",
+        "B0CNXSPTHW"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=11&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960734&xpid=Vm7GtE8smirM4&ref=sr_pg_10",
+      "observedAt": "2026-11-06T10:33:58.319Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0FP4J6NH1",
+        "B0FP4K58S7"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=11&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960734&xpid=Vm7GtE8smirM4&ref=sr_pg_10",
+      "observedAt": "2026-11-06T10:33:58.319Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0GYYN9C72",
+        "B0GYYSQ2XZ"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=12&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960754&xpid=Vm7GtE8smirM4&ref=sr_pg_11",
+      "observedAt": "2026-11-06T10:34:21.128Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0FSQW98MF",
+        "B01H4FMIF8"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=12&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960754&xpid=Vm7GtE8smirM4&ref=sr_pg_11",
+      "observedAt": "2026-11-06T10:34:21.128Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B092LZQ3RX",
+        "B0812YSPX7"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=13&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960774&xpid=Vm7GtE8smirM4&ref=sr_pg_12",
+      "observedAt": "2026-11-06T10:34:43.752Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0FLXSYFLB",
+        "B0FLY1YJ3C",
+        "B0FLXVTCZG"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=14&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960794&xpid=Vm7GtE8smirM4&ref=sr_pg_13",
+      "observedAt": "2026-11-06T10:35:06.354Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0GGC62616",
+        "B0GGBMSRFW"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=14&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960794&xpid=Vm7GtE8smirM4&ref=sr_pg_13",
+      "observedAt": "2026-11-06T10:35:06.354Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0DJR4LMYT",
+        "B0DM689XD3",
+        "B0DM67TCW4",
+        "B0FD9KHZPV",
+        "B0DM6837X6"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=14&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960794&xpid=Vm7GtE8smirM4&ref=sr_pg_13",
+      "observedAt": "2026-11-06T10:35:06.354Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0F93MN6CN",
+        "B0FZ8YKQTQ"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=14&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960794&xpid=Vm7GtE8smirM4&ref=sr_pg_13",
+      "observedAt": "2026-11-06T10:35:06.354Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0DLWTVV41",
+        "B0DLWRSB9D",
+        "B0DLWRYYS1",
+        "B0DLWQJBYP",
+        "B06ZY8DK1Z"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=15&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960815&xpid=Vm7GtE8smirM4&ref=sr_pg_14",
+      "observedAt": "2026-11-06T10:35:28.930Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B076LJ4NN1",
+        "B06XXB27WJ",
+        "B0CL6Z6K84",
+        "B06XX9GTJ4"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=15&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960815&xpid=Vm7GtE8smirM4&ref=sr_pg_14",
+      "observedAt": "2026-11-06T10:35:28.930Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0DPWW2V45",
+        "B0DPWXDS7H",
+        "B0F1Y7S796",
+        "B0DPWWPVWX",
+        "B0F1Y28XP5",
+        "B0DPWVTQ7K"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=15&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960815&xpid=Vm7GtE8smirM4&ref=sr_pg_14",
+      "observedAt": "2026-11-06T10:35:28.930Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0DPK4QCVR",
+        "B0DP477YG3",
+        "B0DP48HTMY"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=16&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960835&xpid=Vm7GtE8smirM4&ref=sr_pg_15",
+      "observedAt": "2026-11-06T10:35:51.517Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A16QV2T7BU3ZKC",
+      "asins": [
+        "B0DR1CXM6Q",
+        "B0FPC7WDJD"
+      ],
+      "sourcePage": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=18&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960875&xpid=Vm7GtE8smirM4&ref=sr_pg_17",
+      "observedAt": "2026-11-06T10:36:36.801Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A36WZYTHW9099D",
+      "asins": [
+        "B086DBBDD6",
+        "B08B83BSKC",
+        "B0891VMJDM",
+        "B08B8BMV3S"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A36WZYTHW9099D&language=en",
+      "observedAt": "2026-11-06T10:43:01.913Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A36WZYTHW9099D",
+      "asins": [
+        "B0851FCWSC",
+        "B0D1FZG3FT",
+        "B0D1FQH8SW"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=2&language=en",
+      "observedAt": "2026-11-06T10:43:24.501Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A36WZYTHW9099D",
+      "asins": [
+        "B07HGMZMB1",
+        "B0D7M882SS"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=2&language=en",
+      "observedAt": "2026-11-06T10:43:24.501Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A36WZYTHW9099D",
+      "asins": [
+        "B09C8M2WSZ",
+        "B0D7LWSTS2"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=6&language=en",
+      "observedAt": "2026-11-06T10:44:55.271Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A36WZYTHW9099D",
+      "asins": [
+        "B09928F5Y1",
+        "B0DD6QNR9X"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=7&language=en",
+      "observedAt": "2026-11-06T10:45:17.891Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A36WZYTHW9099D",
+      "asins": [
+        "B0DB7S598V",
+        "B0DB7D9YWW"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=7&language=en",
+      "observedAt": "2026-11-06T10:45:17.891Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A36WZYTHW9099D",
+      "asins": [
+        "B0DB7L7PRB",
+        "B0DB7Y7FTF",
+        "B0DB7V6F3J",
+        "B0DB7LTZ11",
+        "B0DB7JFK3J",
+        "B0DB7FK9W5"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=7&language=en",
+      "observedAt": "2026-11-06T10:45:17.891Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A36WZYTHW9099D",
+      "asins": [
+        "B0C9ZKC2QT",
+        "B086DK69HH",
+        "B0CSSDL8L8",
+        "B08921QTQT",
+        "B086BQJV7K",
+        "B08B86XPRS"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=10&language=en",
+      "observedAt": "2026-11-06T10:46:26.008Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A36WZYTHW9099D",
+      "asins": [
+        "B09JWGWSQ6",
+        "B09DCXVW2M"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=10&language=en",
+      "observedAt": "2026-11-06T10:46:26.008Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A36WZYTHW9099D",
+      "asins": [
+        "B08S74W4NV",
+        "B08SBJBMBQ",
+        "B0D36P4XKP"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=10&language=en",
+      "observedAt": "2026-11-06T10:46:26.008Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A3JXC9NZTPXD6E",
+      "asins": [
+        "B0CQFTRXJR",
+        "B0CQFWTBZM"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A3JXC9NZTPXD6E&language=en",
+      "observedAt": "2026-11-06T10:46:48.695Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.com",
+      "sellerId": "A15CML1EFCQU74",
+      "asins": [
+        "B08DFLFTBQ",
+        "B0CBRS9TWB"
+      ],
+      "sourcePage": "https://www.amazon.com/s?me=A15CML1EFCQU74&language=en",
+      "observedAt": "2026-11-06T10:48:19.954Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.com",
+      "sellerId": "A15CML1EFCQU74",
+      "asins": [
+        "B0838Y5XHY",
+        "B0CBRR4SVL"
+      ],
+      "sourcePage": "https://www.amazon.com/s?me=A15CML1EFCQU74&language=en",
+      "observedAt": "2026-11-06T10:48:19.954Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A2943E47GVY1E3",
+      "asins": [
+        "B0DB1MCW5J",
+        "B0DB1N8WP3"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A2943E47GVY1E3&language=en",
+      "observedAt": "2026-11-06T10:50:13.382Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A2943E47GVY1E3",
+      "asins": [
+        "B0DB1N8WP3",
+        "B0DB1MCW5J"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A2943E47GVY1E3&language=en",
+      "observedAt": "2026-11-06T10:50:13.382Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A35R3AFD5OLVO7",
+      "asins": [
+        "B0H298RTR2",
+        "B0D9BLZMS9",
+        "B0D9BM2HWL",
+        "B0D9BK8X24",
+        "B0D9BLD8HJ",
+        "B0D9BL9R48"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A35R3AFD5OLVO7&language=en",
+      "observedAt": "2026-11-06T10:50:36.241Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A35R3AFD5OLVO7",
+      "asins": [
+        "B0H298B14J",
+        "B0CP673JFB",
+        "B0CKYQW1L9",
+        "B0D2Y5LK4G",
+        "B0CKYRMMBK",
+        "B0CKYRLH9L"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A35R3AFD5OLVO7&language=en",
+      "observedAt": "2026-11-06T10:50:36.241Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A35R3AFD5OLVO7",
+      "asins": [
+        "B0D9BL9R48",
+        "B0H298RTR2",
+        "B0D9BLZMS9",
+        "B0D9BM2HWL",
+        "B0D9BK8X24",
+        "B0D9BLD8HJ"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A35R3AFD5OLVO7&language=en",
+      "observedAt": "2026-11-06T10:50:36.241Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A1ZCJK0U7MWDPO",
+      "asins": [
+        "B0B81RCFGL",
+        "B0D3D5JMWC",
+        "B0CX1LP67P",
+        "B0GSVGV4JL",
+        "B0HJ8N88XL"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A1ZCJK0U7MWDPO&language=en",
+      "observedAt": "2026-11-06T10:51:21.706Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A1ZCJK0U7MWDPO",
+      "asins": [
+        "B0GDXTWVLB",
+        "B0DS2DWTPN",
+        "B0G2WP99Q6"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A1ZCJK0U7MWDPO&language=en",
+      "observedAt": "2026-11-06T10:51:21.706Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A1ZCJK0U7MWDPO",
+      "asins": [
+        "B0G2WP99Q6",
+        "B0GDXTWVLB",
+        "B0DS2DWTPN"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A1ZCJK0U7MWDPO&language=en",
+      "observedAt": "2026-11-06T10:51:21.706Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "A1ZCJK0U7MWDPO",
+      "asins": [
+        "B0GF26TBWX",
+        "B0F42JX6B2"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=A1ZCJK0U7MWDPO&language=en",
+      "observedAt": "2026-11-06T10:51:21.706Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "AYIHZU4TYW5FH",
+      "asins": [
+        "B0GF861DYJ",
+        "B0GF8F73ZG",
+        "B0GF84BM5T",
+        "B0GF8MXW8Q",
+        "B0GF89577K"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=AYIHZU4TYW5FH&language=en",
+      "observedAt": "2026-11-06T10:53:15.000Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    },
+    {
+      "site": "Amazon.de",
+      "sellerId": "AYIHZU4TYW5FH",
+      "asins": [
+        "B0HHS9SNWH",
+        "B0HHSDP1ZR",
+        "B0HHS2QBTD",
+        "B0HHS6BR57",
+        "B0HHS3KYC7"
+      ],
+      "sourcePage": "https://www.amazon.de/s?me=AYIHZU4TYW5FH&language=en",
+      "observedAt": "2026-11-06T10:53:15.001Z",
+      "evidence": "Amazon list-page color/variation swatch links"
+    }
+  ],
+  "checkedPages": [
+    {
+      "key": "A16QV2T7BU3ZKC:1",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?me=A16QV2T7BU3ZKC&language=en&marketplaceID=A1PA6795UKMFR9",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B00MV1ZANI",
+        "B013NDZKSW",
+        "B0BY8P8Q2R",
+        "B0162XA64I",
+        "B0D6QQDJ3D",
+        "B0D2KL45P5",
+        "B0CP5RNH6F",
+        "B0CZKSZVG8",
+        "B0F98MHZVB",
+        "B0BZ7YQ7N1",
+        "B0DB17PCQM",
+        "B00ECZFDR4",
+        "B0FM3R53WB",
+        "B0HC2S357Y",
+        "B0F9WFR9KZ",
+        "B06ZXSVBQ4"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:2",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=2&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960552&xpid=Vm7GtE8smirM4&ref=sr_pg_1",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0DFBV17B1",
+        "B0FLDNX8J7",
+        "B07W3L87XX",
+        "B01GBINQGE",
+        "B0895PDSM5",
+        "B0DGQFN24L",
+        "B01FDDNX3E",
+        "B0DNKDYR2T",
+        "B0CSD6S7W5",
+        "B09ZK3824Z",
+        "B0G5WTC7HT",
+        "B01BC3TYDM",
+        "B0DX1MZM4J",
+        "B0DCJHWTP9",
+        "B0CZKWSTQD",
+        "B0CZKQQ4WN"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:3",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=3&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960572&xpid=Vm7GtE8smirM4&ref=sr_pg_2",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0D95DH13D",
+        "B0FF8SRF9G",
+        "B0DGQDQXB7",
+        "B0CZ6CXDX1",
+        "B0DRVK61FN",
+        "B0174PBPS4",
+        "B0DDPQBDHV",
+        "B0G4R17ZJR",
+        "B0G1MDCHV4",
+        "B0G1MFLWPQ",
+        "B0BY8ZH4V7",
+        "B0DDPN8C2J",
+        "B0FH6NX2CG",
+        "B0BLGMFD2T",
+        "B0BXDNZNMJ",
+        "B0FHTLM4F1"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:4",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=4&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960592&xpid=Vm7GtE8smirM4&ref=sr_pg_3",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0DDPPZX36",
+        "B0F5VQYPGP",
+        "B0GX9Q2KJZ",
+        "B0887X29QJ",
+        "B0DGLCL5N2",
+        "B0GXBCMLKG",
+        "B0C1FY929W",
+        "B0F47HKRLS",
+        "B00M75WPKO",
+        "B0HDP1NJ2C",
+        "B0FH52V2ZN",
+        "B0FR8FBHLB",
+        "B0D8JFT73N",
+        "B0GXBCMGCL",
+        "B0CZL46L2P",
+        "B0FPQR3FZG"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:5",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=5&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960612&xpid=Vm7GtE8smirM4&ref=sr_pg_4",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0DXTFC8JK",
+        "B0D5R95TT4",
+        "B0DXF4VDJM",
+        "B0GV3HRWWF",
+        "B0GX9Z4XG3",
+        "B0FS7878X6",
+        "B0DMSGQCTQ",
+        "B0FLJVW637",
+        "B0CWGNFKFP",
+        "B0H3L9LZFT",
+        "B0BWJCYSSY",
+        "B0CQRD1KPQ",
+        "B0GLFQ561N",
+        "B0GH1K9YKH",
+        "B0GHM7CTRT",
+        "B0F13SHQQM"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:6",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=6&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960633&xpid=Vm7GtE8smirM4&ref=sr_pg_5",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0DGXRM9BL",
+        "B0CXDVLYTX",
+        "B0D5XYRPS9",
+        "B01FDO6LKU",
+        "B0GR8MKN5S",
+        "B0FLHZTQ4W",
+        "B08TWFVWX9",
+        "B0FDK2MNY7",
+        "B0F62PQH4W",
+        "B0FWCQ78SL",
+        "B0BY8T29SJ",
+        "B0FDQPT672",
+        "B0D9GVL3T2",
+        "B0GGLTH65N",
+        "B0FM8DGMM2",
+        "B0FMY7WTKN"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:7",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=7&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960653&xpid=Vm7GtE8smirM4&ref=sr_pg_6",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0GGLTH65N",
+        "B0FM8DGMM2",
+        "B0FMY7WTKN",
+        "B0GFCZTCLW",
+        "B0GFCR8P6M",
+        "B0CQ4QRCRC",
+        "B0F8QTQV65",
+        "B0FCFR5VX8",
+        "B0GLFYQVV3",
+        "B0DV3DV1H7",
+        "B0GQT5BYLR",
+        "B06ZYJB4YZ",
+        "B0GVP181HS",
+        "B0FM3NRP8W",
+        "B0G3PM8BCP",
+        "B0H25BNQBP"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:8",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=8&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960673&xpid=Vm7GtE8smirM4&ref=sr_pg_7",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0GRC37WF2",
+        "B0H1X1XKG9",
+        "B0FCYGVPF5",
+        "B0H8DNP1Y1",
+        "B0DHRW2P1J",
+        "B0FPX2Z1WD",
+        "B0FYFVT327",
+        "B0G145XKVB",
+        "B0D1CHTW83",
+        "B0DV3P4W9W",
+        "B0CX5C67LR",
+        "B0DDBG3Z48",
+        "B0F2SZ3RC9",
+        "B0FDQT5J2S",
+        "B0F5Q6WDL3",
+        "B0DW8FGVGZ"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:9",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=9&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960693&xpid=Vm7GtE8smirM4&ref=sr_pg_8",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0BXXBZ6K4",
+        "B0FZJK3PSJ",
+        "B0GQYY3LJZ",
+        "B0G6L1MGQV",
+        "B0GCHKJ799",
+        "B0CYH15DWF",
+        "B0GDDPQRKR",
+        "B0GQYDZ2Y5",
+        "B0G3NXB8JM",
+        "B0G52P5WZ3",
+        "B0G5N22N12",
+        "B0GHW32BTZ",
+        "B0GF617QZ1",
+        "B0FLP4GD2J",
+        "B0GRTJXTKM",
+        "B0CX1NJ1S5"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:10",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=10&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960714&xpid=Vm7GtE8smirM4&ref=sr_pg_9",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0GGY72P1S",
+        "B0D6B1S9X5",
+        "B0F2FW84HX",
+        "B0CP3RDMZD",
+        "B0DWSG6VCK",
+        "B0FL27FZCM",
+        "B0HHFSF9PN",
+        "B0FFGKJL6G",
+        "B0G6JRV85Y",
+        "B0H93SYY59",
+        "B0GL991Z5Y",
+        "B0CXH6TLBV",
+        "B0GG92Y936",
+        "B0FGCTC65G",
+        "B0GWHKRNTL",
+        "B0H1RZGY1X"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:11",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=11&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960734&xpid=Vm7GtE8smirM4&ref=sr_pg_10",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0GF6K378L",
+        "B0F8VVPGB9",
+        "B0FGH6NMTC",
+        "B09HGQSNFM",
+        "B0FP4TW6WG",
+        "B0FS5VF1XZ",
+        "B0G1YJY1CX",
+        "B0FY6NLSL7",
+        "B0DX658BHX",
+        "B0H986Z1XR",
+        "B0GYNSYBS9",
+        "B07DDH6Q29",
+        "B0FP4J6NH1",
+        "B082V7WQF9",
+        "B0FH5HXFRT",
+        "B0DBLCKBTF"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:12",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=12&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960754&xpid=Vm7GtE8smirM4&ref=sr_pg_11",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0GWH7KX95",
+        "B0G13DD8SV",
+        "B0HD7JQYTF",
+        "B0CHVVL3SY",
+        "B0D6WHJJMM",
+        "B0FQCK2TP5",
+        "B0BZVDJHCS",
+        "B0GYYN9C72",
+        "B0FD9V2YMM",
+        "B0DRPCW2DR",
+        "B0G63YF3N2",
+        "B0H6QKHZ9V",
+        "B0FN4C58PV",
+        "B0H2DBR5QQ",
+        "B0FSQW98MF",
+        "B0GZ3F835Q"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:13",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=13&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960774&xpid=Vm7GtE8smirM4&ref=sr_pg_12",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B092LZQ3RX",
+        "B0HFHPM8R7",
+        "B0GQSPNCHF",
+        "B0GTL6HPDX",
+        "B0GWDD16XT",
+        "B0BLYYZL3S",
+        "B0FQ5HXK3R",
+        "B096LZ9KKK",
+        "B0CYGCK84B",
+        "B0FH6Y5984",
+        "B0FR8N5ZGR",
+        "B0FG282BCD",
+        "B0FR95GB73",
+        "B0H3PNYYQV",
+        "B0G25ZBFTV",
+        "B0DLWH47PV"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:14",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=14&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960794&xpid=Vm7GtE8smirM4&ref=sr_pg_13",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0GT83TKTW",
+        "B0FLXSYFLB",
+        "B00DEF5IW8",
+        "B0H29X2JN7",
+        "B0G2BW9PPG",
+        "B0GGC62616",
+        "B0FW3VSJRG",
+        "B0DJR4LMYT",
+        "B0F9YRBSFK",
+        "B0GX98KR74",
+        "B0F93MN6CN",
+        "B0FS7CFFVK",
+        "B0FZCC3N2B",
+        "B0DLKXL7FP",
+        "B0F18T2Y7D",
+        "B0G5NZY29V"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:15",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=15&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960815&xpid=Vm7GtE8smirM4&ref=sr_pg_14",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0GRH1JSL2",
+        "B0D8J78PCZ",
+        "B0DTTRHQRR",
+        "B0G34MRQ2Y",
+        "B0GVYQ9ZFP",
+        "B0GJZ937Y6",
+        "B0H7R62FGY",
+        "B0F3C95PM5",
+        "B0H6J8327N",
+        "B0GX6QFNX2",
+        "B0FZSY5WRQ",
+        "B018O516LO",
+        "B0DLWTVV41",
+        "B076LJ4NN1",
+        "B0H7XGR5VY",
+        "B0DPWW2V45"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:16",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=16&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960835&xpid=Vm7GtE8smirM4&ref=sr_pg_15",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0D3F2B1YT",
+        "B0F1YJKSH3",
+        "B0FQWDWJ2D",
+        "B0DYNWM1TP",
+        "B0GVS5MJY6",
+        "B0F5Q7BH59",
+        "B0DY7PVSGV",
+        "B0DL59PHTT",
+        "B0CMC8C843",
+        "B0DPK4QCVR",
+        "B08RB26C8X",
+        "B0H4VZDJQV",
+        "B0GQYKFQCJ",
+        "B09PGBMXBB",
+        "B0GK5SCQK5",
+        "B0G4WBTKJQ"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:17",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=17&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960855&xpid=Vm7GtE8smirM4&ref=sr_pg_16",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0H14R7LTZ",
+        "B0FQVV2B61",
+        "B0DG8SBD4M",
+        "B0GQ4GLPNC",
+        "B0DWF21Z9T",
+        "B0DH1M2G89",
+        "B072JG45PM",
+        "B0DCBB3KCD",
+        "B0F5GLYP96",
+        "B017701W1G",
+        "B07FM5QCXX",
+        "B0DSLH1LLG",
+        "B018INW0ZI",
+        "B0B58PXK4N",
+        "B0CZ939BSB",
+        "B0D6W9WYVL"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:18",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=18&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960875&xpid=Vm7GtE8smirM4&ref=sr_pg_17",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0GCD9QT8Q",
+        "B0D22HGDPF",
+        "B0FMDZY54Q",
+        "B0DSP4NL13",
+        "B0DX22GWSV",
+        "B0F9Y8P8D8",
+        "B0B7W7GN1T",
+        "B0FSRMZ6FL",
+        "B01GK40004",
+        "B0G25KXWGR",
+        "B0BXXBHVDR",
+        "B0DR1CXM6Q",
+        "B0G6KSSCP2",
+        "B0G2BFB3RB",
+        "B0FPC9P829",
+        "B0FCR4QK4X"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:19",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=19&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960896&xpid=Vm7GtE8smirM4&ref=sr_pg_18",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0GR9TMCZ1",
+        "B0BTPPRLV6",
+        "B0DWF3G9JT",
+        "B0F3HJSK1B",
+        "B0FZBTR2HT",
+        "B07FMGVRMS",
+        "B0CYBZZSYZ",
+        "B0HFHST1LC",
+        "B0HC6JDZRJ",
+        "B0GX1GT4XW",
+        "B0G2BBSY8G",
+        "B0BYHR96BN",
+        "B0D6W8GV9C",
+        "B0CTQSK7CH",
+        "B0F3HYFR5J",
+        "B0DYSBZL5D"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:20",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=20&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960916&xpid=Vm7GtE8smirM4&ref=sr_pg_19",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0DW7XQWNP",
+        "B0DSP8BFZD",
+        "B0FWRCR4VR",
+        "B0CQLNJBB1",
+        "B0182Z19JU",
+        "B0GCZVG1RY",
+        "B0GRB6RPF1",
+        "B0G5PFLF2K",
+        "B0BNBSLPF2",
+        "B0H25YNH51",
+        "B0G6L78PY2",
+        "B0G39RLD22",
+        "B0FM84HRYQ",
+        "B0GH11VCBN",
+        "B0DWDWKNF8",
+        "B0H25VLZZG"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:21",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=21&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960936&xpid=Vm7GtE8smirM4&ref=sr_pg_20",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0FZV1XSSL",
+        "B0GQHBR5KR",
+        "B0BYJKWBRT",
+        "B0CQZS6BCF",
+        "B0GLZM1Z5B",
+        "B0F545DR4X",
+        "B0H7B55NRD",
+        "B0HKS9BJQF",
+        "B0HJPJL9Y4",
+        "B0HHFGWKNJ",
+        "B0HH9PDNLR",
+        "B0HGMGWJ82",
+        "B0HGMC1GB9",
+        "B0HGLWQ74V",
+        "B0HGDHC8T7",
+        "B0HFJ3X3XK"
+      ]
+    },
+    {
+      "key": "A16QV2T7BU3ZKC:22",
+      "shop": "TerraGrow-EU",
+      "url": "https://www.amazon.de/s?i=merchant-items&me=A16QV2T7BU3ZKC&page=22&language=en&marketplaceID=A1PA6795UKMFR9&qid=1793960956&xpid=Vm7GtE8smirM4&ref=sr_pg_21",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0HF8G1651",
+        "B0H7RR2R15",
+        "B0H7RMDBF9",
+        "B0H5VFZ89Y",
+        "B0H5V7YB35",
+        "B0HC6NYWDY",
+        "B0HFJP9M8B",
+        "B0HDBHMPNB",
+        "B0HDB8MFTD",
+        "B0HG1C6877",
+        "B0H95B1SLH",
+        "B0H71SMZ7M"
+      ]
+    },
+    {
+      "key": "ATXDFD03MTCAB:1",
+      "shop": "Preciva",
+      "url": "https://www.amazon.de/s?me=ATXDFD03MTCAB&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0FQCB1RP7",
+        "B073TZ5BBG",
+        "B07BQMW82W",
+        "B0G6JYB9YZ",
+        "B0BHH3XVRG",
+        "B0F9PD4WX5",
+        "B075M959CL",
+        "B073S69SQ1",
+        "B0BPC4NG21",
+        "B0F18YGSZ1",
+        "B0DS61TQF8",
+        "B0BCPLMLS4",
+        "B0DX747DWH",
+        "B0F8BRY4BY",
+        "B0CH357TVW",
+        "B0FYQ55GFP"
+      ]
+    },
+    {
+      "key": "ATXDFD03MTCAB:2",
+      "shop": "Preciva",
+      "url": "https://www.amazon.de/s?me=ATXDFD03MTCAB&page=2&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0CN3CWQVJ",
+        "B0FY683MXS",
+        "B0FMJM2XPZ",
+        "B0FHDJB6WG",
+        "B078T62R3Y",
+        "B0D7HVSXVL",
+        "B0CRNZXMY1",
+        "B0D636SLHG",
+        "B0CB32SQ8F",
+        "B0B8YK4KBJ",
+        "B0DG7WRQLR",
+        "B09L4DB5W5",
+        "B0FD74LYVF",
+        "B0GRTNM6HV",
+        "B0CDBH9LYJ",
+        "B0F8352BBG"
+      ]
+    },
+    {
+      "key": "ATXDFD03MTCAB:3",
+      "shop": "Preciva",
+      "url": "https://www.amazon.de/s?me=ATXDFD03MTCAB&page=3&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0GX1TZRHS",
+        "B086DN3K2S",
+        "B0F3XNSP7X",
+        "B0DS62QRRD",
+        "B0F8J5YW5F",
+        "B0FKBFPRPL",
+        "B07JR3K55R",
+        "B09DL28BT9",
+        "B0FFMD755N",
+        "B0GFH2DZQZ",
+        "B0DJR1LK37",
+        "B0G29HS8V9",
+        "B09XHKG92J",
+        "B0FF3XKQGN",
+        "B083LT9SM1",
+        "B0DM5CGZB2"
+      ]
+    },
+    {
+      "key": "ATXDFD03MTCAB:4",
+      "shop": "Preciva",
+      "url": "https://www.amazon.de/s?me=ATXDFD03MTCAB&page=4&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0FMJLF7RN",
+        "B0GFD8H8BH",
+        "B0F9WLQ9KH",
+        "B0GFDT1WC8",
+        "B0BL38SW6K",
+        "B0GRTJCL9P",
+        "B0FP1PNRNK",
+        "B0C48XTB4M",
+        "B0DG8D1WFC",
+        "B0F82SV8M3",
+        "B0CBPKL2BR",
+        "B0F485FTPH",
+        "B094W3DXSX",
+        "B088PG7DBR",
+        "B07H4LCNKT",
+        "B0DM7QNXBB"
+      ]
+    },
+    {
+      "key": "ATXDFD03MTCAB:5",
+      "shop": "Preciva",
+      "url": "https://www.amazon.de/s?me=ATXDFD03MTCAB&page=5&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0F64ZW9R2",
+        "B0FHBCRK1Y",
+        "B0FY6CZDZP",
+        "B08H2BK8QD",
+        "B07F2DM331",
+        "B0G7YQGLTM",
+        "B0FHCSS7HV",
+        "B0BLBSLZZL",
+        "B0D9PS8TGP",
+        "B0FQ2LRV6F",
+        "B0DS2MK2VS",
+        "B0CW34TZ4L",
+        "B0CRGRPZ22",
+        "B08C51QRH5",
+        "B0DS5TV2LG",
+        "B0GFDB75LQ"
+      ]
+    },
+    {
+      "key": "ATXDFD03MTCAB:6",
+      "shop": "Preciva",
+      "url": "https://www.amazon.de/s?me=ATXDFD03MTCAB&page=6&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0G6DK5D3H",
+        "B0FMJGBDGR",
+        "B0G6KQLT7H",
+        "B0FKB8FQDF",
+        "B0FK5GXZ9Y",
+        "B0FFMQZD1F",
+        "B0G2BKQVZM",
+        "B0G6JKK268",
+        "B0BJF2ZT1R",
+        "B0FMJFR45H",
+        "B09P68G1MP",
+        "B0GFDNB4RM",
+        "B0F7XVSZZT",
+        "B0FKB696YW",
+        "B0G6D5X6W2",
+        "B0F8J83RMC"
+      ]
+    },
+    {
+      "key": "ATXDFD03MTCAB:7",
+      "shop": "Preciva",
+      "url": "https://www.amazon.de/s?me=ATXDFD03MTCAB&page=7&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0B8YVZMQT",
+        "B0DX6X8QM3",
+        "B0C9ZRXTTJ",
+        "B0GFJ8FN79",
+        "B0FQC8KY42",
+        "B0GRG68XYX",
+        "B0CZLC2FSN",
+        "B0FKGWVGV5",
+        "B0FQ2GL3CQ",
+        "B0FPLB43KT",
+        "B075D9R8PZ",
+        "B09Q399L8J",
+        "B0G2G8VVDW",
+        "B0FMJM94Q9",
+        "B0CZLL3NCF",
+        "B0G122FBRW"
+      ]
+    },
+    {
+      "key": "ATXDFD03MTCAB:8",
+      "shop": "Preciva",
+      "url": "https://www.amazon.de/s?me=ATXDFD03MTCAB&page=8&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0FFH1D6P1",
+        "B0GX177B2M",
+        "B0FQJD99Q1",
+        "B0G29GW24L",
+        "B0GRGFTK6Z",
+        "B0F8BJX26L",
+        "B0D3LZG7MJ",
+        "B0FHHDKPJB",
+        "B0DHJNQNBR",
+        "B0C45LFBXM",
+        "B0DX79S12N",
+        "B0CRHMGZRW",
+        "B0G25S8FP3",
+        "B0C8HQNDR2",
+        "B0D5YK5V29",
+        "B0DXPMKBYT"
+      ]
+    },
+    {
+      "key": "ATXDFD03MTCAB:9",
+      "shop": "Preciva",
+      "url": "https://www.amazon.de/s?me=ATXDFD03MTCAB&page=9&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0DG8F6TJB",
+        "B0F8ZG9XX3",
+        "B0BXN86H8D",
+        "B0DS5P2RXV",
+        "B0FY6DS4G8",
+        "B0FY6L312H",
+        "B0FMHXVGYD",
+        "B0925HFF9B",
+        "B0F9L51QMN",
+        "B0F8ZWMPPQ",
+        "B0CDBFWC41",
+        "B0G6F5RV56",
+        "B0FD3TSXNF",
+        "B0FQ2J8FX7",
+        "B0DWDH3YN1",
+        "B0DLGGYF1M"
+      ]
+    },
+    {
+      "key": "ATXDFD03MTCAB:10",
+      "shop": "Preciva",
+      "url": "https://www.amazon.de/s?me=ATXDFD03MTCAB&page=10&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0FMJ2ZRNX",
+        "B0G6DX35RD",
+        "B0BPC1XY9V",
+        "B0F9KR9SNR",
+        "B0BX6K8PWC",
+        "B0CTHPNTDY",
+        "B0G2GBQNPZ",
+        "B0CBP9931T",
+        "B0C4XV6538",
+        "B0C9ZSFBTW",
+        "B0GRTLLB8P",
+        "B0DXDZ5LPP",
+        "B0CH7Y45GH",
+        "B09CYP36J8",
+        "B0FP1497ZP",
+        "B0DS5N6Y6V"
+      ]
+    },
+    {
+      "key": "ATXDFD03MTCAB:11",
+      "shop": "Preciva",
+      "url": "https://www.amazon.de/s?me=ATXDFD03MTCAB&page=11&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0H4R3QWWT",
+        "B0FY6DDY9Q",
+        "B0FQ2N8KVD",
+        "B0FD7JXGKF",
+        "B0FD783D27",
+        "B0F8VC3K6C",
+        "B0DSB99S5Y",
+        "B0GRG2TXXW",
+        "B0G25MPNW6",
+        "B0FY6D5P5K",
+        "B0FQ2M3QQ5",
+        "B0F82X9TB2",
+        "B0F7XX3ZBH",
+        "B0GFCX82VQ",
+        "B0C48YGKDJ",
+        "B07WD77CB9"
+      ]
+    },
+    {
+      "key": "ATXDFD03MTCAB:12",
+      "shop": "Preciva",
+      "url": "https://www.amazon.de/s?me=ATXDFD03MTCAB&page=12&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0GFDX8XHR",
+        "B0GFCZ49ZV",
+        "B0FY6FY3G7",
+        "B0DX6ZNT2X",
+        "B0D62WJLRR",
+        "B0DJR67DBF",
+        "B0G2G7685B",
+        "B0FQ2JJZ5W",
+        "B0F84DMW8P",
+        "B0GX58PJFY",
+        "B0GFDNQGDM",
+        "B0FQ238JBP",
+        "B0DJR7Y61S",
+        "B0FHBCHF1Y",
+        "B0HKMXWMPG",
+        "B0HG9LWK3C"
+      ]
+    },
+    {
+      "key": "A36WZYTHW9099D:1",
+      "shop": "Aigostar",
+      "url": "https://www.amazon.de/s?me=A36WZYTHW9099D&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0BX5C1Z3G",
+        "B09ZHJK253",
+        "B0BX59FWWR",
+        "B0CWRW2WV1",
+        "B0D3PJLYTT",
+        "B08TBBLHQL",
+        "B00XNJMJ0O",
+        "B082KG27KV",
+        "B09DL14S97",
+        "B0CWRXP4NY",
+        "B00XNJMM6A",
+        "B082WTZZ6C",
+        "B097D2FDXP",
+        "B0D78R99ZB",
+        "B01CUECL00",
+        "B086DBBDD6"
+      ]
+    },
+    {
+      "key": "A36WZYTHW9099D:2",
+      "shop": "Aigostar",
+      "url": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=2&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B08CDF2YKX",
+        "B0851FCWSC",
+        "B010XOC8NO",
+        "B01GO7O3DC",
+        "B0CM8LCHPF",
+        "B096MCJ82L",
+        "B0CBSB7WZ6",
+        "B0C3VZZ4DS",
+        "B094DBRZPJ",
+        "B0HH99TF4F",
+        "B0DPMWTBG7",
+        "B08741BCY7",
+        "B0F2SXRF4J",
+        "B0BG216DPR",
+        "B0F1CQBQQT",
+        "B07HGMZMB1"
+      ]
+    },
+    {
+      "key": "A36WZYTHW9099D:3",
+      "shop": "Aigostar",
+      "url": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=3&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0HKNCGP74",
+        "B0F1G82WG7",
+        "B0BX59L1L9",
+        "B077VKLTBP",
+        "B0CNTG59CG",
+        "B0B1GTD7CD",
+        "B0G55RMD2X",
+        "B0CRYN8325",
+        "B09MFNVHGG",
+        "B09NQYWYWV",
+        "B0D3KZKMZN",
+        "B06XCDGSBV",
+        "B0C8JJ65PG",
+        "B0D1VC1S35",
+        "B08TB9P7GG",
+        "B0H3QHJXVT"
+      ]
+    },
+    {
+      "key": "A36WZYTHW9099D:4",
+      "shop": "Aigostar",
+      "url": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=4&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0F1DB1F7D",
+        "B0DHWT4RMB",
+        "B0DB7DY5T6",
+        "B08J7JDGKL",
+        "B08FT5SJ6T",
+        "B084WXVLZC",
+        "B0C4DLFBNT",
+        "B0C4YF5DNC",
+        "B09BB68J3H",
+        "B01N34JLBM",
+        "B0GS27QVWY",
+        "B0GXB5MWLZ",
+        "B0C45RLTM1",
+        "B0D1FK2WNL",
+        "B097H2YY5L",
+        "B09M8MQG6L"
+      ]
+    },
+    {
+      "key": "A36WZYTHW9099D:5",
+      "shop": "Aigostar",
+      "url": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=5&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0GWJ746M7",
+        "B07KWVDNV2",
+        "B0DK7413J9",
+        "B0CNT4YZCH",
+        "B09S6KPD9L",
+        "B0BZYVYBMW",
+        "B0CNLK6B1Y",
+        "B08862LRWP",
+        "B01HGJWQ2C",
+        "B0CW9NK8Z6",
+        "B0GCK47738",
+        "B0CZX7FP4H",
+        "B0G1XD5HFP",
+        "B0F8QLP79F",
+        "B01N2314TG",
+        "B0F5B2HGD4"
+      ]
+    },
+    {
+      "key": "A36WZYTHW9099D:6",
+      "shop": "Aigostar",
+      "url": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=6&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0D83TJ1S8",
+        "B09G2V5HC4",
+        "B0D3TGG2HX",
+        "B09BVNBF5N",
+        "B01HBK8VCA",
+        "B0CZDKG5TB",
+        "B09CGF459K",
+        "B08QZ5ZVL5",
+        "B0GT313PJL",
+        "B07KWV5TRS",
+        "B0CNT61ZC6",
+        "B0GHNVQKNQ",
+        "B09C8M2WSZ",
+        "B0GXB7HC3H",
+        "B0C3CNR1WK",
+        "B01HD5KCKC"
+      ]
+    },
+    {
+      "key": "A36WZYTHW9099D:7",
+      "shop": "Aigostar",
+      "url": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=7&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B00X84JNQM",
+        "B0F1RRQVQS",
+        "B0CJ8RC58N",
+        "B09JS7SBWW",
+        "B0DKTH2LTY",
+        "B09928F5Y1",
+        "B0DB7S598V",
+        "B09S3B7P8Y",
+        "B01N11K2N9",
+        "B0GHR1LVMH",
+        "B09C65D7NV",
+        "B0DB7L7PRB",
+        "B0H1GHKM7P",
+        "B01HGK4OK8",
+        "B0G1RTCN34",
+        "B0FXGDMF36"
+      ]
+    },
+    {
+      "key": "A36WZYTHW9099D:8",
+      "shop": "Aigostar",
+      "url": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=8&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0CNT34MSW",
+        "B0888M15KJ",
+        "B08W42527S",
+        "B0FLK5ZZX1",
+        "B09C5VWGLK",
+        "B0FK9LGXXW",
+        "B09P9NHKPD",
+        "B0G7XWH7P9",
+        "B0HNP1Z14Z",
+        "B0G1RTPSLD",
+        "B083R6WRN4",
+        "B095SDTJND",
+        "B08TB2FPCL",
+        "B099ZMPCNN",
+        "B0CLVB2ZS1",
+        "B0C42TC9BC"
+      ]
+    },
+    {
+      "key": "A36WZYTHW9099D:9",
+      "shop": "Aigostar",
+      "url": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=9&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0HHCWQW3D",
+        "B0C5LV8Z68",
+        "B08TB9HCLV",
+        "B0GWR7XX8D",
+        "B09DXV5MGH",
+        "B0BQBRQDMP",
+        "B0DBZ22WKD",
+        "B0C7G5HVR9",
+        "B08XJJBQDS",
+        "B01HBKM8Z6",
+        "B08DQXVLL1",
+        "B0DB7QKP11",
+        "B01HIDERDM",
+        "B0BJVGBM8M",
+        "B0G5898MQZ",
+        "B07Z8QRP1Z"
+      ]
+    },
+    {
+      "key": "A36WZYTHW9099D:10",
+      "shop": "Aigostar",
+      "url": "https://www.amazon.de/s?me=A36WZYTHW9099D&page=10&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B097BWK7JQ",
+        "B0C9ZKC2QT",
+        "B096S4Q7XR",
+        "B08SCLDJ9V",
+        "B0B63P77QZ",
+        "B0GYNLS594",
+        "B094N4RZSY",
+        "B0GGY8N18D",
+        "B09JWGWSQ6",
+        "B08S74W4NV",
+        "B087NFVJ5M",
+        "B0GWJFGR16",
+        "B0DZP1N6H4",
+        "B013CFJL3G",
+        "B08W3ZX1W5",
+        "B095BVBCMD"
+      ]
+    },
+    {
+      "key": "A3JXC9NZTPXD6E:1",
+      "shop": "WDRAVEN",
+      "url": "https://www.amazon.de/s?me=A3JXC9NZTPXD6E&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0DLGS4LR3",
+        "B0CS6MDB3G",
+        "B0GSJPNMZD",
+        "B0DLGQWNWC",
+        "B0DLGWNKFP",
+        "B0DTSM5SB6",
+        "B0BBB47KBH",
+        "B09TQMPNTK",
+        "B0DNZ4HL81",
+        "B0GR51Y9T5",
+        "B0CQFTRXJR",
+        "B0B7H9GPPD",
+        "B0DWK8PHLR",
+        "B0GTYZV6DC",
+        "B0BMPDZBQG",
+        "B0B5QTDDHZ"
+      ]
+    },
+    {
+      "key": "A3510TF2HJBUXD:1",
+      "shop": "MARS HYDRO",
+      "url": "https://www.amazon.de/s?me=A3510TF2HJBUXD&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B08R9HB51V",
+        "B0D6YZ3QW7",
+        "B0C39ZQZP3",
+        "B0CSSGM83C",
+        "B08RYY6P17",
+        "B0BPM3PDK1",
+        "B0CWKH73XX",
+        "B08P4PJGMD",
+        "B0CSYHP5G3"
+      ]
+    },
+    {
+      "key": "A36E2FNW102HKA:1",
+      "shop": "Papettly",
+      "url": "https://www.amazon.de/s?me=A36E2FNW102HKA&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0DQ8CGVZ5"
+      ]
+    },
+    {
+      "key": "A2HNRJP4PI7940:1",
+      "shop": "EU-Travel-Store",
+      "url": "https://www.amazon.de/s?me=A2HNRJP4PI7940&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0BK4XLNR7",
+        "B0B8CMV9RY",
+        "B0BG6TZQ77",
+        "B0BN1HXMZY",
+        "B0C1YCLXPC",
+        "B0DL5B9NQN",
+        "B0CWLDX4B1",
+        "B0DL5CYKZ9",
+        "B0G4LJKTD1",
+        "B0CPHWWB5W",
+        "B0BKZ2VR7F",
+        "B0BGBLCQXC",
+        "B0DM5TGDK5",
+        "B0CSDKGQQP",
+        "B0D149V588",
+        "B0H38YHGRV"
+      ]
+    },
+    {
+      "key": "A15CML1EFCQU74:1",
+      "shop": "HEYTRIP",
+      "url": "https://www.amazon.com/s?me=A15CML1EFCQU74&language=en",
+      "postal": "中国大陆",
+      "asins": [
+        "B08DFLFTBQ",
+        "B0838Y5XHY",
+        "B0B92K3BGV",
+        "B08PVHM4Z1",
+        "B0CL8XBNRY",
+        "B0BQ6LP4GJ",
+        "B08PVGH5RY",
+        "B0FLK2V5W4",
+        "B09P1GNM21",
+        "B09P1J897R",
+        "B09P1KB1SV",
+        "B0B31GZ15Z",
+        "B0B1CQS23D",
+        "B0B551WCLQ",
+        "B09C1Q86VY",
+        "B0B554GC3R"
+      ]
+    },
+    {
+      "key": "AZT0LG13017BT:1",
+      "shop": "Boxtech",
+      "url": "https://www.amazon.de/s?me=AZT0LG13017BT&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B07X2MLF96",
+        "B07PH5P2HS",
+        "B0FLQ4PZ57",
+        "B0BYZ4SPG8",
+        "B0BFHJVWXN",
+        "B0D7NT1Y9X",
+        "B08S77R86Q",
+        "B0GL1ZW8V6",
+        "B09QM55TQY",
+        "B0D7Q4K59Z",
+        "B07FXV8KZ3",
+        "B07TK6JKCG",
+        "B0F631XN3K",
+        "B0CR67WZXW",
+        "B0B8YVH6KK",
+        "B0BMLKCZBC"
+      ]
+    },
+    {
+      "key": "A3O9K00CUTX8ZO:1",
+      "shop": "Dyna-Living",
+      "url": "https://www.amazon.de/s?me=A3O9K00CUTX8ZO&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0BD3DZ4WD",
+        "B096SFSTJN",
+        "B0B3DGX671",
+        "B0BPRQ2WH3",
+        "B0BTYDVG5M"
+      ]
+    },
+    {
+      "key": "A3FN2GAHS3L5Y9:1",
+      "shop": "TLGREEN",
+      "url": "https://www.amazon.de/s?me=A3FN2GAHS3L5Y9&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0FCS3QZCV",
+        "B0G3V88LWZ",
+        "B0D7PZBTDT",
+        "B0CK125B2M",
+        "B0H5JPNM1D",
+        "B0CGZVBQGT",
+        "B0FFB9SLCC",
+        "B0F93TNH87",
+        "B0CPDHHRZM",
+        "B0BL2XWWVN",
+        "B0G135NW8K",
+        "B0FHP2G91C",
+        "B0CMTWZ8C9",
+        "B0F4KN6JG4",
+        "B0BWFFPQWG",
+        "B0D3F5W9FW"
+      ]
+    },
+    {
+      "key": "A18CCLOB2Q7P8A:1",
+      "shop": "Mocoli",
+      "url": "https://www.amazon.de/s?me=A18CCLOB2Q7P8A&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0FBGG7G17",
+        "B0D5B1HLBX",
+        "B0B6V81FK4",
+        "B0D9QBRDCS",
+        "B0DRFLVG76",
+        "B0FMFBSKF6",
+        "B0FMFGDDL6",
+        "B0DP9PPXW3",
+        "B0BY8THGP4",
+        "B0FFYZQRSM",
+        "B0DZXGV2H9",
+        "B0F5Q4KPGW",
+        "B0CCL31HZV",
+        "B0FSDQ4JVD",
+        "B0D4V67GZ4",
+        "B0DJ2VRMF2"
+      ]
+    },
+    {
+      "key": "A2943E47GVY1E3:1",
+      "shop": "Auto-Home",
+      "url": "https://www.amazon.de/s?me=A2943E47GVY1E3&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B085XQ4TK4",
+        "B0DB1MCW5J",
+        "B0H6BSTJ7B",
+        "B0H36Y91NT",
+        "B0DRV9ZL3B",
+        "B0BYDLZNGV",
+        "B0GYRSG6L8",
+        "B0DB1N8WP3",
+        "B087QG19CD",
+        "B0DRVFPWNB",
+        "B0GV3KM3N9",
+        "B0DMN72KXM",
+        "B0DQQ1HS19",
+        "B0H6BZS6DW",
+        "B09XJSJ55Q",
+        "B0DJSRV884"
+      ]
+    },
+    {
+      "key": "A35R3AFD5OLVO7:1",
+      "shop": "KESSER",
+      "url": "https://www.amazon.de/s?me=A35R3AFD5OLVO7&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0FZLMSPGV",
+        "B0H298RTR2",
+        "B0B77HRSTZ",
+        "B08B3QWMC5",
+        "B096SWL1PC",
+        "B0CSDJ49H6",
+        "B07YF2YZVL",
+        "B07DZK3R43",
+        "B0HM7WSNHQ",
+        "B0HK4PY859",
+        "B08KDFV835",
+        "B0H298B14J",
+        "B0HKNMFR4J",
+        "B0D9BL9R48",
+        "B0FZLN5X9T",
+        "B09W68S5HH"
+      ]
+    },
+    {
+      "key": "A315FL7N6MS5DZ:1",
+      "shop": "YUXIVCNE",
+      "url": "https://www.amazon.com/s?me=A315FL7N6MS5DZ&language=en",
+      "postal": "中国大陆",
+      "asins": [
+        "B0CKPHSMZ1",
+        "B0BMLQXBXS",
+        "B0BTM6J33K",
+        "B0BJ8BS47P",
+        "B0CN8D9W9L",
+        "B0H6PJ41J2",
+        "B0DRWNSWXX",
+        "B0HCVFPQCG",
+        "B0F4769QX2",
+        "B0DJW58GJD",
+        "B0BNNXY1DD",
+        "B0DPRT5HSP",
+        "B0GGGVPBM6",
+        "B0DZXKDNZ5",
+        "B0BLJXQBKG",
+        "B0DPPCG2S5"
+      ]
+    },
+    {
+      "key": "A1ZCJK0U7MWDPO:1",
+      "shop": "FOHERE",
+      "url": "https://www.amazon.de/s?me=A1ZCJK0U7MWDPO&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0D14SVVWT",
+        "B0DMDQS2BD",
+        "B0FF9RYW5R",
+        "B0B5H6DB63",
+        "B0B81RCFGL",
+        "B0GJZBTMYW",
+        "B09VKKL866",
+        "B0H6MBBQS8",
+        "B0HDC4KG9R",
+        "B0GDXTWVLB",
+        "B0G2WP99Q6",
+        "B0GF26TBWX",
+        "B0FNRC5GZN",
+        "B0HN245DYV",
+        "B09TPMXDP6",
+        "B09TDJP6LY"
+      ]
+    },
+    {
+      "key": "AGCZFT13D2Y8I:1",
+      "shop": "AUTOUTLET",
+      "url": "https://www.amazon.de/s?me=AGCZFT13D2Y8I&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0DZX44Q5Y",
+        "B0BRFVMCJV",
+        "B0DCDVSWCY",
+        "B0FKMCV74N",
+        "B0G2LRNH5K",
+        "B09V2RQ6R9",
+        "B0CXPG3S6J",
+        "B0DQSRFT7T",
+        "B0HBWWFHCD",
+        "B086ZMDKL9",
+        "B0FCMHPMNM",
+        "B0B3T328KK",
+        "B07RHSXN3M",
+        "B09MJZRR3Q",
+        "B07CTKJCKJ",
+        "B0HBW8WMV6"
+      ]
+    },
+    {
+      "key": "A1KCCVF1YLE2HA:1",
+      "shop": "Endoscope-Pro",
+      "url": "https://www.amazon.de/s?me=A1KCCVF1YLE2HA&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0C69M17SB",
+        "B0H41LQZTF",
+        "B0CDW4XZ27",
+        "B0CB5GHG3L",
+        "B0CR16ZMWF",
+        "B0C7TXY5G8",
+        "B0D12CY6DV",
+        "B0D144YKCT",
+        "B0CR33VFMC",
+        "B0CM97YRDD",
+        "B0CLZT94HJ",
+        "B0DQ51DN2T",
+        "B0CK254781",
+        "B0GXB28PTC"
+      ]
+    },
+    {
+      "key": "A2B3GZ8NH7UKLY:1",
+      "shop": "IceSpikes-Gear",
+      "url": "https://www.amazon.de/s?me=A2B3GZ8NH7UKLY&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0CG56W3CS",
+        "B0GGJFDQ8P",
+        "B0GWXDCNS6",
+        "B0FPR25GNN",
+        "B0GG2RB28B",
+        "B0GWX1M3RM",
+        "B0GFW8Z4ST",
+        "B0FPR13QJB",
+        "B0HG5M4QB5",
+        "B0HHDMYB96",
+        "B0HG5LZMJM",
+        "B0DFQ4RZFV",
+        "B0HFKCSG5X",
+        "B0GQBBQ9PS",
+        "B0GQBBHYL6",
+        "B09NRT4X6L"
+      ]
+    },
+    {
+      "key": "A2X2IS1I8BHRL9:1",
+      "shop": "QWORK",
+      "url": "https://www.amazon.de/s?me=A2X2IS1I8BHRL9&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0B7BFR6YB",
+        "B0F6L9ZXRZ",
+        "B0BJQ2GGCY",
+        "B0GNCKBNXW",
+        "B0C659KQ1P",
+        "B08SC3X9H5",
+        "B0DY1BDHXY",
+        "B09Z5XSLGD",
+        "B0B2P4KRN7",
+        "B0CG69FDYM",
+        "B0D8FCFMC9",
+        "B0BGS89V6M",
+        "B0HH9G5BS3",
+        "B0DQLBM4HV",
+        "B0C3HMRLLX",
+        "B0DTKHV9B7"
+      ]
+    },
+    {
+      "key": "AYIHZU4TYW5FH:1",
+      "shop": "Creative-Stationery",
+      "url": "https://www.amazon.de/s?me=AYIHZU4TYW5FH&language=en",
+      "postal": "Berlin 10115‌",
+      "asins": [
+        "B0FMJCJ2P5",
+        "B0F3XQ4RSQ",
+        "B0HGLBPMXW",
+        "B0FK5P4DMN",
+        "B0FRG9QKKC",
+        "B0F83XK1GN",
+        "B0HL83CNT5",
+        "B0GLGTBHMZ",
+        "B0H94ZDJ3H",
+        "B0HJ82V9Z5",
+        "B0F842RYNT",
+        "B0HHJ8ZC72",
+        "B0GF861DYJ",
+        "B0FVM5BP1F",
+        "B0FKGNVBVQ",
+        "B0HHS9SNWH"
+      ]
+    }
+  ]
+}

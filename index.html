@@ -17245,7 +17245,7 @@
     "reviewsCountFormatted": "10"
   }
 ];
-    let pendingSubmissions = [{"id": "sub_demo_01", "submitTime": "2026-11-06 10:00", "url": "https://www.amazon.de/s?me=A255LZU2HQL2LK", "sellerId": "A255LZU2HQL2LK", "brandHint": "BmnzEU (待复核)", "status": "pending_local_review", "submitter": "团队成员"}];
+    let pendingSubmissions = [];
 
     let dashboardMode = 'all';
     let currentShop = 'all';
@@ -17827,6 +17827,24 @@
       if(el) el.textContent=siteProducts().filter(p=>String(getRemark(p.asin)||'').trim()).length;
     }
 
+    async function fetchRemotePendingQueue() {
+      try {
+        const url = 'https://api.github.com/repos/' + GITHUB_REPO_OWNER + '/' + GITHUB_REPO_NAME + '/contents/data/pending_submissions.json?t=' + Date.now();
+        const res = await fetch(url, { headers: { 'Accept': 'application/vnd.github+json' }, cache: 'no-store' });
+        if (res.ok) {
+          const data = await res.json();
+          if (data.content) {
+            const list = JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(data.content.replace(/\s/g, '')), c => c.charCodeAt(0))));
+            // 仅展示待处理状态的提报
+            pendingSubmissions = list.filter(x => x.status !== 'completed' && x.status !== 'excluded');
+            renderPendingQueue();
+          }
+        }
+      } catch (e) {
+        console.warn('拉取云端提报队列提示:', e);
+      }
+    }
+
     function init() {
       for(const s of rawShops){if(!s.submitter){const record=pendingSubmissions.find(x=>x.sellerId===s.sellerId && x.submitter && x.submitter!=='网页访问者');if(record)s.submitter=record.submitter;}}
       initSites();
@@ -17839,6 +17857,9 @@
       renderShopChips();
       renderPendingQueue();
       applyFilters();
+
+      // 异步动态拉取云端最新的真实待办队列
+      fetchRemotePendingQueue();
     }
 
     function renderPendingQueue() {

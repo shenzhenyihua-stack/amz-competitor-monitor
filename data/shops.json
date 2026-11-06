@@ -1,56 +1,68 @@
 [
   {
     "sellerId": "A36WZYTHW9099D",
-    "shopName": "A36WZYTHW9099D",
+    "brand": "Aigostar",
+    "shopName": "Aigostar",
+    "displayName": "Aigostar",
     "businessName": "AIGOTECH ONSYNK S.L",
     "site": "Amazon.de",
     "totalEstimate": "约 666 款",
-    "status": "有效在售",
-    "scrapedCount": 154
-  },
-  {
-    "sellerId": "A1C85KUKUE3VUB",
-    "shopName": "A1C85KUKUE3VUB",
-    "businessName": "shenzhenshigaodafeikejiyouxiangongsi",
-    "site": "Amazon.de",
-    "totalEstimate": "5 款(全量)",
-    "status": "有效在售",
-    "scrapedCount": 5
-  },
-  {
-    "sellerId": "A36E2FNW102HKA",
-    "shopName": "A36E2FNW102HKA",
-    "businessName": "shen zhen bo bin ke ji you xian gong si",
-    "site": "Amazon.de",
-    "totalEstimate": "1 款(全量)",
-    "status": "有效在售",
-    "scrapedCount": 1
-  },
-  {
-    "sellerId": "A3510TF2HJBUXD",
-    "shopName": "A3510TF2HJBUXD",
-    "businessName": "Shenzhen Zhuguangxinyue Technologies Co. Ltd",
-    "site": "Amazon.de",
-    "totalEstimate": "9 款(全量)",
-    "status": "有效在售",
-    "scrapedCount": 9
+    "scrapedCount": 154,
+    "note": "主营智能插座、电热水壶、小家电、照明与宠物用品 (含Nobleza, Taylor Swoden)"
   },
   {
     "sellerId": "ATXDFD03MTCAB",
-    "shopName": "ATXDFD03MTCAB",
+    "brand": "Preciva",
+    "shopName": "Preciva",
+    "displayName": "Preciva",
     "businessName": "shenzhenshitianpengshengkejiyouxiangongsi",
     "site": "Amazon.de",
-    "totalEstimate": "145 款(12页全量)",
-    "status": "有效在售",
-    "scrapedCount": 189
+    "totalEstimate": "约 145 款",
+    "scrapedCount": 189,
+    "note": "主营五金工具、压线钳、焊台烙铁、数显卡尺、打孔钳"
   },
   {
     "sellerId": "A3JXC9NZTPXD6E",
+    "brand": "WDRAVEN",
     "shopName": "WDRAVEN",
+    "displayName": "WDRAVEN",
     "businessName": "WDRAVEN Direct",
     "site": "Amazon.de",
-    "totalEstimate": ">1000 款",
-    "status": "有效在售",
-    "scrapedCount": 16
+    "totalEstimate": "> 1,000 款",
+    "scrapedCount": 16,
+    "note": "主营骑行工具、自行车维修架、五金户外配件"
+  },
+  {
+    "sellerId": "A3510TF2HJBUXD",
+    "brand": "MARS HYDRO",
+    "shopName": "MARS HYDRO",
+    "displayName": "MARS HYDRO",
+    "businessName": "Shenzhen Zhuguangxinyue Technologies Co. Ltd",
+    "site": "Amazon.de",
+    "totalEstimate": "9 款",
+    "scrapedCount": 9,
+    "note": "主营植物生长灯、植物生长帐篷成套设备、管道风机"
+  },
+  {
+    "sellerId": "A1C85KUKUE3VUB",
+    "brand": "STARTRC",
+    "shopName": "STARTRC",
+    "displayName": "STARTRC",
+    "businessName": "shenzhenshigaodafeikejiyouxiangongsi",
+    "site": "Amazon.de",
+    "totalEstimate": "5 款",
+    "scrapedCount": 5,
+    "note": "主营大疆无人机配件、ND减光镜滤镜组、云台保险杠"
+  },
+  {
+    "sellerId": "A36E2FNW102HKA",
+    "brand": "Papettly",
+    "shopName": "Papettly",
+    "displayName": "Papettly",
+    "businessName": "shen zhen bo bin ke ji you xian gong si",
+    "site": "Amazon.de",
+    "totalEstimate": "1 款",
+    "scrapedCount": 1,
+    "note": "主营宠物凉感垫、宠物夏季用品"
   }
 ]

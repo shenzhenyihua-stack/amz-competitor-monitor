@@ -1,20 +1,137 @@
 [
   {
     "sellerId": "ADRRYB6BJD8LK",
-    "businessName": "JUANREZ BUSINESS, SOCIEDAD LIMITADA",
-    "site": "Amazon.de",
-    "reason": "Edge调试模式排查结果：页面明确显示 0 Ergebnisse (0在售)，当前无在售商品，已标记排除"
+    "brand": "JUANREZ BUSINESS",
+    "reason": "0在售/无结果 (2026-11-05留存)"
   },
   {
     "sellerId": "AGOP06Q1UFBM3",
-    "businessName": "MOMOCHICOA SL",
-    "site": "Amazon.de",
-    "reason": "Edge调试模式排查结果：页面明确显示 0 Ergebnisse (0在售)，当前无在售商品，已标记排除"
+    "brand": "MOMOCHICOA",
+    "reason": "0在售/无结果 (2026-11-05留存)"
   },
   {
     "sellerId": "AQJ0PJSZQRQGE",
-    "businessName": "KIROLOS VIOFIL SISTEM S.R.L.",
-    "site": "Amazon.de",
-    "reason": "Edge调试模式排查结果：页面明确显示 0 Ergebnisse (0在售)，当前无在售商品，已标记排除"
+    "brand": "KIROLOS VIOFIL",
+    "reason": "0在售/无结果 (2026-11-05留存)"
+  },
+  {
+    "sellerId": "A255LZU2HQL2LK",
+    "brand": "A255LZU2HQL2LK",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "ARQL88EW01J40",
+    "brand": "ARQL88EW01J40",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A1N077ACW73I0I",
+    "brand": "A1N077ACW73I0I",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A2YZNP9RAUSTVH",
+    "brand": "A2YZNP9RAUSTVH",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A2R55J4UQK2JNP",
+    "brand": "A2R55J4UQK2JNP",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A3DWAAY9RKHUI7",
+    "brand": "A3DWAAY9RKHUI7",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A270ILX216HJAF",
+    "brand": "A270ILX216HJAF",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A3CG9HB8PSBL1Z",
+    "brand": "A3CG9HB8PSBL1Z",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A1LG02GKQNAHQ1",
+    "brand": "A1LG02GKQNAHQ1",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A7YID3EP1CTKT",
+    "brand": "A7YID3EP1CTKT",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "AWQAK54IYM8YC",
+    "brand": "AWQAK54IYM8YC",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A3IZZMXKVHNMX0",
+    "brand": "A3IZZMXKVHNMX0",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A26K3PRCLO3B19",
+    "brand": "A26K3PRCLO3B19",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "AB2D526PPL6HW",
+    "brand": "AB2D526PPL6HW",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A2ZPG5DB9ZWF90",
+    "brand": "A2ZPG5DB9ZWF90",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A3FP7I2QUJF2ET",
+    "brand": "A3FP7I2QUJF2ET",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A33NHJQSPPQNGU",
+    "brand": "A33NHJQSPPQNGU",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A2GTHABPYCJ5NM",
+    "brand": "A2GTHABPYCJ5NM",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A2B7N12TG78FXE",
+    "brand": "A2B7N12TG78FXE",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A3GJ1R727MWGUN",
+    "brand": "A3GJ1R727MWGUN",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A2A46KT719SRUG",
+    "brand": "A2A46KT719SRUG",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A2ZT2KVHLP27SD",
+    "brand": "A2ZT2KVHLP27SD",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A1QLRYOQNTGMI7",
+    "brand": "A1QLRYOQNTGMI7",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
+  },
+  {
+    "sellerId": "A35ZM0L6CYIJTZ",
+    "brand": "A35ZM0L6CYIJTZ",
+    "reason": "0在售/无结果 (2026-11-06批量排查)"
   }
 ]

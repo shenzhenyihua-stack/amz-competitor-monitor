@@ -912,6 +912,13 @@
       </div>
     </div>
 
+    <form id="deletionRequestForm" onsubmit="return false" style="margin:12px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+      <label>删除申请人 <input name="submitter" maxlength="80" required></label>
+      <label>理由（选填） <input name="reason" maxlength="300"></label>
+      <button type="button" class="copy-btn" id="requestBatchDeletion" disabled onclick="requestDeletion('products', [...deletionSelection.values()])">申请删除所选商品（0）</button>
+      <button type="button" class="copy-btn" onclick="deletionSelection.clear(); refreshDeletionSelection()">清空选择</button>
+      <span id="deletionStatus" role="status" aria-live="polite"></span>
+    </form>
     <div class="product-grid" id="productGrid"></div>
     <div class="table-container" id="tableContainer">
       <table>
@@ -28073,6 +28080,87 @@
       applyFilters();
     }
 
+    const deletionSelection = new Map();
+    const deletionKey = p => JSON.stringify([siteOf(p), p.sellerId, p.asin]);
+
+    function deletionControls(p) {
+      const box = document.createElement('span');
+      const label = document.createElement('label');
+      const input = document.createElement('input');
+      input.type = 'checkbox';
+      input.dataset.deletionKey = deletionKey(p);
+      input.checked = deletionSelection.has(input.dataset.deletionKey);
+      input.onchange = () => {
+        if (input.checked) deletionSelection.set(input.dataset.deletionKey, p);
+        else deletionSelection.delete(input.dataset.deletionKey);
+        refreshDeletionSelection();
+      };
+      label.append(input, ' 选择 ');
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'copy-btn';
+      button.textContent = '申请删除商品';
+      button.onclick = () => requestDeletion('products', [p]);
+      box.append(label, button);
+      return box;
+    }
+
+    function refreshDeletionSelection() {
+      document.querySelectorAll('[data-deletion-key]').forEach(input => {
+        input.checked = deletionSelection.has(input.dataset.deletionKey);
+      });
+      const button = document.getElementById('requestBatchDeletion');
+      button.disabled = !deletionSelection.size;
+      button.textContent = '申请删除所选商品（' + deletionSelection.size + '）';
+    }
+
+    async function requestDeletion(kind, records) {
+      const form = document.getElementById('deletionRequestForm');
+      const status = document.getElementById('deletionStatus');
+      const submitter = form.elements.submitter.value.trim();
+      if (!submitter) {
+        status.textContent = '请先填写删除申请人。';
+        form.scrollIntoView({block: 'center'});
+        form.elements.submitter.focus();
+        return;
+      }
+      if (!records.length || form.dataset.saving) return;
+      form.dataset.saving = 'true';
+      status.textContent = '正在提交删除申请…';
+      const targets = records.map(p => kind === 'shop'
+        ? {sellerId: p.sellerId, name: p.brand}
+        : {sellerId: p.sellerId, site: siteOf(p), asin: p.asin, name: p.title});
+      const record = {id: crypto.randomUUID(), kind, targets, submitter,
+        reason: form.elements.reason.value.trim(), requestedAt: new Date().toISOString(),
+        status: 'pending_local_review'};
+      const url = 'https://api.github.com/repos/' + GITHUB_REPO_OWNER + '/' + GITHUB_REPO_NAME + '/contents/data/deletion_requests.json';
+      const headers = {Authorization: 'token ' + GITHUB_COLLAB_TOKEN, Accept: 'application/vnd.github+json'};
+      try {
+        for (let attempt = 0; attempt < 3; attempt++) {
+          const response = await fetch(url, {headers, cache: 'no-store'});
+          if (!response.ok) throw Error('读取队列失败 ' + response.status);
+          const file = await response.json();
+          const list = JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(file.content), c => c.charCodeAt(0))));
+          if (list.some(item => item.id === record.id)) break;
+          list.push(record);
+          const bytes = new TextEncoder().encode(JSON.stringify(list, null, 2));
+          const content = btoa(Array.from(bytes, x => String.fromCharCode(x)).join(''));
+          const saved = await fetch(url, {method: 'PUT', headers: {...headers, 'Content-Type': 'application/json'},
+            body: JSON.stringify({message: 'Queue deletion request', sha: file.sha, content, branch: 'main'})});
+          if (saved.ok) break;
+          if (saved.status !== 409 || attempt === 2) throw Error('保存失败 ' + saved.status);
+        }
+        if (kind === 'products') records.forEach(p => deletionSelection.delete(deletionKey(p)));
+        refreshDeletionSelection();
+        status.textContent = '已提交 ' + targets.length + ' 项，等待本机审核。';
+      } catch (error) {
+        status.textContent = '申请未确认保存，请重试。' + error.message;
+      } finally {
+        delete form.dataset.saving;
+        form.scrollIntoView({block: 'nearest'});
+      }
+    }
+
     function renderShopChips() {
       const container = document.getElementById('shopChipsContainer');
       container.innerHTML = '';
@@ -28093,6 +28181,12 @@
         chip.className = `shop-chip ${currentShop === s.sellerId ? 'active' : ''}`;
         chip.onclick = () => filterByShop(s.sellerId);
         chip.innerHTML = `${escapeHtml(s.brand)} <span class="shop-chip-badge">${count}</span>${s.submitter ? `<small style="display:block;font-size:10px;">提报人：${escapeHtml(s.submitter)}</small>` : ''}`;
+        const remove = document.createElement('button');
+        remove.type = 'button';
+        remove.className = 'copy-btn';
+        remove.textContent = '申请删除店铺';
+        remove.onclick = event => { event.stopPropagation(); requestDeletion('shop', [s]); };
+        chip.append(' ', remove);
         container.appendChild(chip);
       });
     }
@@ -28228,6 +28322,7 @@
             </div>
           </div>
         `;
+        card.querySelector('.card-actions').appendChild(deletionControls(p));
         grid.appendChild(card);
       });
     }
@@ -28253,6 +28348,7 @@
           <td id="td-remark-${p.asin}">${renderTableRemarkHtml(p.asin, remarkText)}</td>
           <td><a href="${amazonUrl}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-hover); text-decoration: none; font-weight: 600;">打开 ↗</a></td>
         `;
+        tr.lastElementChild.appendChild(deletionControls(p));
         tbody.appendChild(tr);
       });
     }

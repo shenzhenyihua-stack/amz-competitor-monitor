@@ -1050,6 +1050,23 @@ header,.shop-sidebar{background:#142130}.brand-period{color:#6dd9de}.top-site-sw
 .search-input,.filter-select,.submit-input,.view-btn,.btn-detail,.submit-tip,.queue-box,#deletionRequestForm,th,.deletion-product-check,.deletion-fields input,.deletion-fields select,.deletion-fields button{background:#203142;color:#d8e4ee;border-color:#3b5266}
 #deletionPanel>summary{background:#3a2c2b;border-color:#70524a;color:#ffd0bb}#catalogBatch{background:#203c4d;border-color:#3c7289}.product-card:hover{border-color:#58809c}.product-card:has(.deletion-product-check input:checked){outline-color:#63c8e7}:where(button,summary,a,input,select):focus-visible{outline-color:#63c8e7}
 </style>
+<style id="product-display-spacing">
+
+.header-container,main {max-width:none}
+header {padding-inline:16px}
+main {width:100%;padding-inline:16px}
+.catalog-workspace {gap:16px}
+.product-grid .img-box {height:218px}
+.product-grid .img-box img {width:94%;height:90%;max-width:none;max-height:none;object-fit:contain}
+.table-thumb {width:56px;height:56px;background:var(--bg-tertiary)}
+@media(max-width:800px) {
+  header,main {padding-inline:10px}
+}
+@media(max-width:480px) {
+  .product-grid .img-box {height:156px}
+}
+
+</style>
 </head>
 <body>
 
@@ -1251,7 +1268,6 @@ header,.shop-sidebar{background:#142130}.brand-period{color:#6dd9de}.top-site-sw
           <div><strong>排查日期:</strong> <span id="modalDate"></span></div>
         </div>
         <div style="display: flex; gap: 10px; margin-top: auto;">
-          <button class="btn-detail" style="flex: 1;" onclick="copyCurrentAsin()">📋 复制 ASIN</button>
           <a class="btn-amazon" id="modalAmazonLink" href="#" target="_blank" rel="noopener noreferrer" style="flex: 1.2;">🔗 在 Amazon 官网查看商品 ↗</a>
         </div>
       </div>
@@ -28606,7 +28622,6 @@ header,.shop-sidebar{background:#142130}.brand-period{color:#6dd9de}.top-site-sw
             ${submitterOf(p) ? `<div class="submitter-label">提报人：${escapeHtml(submitterOf(p))}</div>` : ''}
             <div class="asin-row">
               <span class="asin-code">${p.asin}</span>
-              <button class="copy-btn" onclick="copyAsin('${p.asin}')">复制 ASIN</button>
             </div>
             <h3 class="card-title" title="${p.title}">${p.title}</h3>
             ${p.selectionApprovedAt ? '<span class="selection-tag">已选品</span>' : ''}<div class="price-row">
@@ -28688,17 +28703,6 @@ header,.shop-sidebar{background:#142130}.brand-period{color:#6dd9de}.top-site-sw
       document.getElementById('modalOverlay').style.display = 'none';
     }
 
-    function copyAsin(asin) {
-      navigator.clipboard.writeText(asin).then(() => {
-        alert('ASIN: ' + asin + ' 已复制到剪贴板！');
-      }).catch(() => {
-        prompt('请复制 ASIN:', asin);
-      });
-    }
-
-    function copyCurrentAsin() {
-      if (currentAsinForCopy) copyAsin(currentAsinForCopy);
-    }
 
     document.getElementById('searchInput').addEventListener('input', applyFilters);
     document.getElementById('priceFilter').addEventListener('change', applyFilters);

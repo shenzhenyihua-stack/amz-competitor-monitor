@@ -1040,7 +1040,7 @@ header {background:#211a2e}
 .product-card:hover {border-color:#8d67b6}
 
 </style>
-</head>
+<style>#selectionRequest{position:absolute;right:112px;top:14px} .filter-section>.filter-label{padding-right:225px} .selection-tag{display:inline-block;width:max-content;padding:2px 8px;border-radius:5px;background:#294439;color:#b9efdc;font-size:12px;font-weight:700}</style></head>
 <body>
 
   <header>
@@ -1107,7 +1107,7 @@ header {background:#211a2e}
     </div>
 
     <div class="catalog-workspace"><aside class="shop-sidebar"><details open><summary>监控店铺</summary><div class="shop-chips" id="shopChipsContainer"></div></details></aside><section class="catalog-content"><div class="catalog-heading"><div><div class="catalog-eyebrow">亚马逊竞品监控</div><h2>商品目录</h2></div></div><div class="filter-section">
-      <div class="filter-label" id="filterLabel">按店铺筛选</div><details id="deletionPanel"><summary onclick="populateDeletionShops()">删除申请<span id="deletionCount"></span></summary><form id="deletionRequestForm" onsubmit="return false"><div class="deletion-fields"><label>申请人<input name="submitter" maxlength="80" required></label><label>理由（选填）<input name="reason" maxlength="300"></label></div><div class="deletion-fields"><label>店铺<select id="deletionShop"><option value="">选择店铺</option></select></label><button type="button" onclick="requestSelectedShop()">申请删除店铺</button></div><div class="deletion-fields"><button type="button" id="requestBatchDeletion" disabled onclick="requestDeletion('products', [...deletionSelection.values()])">申请删除所选商品（0）</button><button type="button" onclick="deletionSelection.clear(); refreshDeletionSelection()">清空选择</button></div><small>可在商品卡片右上角勾选，申请由本机审核。</small><div id="deletionStatus" role="status" aria-live="polite"></div></form></details>
+      <div class="filter-label" id="filterLabel">按店铺筛选</div><button type="button" class="view-btn" id="selectionRequest" onclick="openSelectionRequest()">选品申请</button><details id="deletionPanel"><summary onclick="populateDeletionShops()">删除申请<span id="deletionCount"></span></summary><form id="deletionRequestForm" onsubmit="return false"><div class="deletion-fields"><label>申请人<input name="submitter" maxlength="80" required></label><label>理由（选填）<input name="reason" maxlength="300"></label></div><div class="deletion-fields"><label>店铺<select id="deletionShop"><option value="">选择店铺</option></select></label><button type="button" onclick="requestSelectedShop()">申请删除店铺</button></div><div class="deletion-fields"><button type="button" id="requestSelectionSubmit" onclick="requestDeletion('selection', [...deletionSelection.values()])">提交选品申请</button><button type="button" id="requestBatchDeletion" disabled onclick="requestDeletion('products', [...deletionSelection.values()])">申请删除所选商品（0）</button><button type="button" onclick="deletionSelection.clear(); refreshDeletionSelection()">清空选择</button></div><small>可在商品卡片右上角勾选，申请由本机审核。</small><div id="deletionStatus" role="status" aria-live="polite"></div></form></details>
       
 
       <div class="secondary-filters">
@@ -1167,7 +1167,7 @@ header {background:#211a2e}
       </table>
     </div>
 
-    <nav id="catalogPager" aria-label="商品分页" hidden></nav><div id="catalogBatch" hidden><span id="catalogBatchCount"></span><button type="button" class="view-btn" onclick="openCatalogDeletion()">处理所选商品</button><button type="button" class="view-btn" onclick="deletionSelection.clear();refreshDeletionSelection()">清空</button></div></section></div><div class="submit-section" id="submitSection">
+    <nav id="catalogPager" aria-label="商品分页" hidden></nav><div id="catalogBatch" hidden><span id="catalogBatchCount"></span><button type="button" class="view-btn" onclick="openCatalogDeletion()">申请删除</button><button type="button" class="view-btn" onclick="openSelectionRequest()">申请选品</button><button type="button" class="view-btn" onclick="deletionSelection.clear();refreshDeletionSelection()">清空</button></div></section></div><div class="submit-section" id="submitSection">
       <div class="submit-header">
         <div class="submit-title">
           <span>提报新店铺</span>
@@ -28361,6 +28361,20 @@ header {background:#211a2e}
         select.focus();
       }
     }
+    function openSelectionRequest() {
+      const panel = document.getElementById('deletionPanel');
+      const status = document.getElementById('deletionStatus');
+      panel.open = true;
+      populateDeletionShops();
+      if (!deletionSelection.size) {
+        status.textContent = '请先勾选商品卡片右上角的选择框。';
+        panel.scrollIntoView({block:'nearest'});
+        return;
+      }
+      document.getElementById('requestSelectionSubmit').focus();
+      status.textContent = '已选 ' + deletionSelection.size + ' 件商品，填写申请人后可提交选品。';
+    }
+
     async function requestDeletion(kind, records) {
       const form = document.getElementById('deletionRequestForm');
       const status = document.getElementById('deletionStatus');
@@ -28401,7 +28415,7 @@ header {background:#211a2e}
           if (saved.ok) break;
           if (saved.status !== 409 || attempt === 2) throw Error('保存失败 ' + saved.status);
         }
-        if (kind === 'products') records.forEach(p => deletionSelection.delete(deletionKey(p)));
+        if (kind !== 'shop') records.forEach(p => deletionSelection.delete(deletionKey(p)));
         refreshDeletionSelection();
         status.textContent = record.targets.length ? '已提交 ' + record.targets.length + ' 项，等待本机审核。' : '所选项目已有待审核申请。';
       } catch (error) {
@@ -28585,7 +28599,7 @@ header {background:#211a2e}
               <button class="copy-btn" onclick="copyAsin('${p.asin}')">复制 ASIN</button>
             </div>
             <h3 class="card-title" title="${p.title}">${p.title}</h3>
-            <div class="price-row">
+            ${p.selectionApprovedAt ? '<span class="selection-tag">已选品</span>' : ''}<div class="price-row">
               <span class="current-price">${p.price || '待定'}</span>
               ${p.listPrice ? `<span class="list-price">${p.listPrice}</span>` : ''}
             </div>
@@ -28621,7 +28635,7 @@ header {background:#211a2e}
           <td><img src="${p.imgSrc}" class="table-thumb" onclick="openModal('${p.asin}')"></td>
           <td style="font-family: monospace;">${p.asin}</td>
           <td><span style="font-weight: 600; color: var(--accent-hover);">${p.brand}</span></td>
-          <td>${isRadarNew(p) ? `<span style="color: #ff7b72; font-weight: 700;">🔥 新品</span>` : `<span style="color: var(--text-secondary);">常规</span>`}</td>
+          <td>${p.selectionApprovedAt ? '<span class="selection-tag">已选品</span> ' : ''}${isRadarNew(p) ? `<span style="color: #ff7b72; font-weight: 700;">🔥 新品</span>` : `<span style="color: var(--text-secondary);">常规</span>`}</td>
           <td style="max-width: 280px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${p.title}</td>
           <td style="font-weight: 700; color: var(--price-color);">${p.price || '-'}</td>
           <td style="color: var(--text-secondary); text-decoration: line-through;">${p.listPrice || '-'}</td>

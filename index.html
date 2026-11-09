@@ -1088,6 +1088,21 @@ main {width:100%;padding-inline:16px}
   .shop-sidebar .shop-chips {max-height:min(40vh,240px)}
 }
 </style>
+<style id="five-product-columns">
+.product-grid {
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  gap:10px;
+}
+@media (max-width:1240px) {
+  .product-grid {grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+@media (max-width:760px) {
+  .product-grid {grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media (max-width:540px) {
+  .product-grid {grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+}
+</style>
 </head>
 <body>
 

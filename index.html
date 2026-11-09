@@ -28395,7 +28395,7 @@ main {width:100%;padding-inline:16px}
       const select = document.getElementById('deletionShop');
       const value = select.value || currentShop;
       select.replaceChildren(new Option('选择店铺', ''));
-      rawShops.forEach(shop => select.add(new Option(shop.brand || shop.sellerId, shop.sellerId)));
+      rawShops.forEach(shop => select.add(new Option(shopSiteLabel(shop), shop.sellerId)));
       select.value = rawShops.some(shop => shop.sellerId === value) ? value : '';
     }
 
@@ -28475,6 +28475,19 @@ main {width:100%;padding-inline:16px}
       }
     }
 
+    function shopSiteLabel(shop) {
+      const codes = {'amazon.de':'DE', 'amazon.com':'US', 'amazon.fr':'FR',
+        'amazon.it':'IT', 'amazon.es':'ES', 'amazon.co.uk':'UK', 'amazon.co.jp':'JP',
+        'amazon.com.au':'AU', 'amazon.com.br':'BR', 'amazon.com.mx':'MX',
+        'amazon.ca':'CA', 'amazon.nl':'NL', 'amazon.se':'SE', 'amazon.pl':'PL',
+        'amazon.be':'BE', 'amazon.ie':'IE'};
+      const explicit = codes[siteOf(shop)];
+      const inferred = explicit ? [explicit] : [...new Set(rawProducts
+        .filter(product => product.sellerId === shop.sellerId)
+        .map(product => codes[siteOf(product)]).filter(Boolean))];
+      const name = shop.brand || shop.sellerId;
+      return inferred.length ? name + '（' + inferred.join(' / ') + '）' : name;
+    }
     function renderShopChips() {
       const container = document.getElementById('shopChipsContainer');
       container.innerHTML = '';
@@ -28494,7 +28507,7 @@ main {width:100%;padding-inline:16px}
         const chip = document.createElement('div');
         chip.className = `shop-chip ${currentShop === s.sellerId ? 'active' : ''}`;
         chip.onclick = () => filterByShop(s.sellerId);
-        chip.innerHTML = `${escapeHtml(s.brand)} <span class="shop-chip-badge">${count}</span>${s.submitter ? `<small style="display:block;font-size:10px;">提报人：${escapeHtml(s.submitter)}</small>` : ''}`;
+        chip.innerHTML = `${escapeHtml(shopSiteLabel(s))} <span class="shop-chip-badge">${count}</span>${s.submitter ? `<small style="display:block;font-size:10px;">提报人：${escapeHtml(s.submitter)}</small>` : ''}`;
         container.appendChild(chip);
       });
     }

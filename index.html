@@ -821,22 +821,104 @@
     .product-card:has(.deletion-product-check input:checked) {outline:2px solid #60a5fa}
 
 </style>
+<style id="dashboard-design">
+
+:root {
+  color-scheme: light;
+  --bg-primary:#f4f6f9; --bg-secondary:#fff; --bg-tertiary:#eef2f6;
+  --border-color:#dce4ed; --text-primary:#334155; --text-secondary:#56667c;
+  --text-heading:#14263d; --accent-color:#14685f; --accent-hover:#0d655b;
+  --tag-bg:#14685f; --success-color:#14685f; --success-text:#16644a;
+  --price-color:#124e48; --star-color:#8b5417; --new-color:#9c3d1b;
+  --new-gradient:linear-gradient(135deg,#9c3d1b,#b35422);
+  --remark-bg:#f8f6ec; --remark-border:#e5dcc4; --card-radius:15px;
+}
+body {font-family:"Microsoft YaHei UI","PingFang SC",system-ui,sans-serif;font-size:14px}
+header {background:#fff;box-shadow:0 3px 16px #14263d08;padding:14px 24px}
+.header-container, main {max-width:1480px}
+.header-container {gap:14px 24px}
+.header-left {gap:16px 26px}
+.title-site-row {display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.header-title {font-size:23px;color:var(--text-heading);letter-spacing:-.04em}
+.brand-period {color:#168276;margin-left:2px}
+.header-subtitle {font-size:12px;color:var(--text-secondary)}
+.top-site-switch {background:#edf6f4!important;border:1px solid #c9e3de!important;color:#124e48!important;border-radius:8px!important}
+.top-site-switch select {color:#124e48!important;background:transparent!important}
+.dashboard-tabs {gap:4px;background:#edf1f5;border:0;border-radius:10px;padding:4px}
+.dash-tab {background:transparent;border:0;box-shadow:none;border-radius:7px;padding:8px 11px;font-size:13px;color:var(--text-secondary)}
+.dash-tab.active,.dash-tab.active.new-mode {background:#14685f;color:white;box-shadow:0 2px 5px #124e4833}
+.tab-badge {background:#e0e7ef!important;color:#34475e!important}
+.dash-tab.active .tab-badge {background:#ffffff2e!important;color:#fff!important}
+main {padding:24px 24px 48px;margin:0 auto}
+.overview-heading {margin:22px 0 12px}
+.overview-heading p {color:#14685f;font-size:12px;font-weight:700;letter-spacing:.1em}
+.overview-heading h2 {color:#14263d;font-size:29px;line-height:1.3}
+.mode-banner,.mode-banner.new-mode {padding:12px 16px;border:1px solid #d9e8e5;border-radius:11px;background:#eaf5f2;color:#25534e;margin-bottom:0}
+.kpi-grid {gap:12px;margin-bottom:20px;grid-template-columns:repeat(4,minmax(0,1fr))}
+.kpi-card {background:#fff;border:1px solid #dce4ed;border-radius:13px;padding:16px;box-shadow:0 3px 14px #14263d06;min-width:0}
+.kpi-value {font-size:26px;color:#14263d}
+.filter-section,.submit-section {background:#fff;border:1px solid #dce4ed;border-radius:15px;padding:18px;box-shadow:0 4px 18px #14263d08;margin-bottom:20px}
+.filter-label {font-weight:700;color:#14263d;font-size:14px}
+.shop-chips {gap:7px;margin-bottom:12px}
+.shop-chip {background:#f1f5f8;border:1px solid transparent;color:#34475e;border-radius:8px;padding:6px 10px}
+.shop-chip.active {background:#e1f0ec;color:#104c44;border:1px solid #a7d5cc}
+.shop-chip-badge {background:#dde7ef;color:#34475e}
+.secondary-filters {gap:8px;border-top:1px solid #e5ebf1;padding-top:13px}
+.search-input,.filter-select,.submit-input,.view-btn {background:#fff;color:#334155;border:1px solid #d1dce8;border-radius:8px}
+.view-btn.active,.btn-submit {background:#14685f;color:#fff;border-color:#14685f}
+.view-toggles {background:#f1f5f8;border-radius:9px;padding:3px}
+.product-grid {gap:15px;grid-template-columns:repeat(auto-fill,minmax(min(100%,245px),1fr))}
+.product-card {overflow:hidden;border:1px solid #dce4ed;background:#fff;box-shadow:0 3px 12px #14263d08}
+.product-card:hover {transform:translateY(-2px);border-color:#9ebfb9;box-shadow:0 8px 24px #14263d12}
+.img-box {height:188px;background:#fff;border-bottom:1px solid #edf1f5}
+.img-box img {max-width:89%;max-height:82%;object-fit:contain}
+.brand-badge,.site-badge {background:#eaf1f6!important;color:#29465d!important}
+.card-body {padding:14px;gap:9px}
+.card-title {color:#14263d;font-size:14px;line-height:1.45}
+.current-price {font-size:20px}
+.asin-code {color:#52647a}
+.btn-detail,.btn-amazon {border:1px solid #d5e1ec;border-radius:8px;background:#f7fafc;color:#284359}
+.btn-amazon {background:#e7f3f0;border-color:#c2e1da;color:#124e48}
+.table-container {border:1px solid #dce4ed;border-radius:13px;background:#fff;overflow:auto}
+th {background:#edf3f8;color:#233950}
+.submit-title {color:#14263d}
+.submit-tip,.queue-box {background:#f3f7fa;border-radius:9px}
+#deletionPanel > summary {background:#fff7f3;color:#873c25;border-color:#e7cabc}
+#deletionRequestForm {background:#f7fafc}
+.deletion-fields input,.deletion-fields select,.deletion-fields button {background:#fff;color:#233950}
+.deletion-product-check {background:#f1f6fa;color:#253c54;border:1px solid #d4e0ec}
+.product-card:has(.deletion-product-check input:checked) {outline:2px solid #14685f;outline-offset:-2px}
+:where(button,summary,a,input,select):focus-visible {outline:2px solid #168276;outline-offset:3px}
+@media(max-width:800px) {
+  header {position:relative;padding:12px 14px}
+  main {padding:14px}
+  .kpi-grid {grid-template-columns:repeat(2,minmax(0,1fr))}
+  .mode-banner {align-items:flex-start}
+  .header-left {gap:10px}
+  .header-container .dashboard-tabs {max-width:100%;flex-wrap:wrap}
+  .dash-tab {padding:7px 8px}
+}
+@media(prefers-reduced-motion:reduce) {
+  *,*::before,*::after {transition:none!important;scroll-behavior:auto!important}
+}
+
+</style>
 </head>
 <body>
 
   <header>
     <div class="header-container">
       <div class="header-left">
-        <div class="title-site-row"><h1 class="header-title">📊 亚马逊</h1><label class="top-site-switch" for="siteFilter"><span>站点</span><select id="siteFilter" aria-label="切换亚马逊站点" onchange="changeSite()"><option value="all">全部站点</option></select></label><span class="header-subtitle">竞对品牌产品与新品监控看板</span></div>
+        <div class="title-site-row"><h1 class="header-title">亚马逊<span class="brand-period">.</span></h1><label class="top-site-switch" for="siteFilter"><span>站点</span><select id="siteFilter" aria-label="切换亚马逊站点" onchange="changeSite()"><option value="all">全部站点</option></select></label><span class="header-subtitle">竞品监控</span></div>
         
         <div class="dashboard-tabs">
           <button class="dash-tab active" id="tabAll" onclick="switchDashboardMode('all')">
-            📦 全部产品看板 <span class="tab-badge" id="tabBadgeAll">924</span>
+            全部产品 <span class="tab-badge" id="tabBadgeAll">924</span>
           </button>
           <button class="dash-tab" id="tabNew" onclick="switchDashboardMode('new')">
-            🔥 新产品看板 <span class="tab-badge" id="tabBadgeNew" style="background: rgba(248,81,73,0.3); color: #ff7b72;">0</span>
+            新增产品 <span class="tab-badge" id="tabBadgeNew" style="background: rgba(248,81,73,0.3); color: #ff7b72;">0</span>
           </button>
-          <button class="dash-tab" id="tabFollow" onclick="switchDashboardMode('follow')">⭐ 关注产品看板 <span class="tab-badge" id="tabBadgeFollow">0</span></button>
+          <button class="dash-tab" id="tabFollow" onclick="switchDashboardMode('follow')">关注产品 <span class="tab-badge" id="tabBadgeFollow">0</span></button>
         </div>
       </div>
       <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
@@ -868,7 +950,7 @@
       </div>
     </div>
 
-    <div class="kpi-grid">
+    <section class="overview-heading"><p>监控概览</p><h2>竞品工作台</h2></section><div class="kpi-grid">
       <div class="kpi-card">
         <div class="kpi-title" id="kpiTitle1">重点监控竞对品牌</div>
         <div class="kpi-value" id="kpiShops">21 个</div>
@@ -896,7 +978,7 @@
       <div class="shop-chips" id="shopChipsContainer"></div>
 
       <div class="secondary-filters">
-        <input type="text" id="searchInput" class="search-input" placeholder="🔍 搜索 ASIN、标题、品牌、或自定义备注关键词...">
+        <input type="text" id="searchInput" class="search-input" placeholder="搜索 ASIN、商品、品牌或备注">
         
         <select id="priceFilter" class="filter-select">
           <option value="all">所有价格区间（采集币种）</option>
@@ -922,11 +1004,11 @@
           <option value="titleAsc">标题 A-Z</option>
         </select>
 
-        <button class="view-btn" onclick="document.getElementById('submitSection').scrollIntoView({behavior:'smooth',block:'start'})">⬇ 直达底部提报</button>
+        <button class="view-btn" onclick="document.getElementById('submitSection').scrollIntoView({behavior:'smooth',block:'start'})">提报店铺 ↓</button>
 
         <div class="view-toggles">
-          <button class="view-btn active" id="btnGrid" onclick="setView('grid')">📱 大图网格</button>
-          <button class="view-btn" id="btnTable" onclick="setView('table')">📋 数据表格</button>
+          <button class="view-btn active" id="btnGrid" onclick="setView('grid')">卡片</button>
+          <button class="view-btn" id="btnTable" onclick="setView('table')">表格</button>
         </div>
       </div>
     </div>
@@ -955,7 +1037,7 @@
     <div class="submit-section" id="submitSection">
       <div class="submit-header">
         <div class="submit-title">
-          <span>➕ 添加新竞对店铺监控链接</span>
+          <span>提报新店铺</span>
           <span style="font-size: 12px; font-weight: normal; color: var(--text-secondary);">（所有人均可随时提报新店铺，排查后自动上架）</span>
         </div>
         <div style="font-size: 12px; color: var(--success-text);">
@@ -967,7 +1049,7 @@
         <input type="text" id="newShopUrl" class="submit-input" placeholder="请粘贴亚马逊店铺链接（如 https://www.amazon.de/s?me=... 或包含 seller= 的链接）">
         <input type="text" id="newShopSubmitter" class="submit-input" placeholder="提报人（必填）" aria-label="提报人（必填）" required maxlength="80">
         <input type="text" id="newShopNote" class="submit-input" placeholder="品牌名 / 备注（选填）">
-        <button class="btn-submit" onclick="submitNewShop()">🚀 提交到排查队列</button>
+        <button class="btn-submit" onclick="submitNewShop()">提交排查</button>
       </div>
 
       <div class="submit-tip">

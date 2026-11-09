@@ -1067,6 +1067,27 @@ main {width:100%;padding-inline:16px}
 }
 
 </style>
+<style id="shop-vertical-scroll">
+.shop-sidebar,.shop-sidebar details {min-width:0}
+.shop-sidebar .shop-chips {
+  flex-direction:column;
+  flex-wrap:nowrap;
+  align-items:stretch;
+  overflow-x:hidden;
+  overflow-y:auto;
+  scrollbar-gutter:stable;
+}
+.shop-sidebar .shop-chip {
+  flex:0 0 auto;
+  min-width:0;
+  max-width:100%;
+  white-space:normal;
+  overflow-wrap:anywhere;
+}
+@media (max-width:880px) {
+  .shop-sidebar .shop-chips {max-height:min(40vh,240px)}
+}
+</style>
 </head>
 <body>
 

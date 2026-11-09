@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "f24d3263-6e99-4154-a202-c47165cf233c",
+    "kind": "products",
+    "targets": [
+      {
+        "sellerId": "A36WZYTHW9099D",
+        "site": "amazon.de",
+        "asin": "B08QZ5ZVL5",
+        "name": "Aigostar LED Disco Lamp E27 3W RGB Disco Ball 360° Rotating Pack of 2"
+      }
+    ],
+    "submitter": "于以安",
+    "reason": "",
+    "requestedAt": "2026-11-09T01:53:51.363Z",
+    "status": "pending_local_review"
+  }
+]

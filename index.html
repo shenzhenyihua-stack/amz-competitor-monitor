@@ -903,6 +903,71 @@ th {background:#edf3f8;color:#233950}
 }
 
 </style>
+<style id="workspace-layout">
+
+:root {
+  --bg-primary:#eae8e3; --bg-secondary:#f4f2ee; --bg-tertiary:#e9e6df;
+  --border-color:#d6d1c8; --text-heading:#282b2a; --text-primary:#373c39;
+  --text-secondary:#555d56; --accent-color:#435749; --accent-hover:#364a3b;
+  --tag-bg:#435749; --price-color:#303c34; --success-text:#385140; --star-color:#76562c;
+}
+body {background:var(--bg-primary)}
+header {background:#e4e1da;box-shadow:none}
+.header-title,.overview-heading h2 {color:var(--text-heading)}
+.dashboard-tabs,.view-toggles {background:#dcdad3}
+.dash-tab.active,.dash-tab.active.new-mode,.view-btn.active,.btn-submit {background:#435749;border-color:#435749;box-shadow:none}
+.brand-period {color:#69786b}
+.top-site-switch {background:#eeebe5!important;border-color:#d6d1c8!important}
+.mode-banner,.mode-banner.new-mode {background:transparent;border:0;padding:0;margin:0 0 12px;color:var(--text-secondary);font-size:12px}
+.kpi-grid {grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border:1px solid var(--border-color);border-radius:12px;background:#f1eee9;overflow:hidden;margin-bottom:24px}
+.kpi-card {background:transparent;border:0;border-radius:0;box-shadow:none;padding:12px 16px}
+.kpi-card + .kpi-card {border-left:1px solid var(--border-color)}
+.kpi-value {font-size:22px;color:var(--text-heading)}
+.catalog-workspace {display:grid;grid-template-columns:minmax(172px,208px) minmax(0,1fr);gap:22px;align-items:start;margin-bottom:25px}
+.shop-sidebar {position:sticky;top:90px;border:1px solid var(--border-color);border-radius:12px;background:#e4e1da;padding:13px}
+.shop-sidebar summary {cursor:pointer;font-weight:700;color:var(--text-heading);padding:2px 3px 10px}
+.shop-sidebar .shop-chips {display:flex;flex-direction:column;align-items:stretch;max-height:calc(100vh - 150px);overflow:auto;margin:0;gap:4px}
+.shop-sidebar .shop-chip {background:transparent;white-space:normal;border-radius:7px}
+.shop-sidebar .shop-chip:hover {background:#eeebe5}
+.shop-sidebar .shop-chip.active {background:#d5ded4;border-color:#bdc9be;color:#304135}
+.shop-sidebar .shop-chip-badge {float:right;background:#deddd6;color:#435047}
+.catalog-content {min-width:0}
+.catalog-heading {margin:0 0 11px;scroll-margin-top:90px}
+.catalog-heading h2 {font-size:27px;color:var(--text-heading);letter-spacing:-.025em}
+.catalog-eyebrow {font-size:11px;letter-spacing:.12em;color:var(--text-secondary)}
+.filter-section,.submit-section,.product-card,.table-container {background:#f3f1ec;border-color:var(--border-color);box-shadow:none}
+.filter-section {padding:14px;margin-bottom:12px}
+.secondary-filters {border-color:var(--border-color);gap:7px}
+.search-input,.filter-select,.submit-input,.view-btn {background:#f7f5f1;border-color:var(--border-color);color:var(--text-primary)}
+.search-input {min-width:140px}
+.product-grid {grid-template-columns:repeat(auto-fill,minmax(min(100%,220px),1fr));gap:13px}
+.product-card:hover {box-shadow:0 5px 12px #292b2210;border-color:#9ba899;transform:none}
+.img-box {background:#f8f7f4;height:172px;border-color:#e4e1da}
+.card-title {color:var(--text-heading)}
+.brand-badge,.site-badge {background:#e9e8e1!important;color:#424941!important}
+.btn-amazon {background:#e4eae1;border-color:#cfd9ce;color:#334a39}
+.btn-detail,.submit-tip,.queue-box,#deletionRequestForm,th {background:#ebe9e2}
+#catalogPager {display:flex;align-items:center;justify-content:flex-end;gap:8px;padding:14px 0;flex-wrap:wrap}
+#catalogPager button:disabled {opacity:.5;cursor:default}
+#catalogBatch {position:sticky;bottom:10px;z-index:8;display:flex;align-items:center;justify-content:center;gap:8px;padding:8px;border:1px solid #bfcabf;border-radius:10px;background:#dfe7dc;box-shadow:0 3px 12px #292b2218}
+#catalogPager[hidden],#catalogBatch[hidden] {display:none}
+@media(max-width:880px) {
+  .catalog-workspace {grid-template-columns:minmax(0,1fr);gap:12px}
+  .shop-sidebar {position:static}
+  .shop-sidebar .shop-chips {flex-direction:row;max-height:112px;overflow:auto;flex-wrap:wrap}
+  .catalog-heading {scroll-margin-top:10px}
+}
+@media(max-width:480px) {
+  .kpi-card {padding:8px}
+  .kpi-value {font-size:17px}
+  .kpi-sub {font-size:10px}
+  .catalog-heading h2 {font-size:22px}
+  .product-grid {grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .img-box {height:126px}
+  .card-body {padding:8px}
+}
+
+</style>
 </head>
 <body>
 
@@ -950,7 +1015,7 @@ th {background:#edf3f8;color:#233950}
       </div>
     </div>
 
-    <section class="overview-heading"><p>监控概览</p><h2>竞品工作台</h2></section><div class="kpi-grid">
+    <div class="kpi-grid">
       <div class="kpi-card">
         <div class="kpi-title" id="kpiTitle1">重点监控竞对品牌</div>
         <div class="kpi-value" id="kpiShops">21 个</div>
@@ -966,16 +1031,12 @@ th {background:#edf3f8;color:#233950}
         <div class="kpi-value" id="kpiRemarkCount" style="color: var(--price-color);">0 款</div>
         <div class="kpi-sub">点击卡片下方可自主添加备注</div>
       </div>
-      <div class="kpi-card">
-        <div class="kpi-title">官方高清图片覆盖率</div>
-        <div class="kpi-value" style="color: var(--success-text);">100%</div>
-        <div class="kpi-sub">全部支持全屏大图预览</div>
-      </div>
+      
     </div>
 
-    <div class="filter-section">
+    <div class="catalog-workspace"><aside class="shop-sidebar"><details open><summary>监控店铺</summary><div class="shop-chips" id="shopChipsContainer"></div></details></aside><section class="catalog-content"><div class="catalog-heading"><div><div class="catalog-eyebrow">亚马逊竞品监控</div><h2>商品目录</h2></div></div><div class="filter-section">
       <div class="filter-label" id="filterLabel">按店铺筛选</div><details id="deletionPanel"><summary onclick="populateDeletionShops()">删除申请<span id="deletionCount"></span></summary><form id="deletionRequestForm" onsubmit="return false"><div class="deletion-fields"><label>申请人<input name="submitter" maxlength="80" required></label><label>理由（选填）<input name="reason" maxlength="300"></label></div><div class="deletion-fields"><label>店铺<select id="deletionShop"><option value="">选择店铺</option></select></label><button type="button" onclick="requestSelectedShop()">申请删除店铺</button></div><div class="deletion-fields"><button type="button" id="requestBatchDeletion" disabled onclick="requestDeletion('products', [...deletionSelection.values()])">申请删除所选商品（0）</button><button type="button" onclick="deletionSelection.clear(); refreshDeletionSelection()">清空选择</button></div><small>可在商品卡片右上角勾选，申请由本机审核。</small><div id="deletionStatus" role="status" aria-live="polite"></div></form></details>
-      <div class="shop-chips" id="shopChipsContainer"></div>
+      
 
       <div class="secondary-filters">
         <input type="text" id="searchInput" class="search-input" placeholder="搜索 ASIN、商品、品牌或备注">
@@ -1034,7 +1095,7 @@ th {background:#edf3f8;color:#233950}
       </table>
     </div>
 
-    <div class="submit-section" id="submitSection">
+    <nav id="catalogPager" aria-label="商品分页" hidden></nav><div id="catalogBatch" hidden><span id="catalogBatchCount"></span><button type="button" class="view-btn" onclick="openCatalogDeletion()">处理所选商品</button><button type="button" class="view-btn" onclick="deletionSelection.clear();refreshDeletionSelection()">清空</button></div></section></div><div class="submit-section" id="submitSection">
       <div class="submit-header">
         <div class="submit-title">
           <span>提报新店铺</span>
@@ -28199,6 +28260,8 @@ th {background:#edf3f8;color:#233950}
         input.checked = deletionSelection.has(input.dataset.deletionKey);
       });
       const count = deletionSelection.size;
+      document.getElementById('catalogBatch').hidden = !count;
+      document.getElementById('catalogBatchCount').textContent = '已选 ' + count + ' 件商品';
       document.getElementById('deletionCount').textContent = count ? ' · ' + count : '';
       const button = document.getElementById('requestBatchDeletion');
       button.disabled = !count || !!document.getElementById('deletionRequestForm').dataset.saving;
@@ -28384,8 +28447,42 @@ th {background:#edf3f8;color:#233950}
       });
 
       document.getElementById('kpiFiltered').textContent = list.length;
-      renderGrid(list);
-      renderTable(list);
+      renderCatalogPage(list, 1);
+    }
+
+    function openCatalogDeletion() {
+      const panel = document.getElementById('deletionPanel');
+      populateDeletionShops();
+      panel.open = true;
+      panel.scrollIntoView({block: 'center'});
+      document.getElementById('requestBatchDeletion').focus();
+    }
+
+    function renderCatalogPage(list, page) {
+      const size = 36;
+      const pages = Math.max(1, Math.ceil(list.length / size));
+      const start = (page - 1) * size;
+      const visible = list.slice(start, start + size);
+      renderGrid(visible);
+      renderTable(visible);
+      const pager = document.getElementById('catalogPager');
+      pager.hidden = !list.length;
+      pager.replaceChildren();
+      const summary = document.createElement('span');
+      summary.textContent = (start + 1) + '–' + (start + visible.length) + ' / ' + list.length + ' 件 · 第 ' + page + ' / ' + pages + ' 页';
+      pager.append(summary);
+      for (const [label, next] of [['上一页', page - 1], ['下一页', page + 1]]) {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'view-btn';
+        button.textContent = label;
+        button.disabled = next < 1 || next > pages;
+        button.onclick = () => {
+          renderCatalogPage(list, next);
+          document.querySelector('.catalog-heading').scrollIntoView({block: 'start'});
+        };
+        pager.append(button);
+      }
     }
 
     function renderGrid(list) {

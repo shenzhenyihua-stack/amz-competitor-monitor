@@ -801,7 +801,26 @@
       .submit-form { grid-template-columns: 1fr; }
       .modal-content { grid-template-columns: 1fr; }
     }
-  .dashboard-tabs{gap:12px;flex-wrap:wrap}.dash-tab{font-size:17px;font-weight:800;padding:15px 24px;border:2px solid #61718f;background:#25334a;border-radius:12px;box-shadow:0 3px 10px #0003}.dash-tab.active{background:#1765d1;color:white;border-color:#8bc5ff;box-shadow:0 0 0 3px #3b82f633}.dash-tab.new-mode.active{background:#a63036;border-color:#ffb3a9}#tabFollow.active{background:#865f08;border-color:#f7d272}.site-badge{font-size:10px;background:#1e293b;color:#b7d5ff;padding:3px 6px;position:absolute;bottom:6px;left:6px;border-radius:5px}.submitter-label{font-size:12px;color:var(--text-secondary);margin-bottom:6px}.submit-form{grid-template-columns:2fr 1fr 1.5fr auto}#submitSection{scroll-margin-top:160px}@media(max-width:900px){.submit-form{grid-template-columns:1fr}.dash-tab{font-size:14px;padding:12px 14px}}.dash-tab{color:#e6edf3}.site-badge{position:static;display:inline-block}.img-box .site-badge{position:absolute;bottom:6px;left:6px}.title-site-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.header-title{white-space:nowrap}.header-subtitle{font-size:16px;font-weight:650;color:var(--text-heading)}.top-site-switch{display:inline-flex;align-items:center;gap:8px;background:#16345c;border:2px solid #58a6ff;border-radius:10px;padding:7px 10px;box-shadow:0 0 0 3px #3b82f61a;font-size:12px;color:#badaff;font-weight:700}.top-site-switch select{background:#1b416f;color:#fff;border:1px solid #80b7ff;border-radius:6px;padding:7px 30px 7px 10px;font-size:15px;font-weight:800;cursor:pointer;max-width:220px}.top-site-switch:focus-within{outline:2px solid #c2e0ff;outline-offset:2px}@media(max-width:600px){.title-site-row{gap:8px}.header-subtitle{width:100%;font-size:13px}.top-site-switch select{font-size:14px;max-width:180px}}</style>
+  .dashboard-tabs{gap:12px;flex-wrap:wrap}.dash-tab{font-size:17px;font-weight:800;padding:15px 24px;border:2px solid #61718f;background:#25334a;border-radius:12px;box-shadow:0 3px 10px #0003}.dash-tab.active{background:#1765d1;color:white;border-color:#8bc5ff;box-shadow:0 0 0 3px #3b82f633}.dash-tab.new-mode.active{background:#a63036;border-color:#ffb3a9}#tabFollow.active{background:#865f08;border-color:#f7d272}.site-badge{font-size:10px;background:#1e293b;color:#b7d5ff;padding:3px 6px;position:absolute;bottom:6px;left:6px;border-radius:5px}.submitter-label{font-size:12px;color:var(--text-secondary);margin-bottom:6px}.submit-form{grid-template-columns:2fr 1fr 1.5fr auto}#submitSection{scroll-margin-top:160px}@media(max-width:900px){.submit-form{grid-template-columns:1fr}.dash-tab{font-size:14px;padding:12px 14px}}.dash-tab{color:#e6edf3}.site-badge{position:static;display:inline-block}.img-box .site-badge{position:absolute;bottom:6px;left:6px}.title-site-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.header-title{white-space:nowrap}.header-subtitle{font-size:16px;font-weight:650;color:var(--text-heading)}.top-site-switch{display:inline-flex;align-items:center;gap:8px;background:#16345c;border:2px solid #58a6ff;border-radius:10px;padding:7px 10px;box-shadow:0 0 0 3px #3b82f61a;font-size:12px;color:#badaff;font-weight:700}.top-site-switch select{background:#1b416f;color:#fff;border:1px solid #80b7ff;border-radius:6px;padding:7px 30px 7px 10px;font-size:15px;font-weight:800;cursor:pointer;max-width:220px}.top-site-switch:focus-within{outline:2px solid #c2e0ff;outline-offset:2px}@media(max-width:600px){.title-site-row{gap:8px}.header-subtitle{width:100%;font-size:13px}.top-site-switch select{font-size:14px;max-width:180px}}
+    .filter-section {position:relative}
+    .filter-section > .filter-label {padding-right:140px;min-height:30px}
+    #deletionPanel > summary {position:absolute;top:14px;right:16px;cursor:pointer;list-style:none;border:1px solid var(--border-color,#475569);padding:6px 12px;border-radius:8px;font-size:13px}
+    #deletionPanel > summary:after {content:' ▾'}
+    #deletionRequestForm {margin:8px 0 16px;padding:14px;border:1px solid var(--border-color,#475569);border-radius:10px;display:grid;gap:10px;background:var(--bg-card,#182232)}
+    .deletion-fields {display:flex;align-items:end;gap:8px;flex-wrap:wrap}
+    .deletion-fields label {display:grid;gap:4px;font-size:12px;min-width:120px;flex:1}
+    .deletion-fields input,.deletion-fields select,.deletion-fields button {padding:7px 10px;border:1px solid var(--border-color,#475569);border-radius:7px;background:#202b3b;color:#edf3ff;min-width:0}
+    .deletion-fields button {cursor:pointer}
+    .deletion-fields button:disabled {opacity:.5;cursor:default}
+    #deletionStatus {font-size:13px;color:var(--accent-hover,#93c5fd)}
+    .product-card {position:relative}
+    .product-card > .deletion-product-check {position:absolute;z-index:3;top:9px;right:9px}
+    .product-card .new-badge {top:38px}
+    .deletion-product-check {display:inline-flex;align-items:center;gap:4px;padding:4px 7px;border-radius:6px;background:#182232;color:#edf3ff;font-size:12px;cursor:pointer}
+    .deletion-product-check input {margin:0;accent-color:#60a5fa}
+    .product-card:has(.deletion-product-check input:checked) {outline:2px solid #60a5fa}
+
+</style>
 </head>
 <body>
 
@@ -873,7 +892,7 @@
     </div>
 
     <div class="filter-section">
-      <div class="filter-label" id="filterLabel">🏷️ 按品牌快速筛选：点击品牌标签即刻切换对应产品</div>
+      <div class="filter-label" id="filterLabel">按店铺筛选</div><details id="deletionPanel"><summary onclick="populateDeletionShops()">删除申请<span id="deletionCount"></span></summary><form id="deletionRequestForm" onsubmit="return false"><div class="deletion-fields"><label>申请人<input name="submitter" maxlength="80" required></label><label>理由（选填）<input name="reason" maxlength="300"></label></div><div class="deletion-fields"><label>店铺<select id="deletionShop"><option value="">选择店铺</option></select></label><button type="button" onclick="requestSelectedShop()">申请删除店铺</button></div><div class="deletion-fields"><button type="button" id="requestBatchDeletion" disabled onclick="requestDeletion('products', [...deletionSelection.values()])">申请删除所选商品（0）</button><button type="button" onclick="deletionSelection.clear(); refreshDeletionSelection()">清空选择</button></div><small>可在商品卡片右上角勾选，申请由本机审核。</small><div id="deletionStatus" role="status" aria-live="polite"></div></form></details>
       <div class="shop-chips" id="shopChipsContainer"></div>
 
       <div class="secondary-filters">
@@ -912,13 +931,6 @@
       </div>
     </div>
 
-    <form id="deletionRequestForm" onsubmit="return false" style="margin:12px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap">
-      <label>删除申请人 <input name="submitter" maxlength="80" required></label>
-      <label>理由（选填） <input name="reason" maxlength="300"></label>
-      <button type="button" class="copy-btn" id="requestBatchDeletion" disabled onclick="requestDeletion('products', [...deletionSelection.values()])">申请删除所选商品（0）</button>
-      <button type="button" class="copy-btn" onclick="deletionSelection.clear(); refreshDeletionSelection()">清空选择</button>
-      <span id="deletionStatus" role="status" aria-live="polite"></span>
-    </form>
     <div class="product-grid" id="productGrid"></div>
     <div class="table-container" id="tableContainer">
       <table>
@@ -28084,10 +28096,11 @@
     const deletionKey = p => JSON.stringify([siteOf(p), p.sellerId, p.asin]);
 
     function deletionControls(p) {
-      const box = document.createElement('span');
-      const label = document.createElement('label');
+      const box = document.createElement('label');
+      box.className = 'deletion-product-check';
       const input = document.createElement('input');
       input.type = 'checkbox';
+      input.setAttribute('aria-label', '选择商品 ' + p.asin);
       input.dataset.deletionKey = deletionKey(p);
       input.checked = deletionSelection.has(input.dataset.deletionKey);
       input.onchange = () => {
@@ -28095,13 +28108,7 @@
         else deletionSelection.delete(input.dataset.deletionKey);
         refreshDeletionSelection();
       };
-      label.append(input, ' 选择 ');
-      const button = document.createElement('button');
-      button.type = 'button';
-      button.className = 'copy-btn';
-      button.textContent = '申请删除商品';
-      button.onclick = () => requestDeletion('products', [p]);
-      box.append(label, button);
+      box.append(input, ' 选择');
       return box;
     }
 
@@ -28109,11 +28116,34 @@
       document.querySelectorAll('[data-deletion-key]').forEach(input => {
         input.checked = deletionSelection.has(input.dataset.deletionKey);
       });
+      const count = deletionSelection.size;
+      document.getElementById('deletionCount').textContent = count ? ' · ' + count : '';
       const button = document.getElementById('requestBatchDeletion');
-      button.disabled = !deletionSelection.size;
+      button.disabled = !count || !!document.getElementById('deletionRequestForm').dataset.saving;
       button.textContent = '申请删除所选商品（' + deletionSelection.size + '）';
     }
 
+    function deletionTargetKey(target) {
+      return JSON.stringify([target.sellerId, target.site || '', target.asin || '']);
+    }
+
+    function populateDeletionShops() {
+      const select = document.getElementById('deletionShop');
+      const value = select.value || currentShop;
+      select.replaceChildren(new Option('选择店铺', ''));
+      rawShops.forEach(shop => select.add(new Option(shop.brand || shop.sellerId, shop.sellerId)));
+      select.value = rawShops.some(shop => shop.sellerId === value) ? value : '';
+    }
+
+    function requestSelectedShop() {
+      const select = document.getElementById('deletionShop');
+      const shop = rawShops.find(item => item.sellerId === select.value);
+      if (shop) requestDeletion('shop', [shop]);
+      else {
+        document.getElementById('deletionStatus').textContent = '请先选择店铺。';
+        select.focus();
+      }
+    }
     async function requestDeletion(kind, records) {
       const form = document.getElementById('deletionRequestForm');
       const status = document.getElementById('deletionStatus');
@@ -28126,6 +28156,7 @@
       }
       if (!records.length || form.dataset.saving) return;
       form.dataset.saving = 'true';
+      form.querySelectorAll('button').forEach(button => button.disabled = true);
       status.textContent = '正在提交删除申请…';
       const targets = records.map(p => kind === 'shop'
         ? {sellerId: p.sellerId, name: p.brand}
@@ -28141,7 +28172,10 @@
           if (!response.ok) throw Error('读取队列失败 ' + response.status);
           const file = await response.json();
           const list = JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(file.content), c => c.charCodeAt(0))));
-          if (list.some(item => item.id === record.id)) break;
+          const pending = new Set(list.filter(item => item.kind === kind && ['pending_local_review', 'processing'].includes(item.status))
+            .flatMap(item => (item.targets || []).map(deletionTargetKey)));
+          record.targets = targets.filter(target => !pending.has(deletionTargetKey(target)));
+          if (!record.targets.length) break;
           list.push(record);
           const bytes = new TextEncoder().encode(JSON.stringify(list, null, 2));
           const content = btoa(Array.from(bytes, x => String.fromCharCode(x)).join(''));
@@ -28152,11 +28186,13 @@
         }
         if (kind === 'products') records.forEach(p => deletionSelection.delete(deletionKey(p)));
         refreshDeletionSelection();
-        status.textContent = '已提交 ' + targets.length + ' 项，等待本机审核。';
+        status.textContent = record.targets.length ? '已提交 ' + record.targets.length + ' 项，等待本机审核。' : '所选项目已有待审核申请。';
       } catch (error) {
         status.textContent = '申请未确认保存，请重试。' + error.message;
       } finally {
         delete form.dataset.saving;
+        form.querySelectorAll('button').forEach(button => button.disabled = false);
+        refreshDeletionSelection();
         form.scrollIntoView({block: 'nearest'});
       }
     }
@@ -28181,12 +28217,6 @@
         chip.className = `shop-chip ${currentShop === s.sellerId ? 'active' : ''}`;
         chip.onclick = () => filterByShop(s.sellerId);
         chip.innerHTML = `${escapeHtml(s.brand)} <span class="shop-chip-badge">${count}</span>${s.submitter ? `<small style="display:block;font-size:10px;">提报人：${escapeHtml(s.submitter)}</small>` : ''}`;
-        const remove = document.createElement('button');
-        remove.type = 'button';
-        remove.className = 'copy-btn';
-        remove.textContent = '申请删除店铺';
-        remove.onclick = event => { event.stopPropagation(); requestDeletion('shop', [s]); };
-        chip.append(' ', remove);
         container.appendChild(chip);
       });
     }
@@ -28322,7 +28352,7 @@
             </div>
           </div>
         `;
-        card.querySelector('.card-actions').appendChild(deletionControls(p));
+        card.appendChild(deletionControls(p));
         grid.appendChild(card);
       });
     }

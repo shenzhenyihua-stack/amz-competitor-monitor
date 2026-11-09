@@ -968,13 +968,50 @@ header {background:#e4e1da;box-shadow:none}
 }
 
 </style>
+<style id="dopamine-palette">
+
+:root {
+  --bg-primary:#f4eff8; --bg-secondary:#fcf8ff; --bg-tertiary:#efe7f8;
+  --border-color:#ded2e9; --text-primary:#382b4a; --text-heading:#292039;
+  --text-secondary:#665777; --accent-color:#6739b1; --accent-hover:#592a9d;
+  --tag-bg:#6739b1; --price-color:#7e2c59; --success-text:#216553; --star-color:#805018;
+}
+header {background:#eee5fa}
+.brand-period {color:#c13575}
+.top-site-switch {background:#fff4d9!important;border-color:#e9cf97!important}
+.top-site-switch select {color:#593f24!important}
+.dashboard-tabs,.view-toggles {background:#e4d7f5}
+.dash-tab.active,.view-btn.active,.btn-submit {background:#6739b1;border-color:#6739b1;color:#fff}
+.dash-tab.active.new-mode {background:#a32a64;border-color:#a32a64;color:#fff}
+#tabFollow.active {background:#226f60}
+.kpi-grid {background:#f7f0fc}
+.kpi-card:nth-child(1) {background:#e9defa}
+.kpi-card:nth-child(2) {background:#fae5ee}
+.kpi-card:nth-child(3) {background:#e1f2e9}
+.shop-sidebar {background:#ebe1f7}
+.shop-sidebar .shop-chip:hover {background:#f5ecfd}
+.shop-sidebar .shop-chip.active {background:#dcc9f4;border-color:#c8a9ea;color:#43236f}
+.shop-sidebar .shop-chip-badge {background:#e4d8ef;color:#573972}
+.filter-section,.submit-section,.product-card,.table-container {background:#fbf7fe}
+.search-input,.filter-select,.submit-input,.view-btn {background:#f9f3fd}
+.img-box {background:#fcf9fd;border-color:#eee5f3}
+.brand-badge {background:#eee2fc!important;color:#512d80!important}
+.site-badge {background:#dcf1e7!important;color:#245d50!important}
+.btn-amazon {background:#dff2ea;border-color:#bcded1;color:#225a4c}
+.btn-detail,.submit-tip,.queue-box,#deletionRequestForm,th {background:#efe6f7}
+#deletionPanel > summary {background:#ffe7ef;border-color:#e8bfd1;color:#843451}
+#catalogBatch {background:#eadbfb;border-color:#d3b7ed}
+.product-card:has(.deletion-product-check input:checked) {outline-color:#6739b1}
+:where(button,summary,a,input,select):focus-visible {outline-color:#6739b1}
+
+</style>
 </head>
 <body>
 
   <header>
     <div class="header-container">
       <div class="header-left">
-        <div class="title-site-row"><h1 class="header-title">亚马逊<span class="brand-period">.</span></h1><label class="top-site-switch" for="siteFilter"><span>站点</span><select id="siteFilter" aria-label="切换亚马逊站点" onchange="changeSite()"><option value="all">全部站点</option></select></label><span class="header-subtitle">竞品监控</span></div>
+        <div class="title-site-row"><h1 class="header-title">亚马逊<span class="brand-period">.</span></h1><label class="top-site-switch" for="siteFilter"><select id="siteFilter" aria-label="切换亚马逊站点" onchange="changeSite()"><option value="all">全部站点</option></select></label><span class="header-subtitle">竞品监控</span></div>
         
         <div class="dashboard-tabs">
           <button class="dash-tab active" id="tabAll" onclick="switchDashboardMode('all')">

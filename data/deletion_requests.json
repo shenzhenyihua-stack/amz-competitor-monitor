@@ -13,6 +13,10 @@
     "submitter": "于以安",
     "reason": "",
     "requestedAt": "2026-11-09T01:53:51.363Z",
-    "status": "pending_local_review"
+    "status": "rejected",
+    "reviewedAt": "2026-11-11T02:07:33.406Z",
+    "reviewedBy": "主Agent",
+    "decision": "不同意删除",
+    "decisionNote": "运营不同意删除，商品保留在售展示"
   }
 ]

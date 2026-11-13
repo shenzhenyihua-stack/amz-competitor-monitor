@@ -22,7 +22,9 @@
     "url": "https://www.amazon.de/s?me=A3W15ZM9G6F0RQ&language=en&marketplaceID=A1PA6795UKMFR9",
     "sellerId": "A3W15ZM9G6F0RQ",
     "brandHint": "耶稣雕像有季节性10~12月",
-    "status": "pending_local_review",
-    "submitter": "一鸣"
+    "status": "processing",
+    "submitter": "一鸣",
+    "claimedBy": "primary-agent",
+    "claimedAt": "2026-11-13T01:32:33.371Z"
   }
 ]

@@ -171,5 +171,18 @@
     "scrapedCount": 336,
     "scrapedAt": "2026-11-06T10:31:17.882Z",
     "sourcePages": 22
+  },
+  {
+    "sellerId": "A3W15ZM9G6F0RQ",
+    "brand": "pingshopping",
+    "displayName": "pingshopping",
+    "shopName": "pingshopping",
+    "site": "Amazon.de",
+    "url": "https://www.amazon.de/s?me=A3W15ZM9G6F0RQ&language=en&marketplaceID=A1PA6795UKMFR9",
+    "submitter": "一鸣",
+    "submissionId": "sub_1794533228943",
+    "scrapedCount": 12,
+    "scrapedAt": "2026-11-13T01:34:26.101Z",
+    "sourcePages": 1
   }
 ]

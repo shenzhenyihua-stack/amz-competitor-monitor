@@ -1,0 +1,24 @@
+[
+  {
+    "id": "sub_1794538167345",
+    "submitTime": "2026-11-13 02:49",
+    "url": "https://www.amazon.de/s?i=merchant-items&me=A1DBYDCV1TG9MC&page=2&language=en&marketplaceID=A1PA6795UKMFR9&qid=1794537946&xpid=dF3eiu6S9Ci6g&ref=sr_pg_1",
+    "sellerId": "A1DBYDCV1TG9MC",
+    "brandHint": "待定品牌 (A1DBYDCV1TG9MC)",
+    "status": "processing",
+    "submitter": "一鸣",
+    "claimedBy": "primary-agent-accio",
+    "claimedAt": "2026-11-16T14:07:00.793265"
+  },
+  {
+    "id": "sub_1794538938554",
+    "submitTime": "2026-11-13 03:02",
+    "url": "https://www.amazon.de/s?me=A1K7SKCGS0995G&language=en&marketplaceID=A1PA6795UKMFR9",
+    "sellerId": "A1K7SKCGS0995G",
+    "brandHint": "待定品牌 (A1K7SKCGS0995G)",
+    "status": "processing",
+    "submitter": "一鸣",
+    "claimedBy": "primary-agent-accio",
+    "claimedAt": "2026-11-16T14:07:00.793265"
+  }
+]

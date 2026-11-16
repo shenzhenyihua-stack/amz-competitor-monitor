@@ -184,5 +184,37 @@
     "scrapedCount": 12,
     "scrapedAt": "2026-11-13T01:34:26.101Z",
     "sourcePages": 1
+  },
+  {
+    "sellerId": "A1DBYDCV1TG9MC",
+    "brand": "HUIKUANGEU",
+    "displayName": "HUIKUANGEU",
+    "shopName": "HUIKUANGEU",
+    "site": "Amazon.de",
+    "url": "https://www.amazon.de/s?me=A1DBYDCV1TG9MC&language=en&marketplaceID=A1PA6795UKMFR9",
+    "submitter": "一鸣",
+    "submissionId": "sub_1794538167345",
+    "scrapedCount": 109,
+    "scrapedAt": "2026-11-16T14:17:25.000Z",
+    "sourcePages": 7,
+    "note": "LED灯饰/圣诞装饰/泳池用品/万圣节装饰 综合杂货店",
+    "postalCode": "10115 Berlin",
+    "newCount": 109
+  },
+  {
+    "sellerId": "A1K7SKCGS0995G",
+    "brand": "Swpeet",
+    "displayName": "Swpeet",
+    "shopName": "Swpeet",
+    "site": "Amazon.de",
+    "url": "https://www.amazon.de/s?me=A1K7SKCGS0995G&language=en&marketplaceID=A1PA6795UKMFR9",
+    "submitter": "一鸣",
+    "submissionId": "sub_1794538938554",
+    "scrapedCount": 1486,
+    "scrapedAt": "2026-11-16T14:17:25.000Z",
+    "sourcePages": 95,
+    "note": "Swpeet 五金配件/清洁耗材/弹簧电池配件类大铺",
+    "postalCode": "10115 Berlin",
+    "newCount": 1486
   }
 ]

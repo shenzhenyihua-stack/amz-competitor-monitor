@@ -1103,7 +1103,7 @@ main {width:100%;padding-inline:16px}
   .product-grid {grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
 }
 </style>
-</head>
+<style id="catalog-performance-fix">.product-card{content-visibility:auto;contain-intrinsic-size:auto 460px}#deletionStatus{white-space:normal;font-weight:600;padding:8px 0}</style></head>
 <body>
 
   <header>
@@ -2178,14 +2178,14 @@ main {width:100%;padding-inline:16px}
       const targets = records.map(p => kind === 'shop'
         ? {sellerId: p.sellerId, name: p.brand}
         : {sellerId: p.sellerId, site: siteOf(p), asin: p.asin, name: p.title});
-      const record = {id: crypto.randomUUID(), kind, targets, submitter,
+      const record = {id: ('request_' + Date.now() + '_' + Math.random().toString(36).slice(2)), kind, targets, submitter,
         reason: form.elements.reason.value.trim(), requestedAt: new Date().toISOString(),
         status: 'pending_local_review'};
       const url = 'https://api.github.com/repos/' + GITHUB_REPO_OWNER + '/' + GITHUB_REPO_NAME + '/contents/data/deletion_requests.json';
       const headers = {Authorization: 'token ' + GITHUB_COLLAB_TOKEN, Accept: 'application/vnd.github+json'};
       try {
         for (let attempt = 0; attempt < 3; attempt++) {
-          const response = await fetch(url, {headers, cache: 'no-store'});
+          const response = await fetch(url, {headers, cache: 'no-store', signal: AbortSignal.timeout(20000)});
           if (!response.ok) throw Error('读取队列失败 ' + response.status);
           const file = await response.json();
           const list = JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(file.content), c => c.charCodeAt(0))));
@@ -2196,7 +2196,7 @@ main {width:100%;padding-inline:16px}
           list.push(record);
           const bytes = new TextEncoder().encode(JSON.stringify(list, null, 2));
           const content = btoa(Array.from(bytes, x => String.fromCharCode(x)).join(''));
-          const saved = await fetch(url, {method: 'PUT', headers: {...headers, 'Content-Type': 'application/json'},
+          const saved = await fetch(url, {method: 'PUT', signal: AbortSignal.timeout(20000), headers: {...headers, 'Content-Type': 'application/json'},
             body: JSON.stringify({message: 'Queue deletion request', sha: file.sha, content, branch: 'main'})});
           if (saved.ok) break;
           if (saved.status !== 409 || attempt === 2) throw Error('保存失败 ' + saved.status);
@@ -2259,6 +2259,7 @@ main {width:100%;padding-inline:16px}
 
     function setView(view) {
       currentView = view;
+      renderCatalogPage(catalogRenderList, 1);
       document.getElementById('btnGrid').className = `view-btn ${view === 'grid' ? 'active' : ''}`;
       document.getElementById('btnTable').className = `view-btn ${view === 'table' ? 'active' : ''}`;
       document.getElementById('productGrid').style.display = view === 'grid' ? 'grid' : 'none';
@@ -2343,17 +2344,29 @@ main {width:100%;padding-inline:16px}
       document.getElementById('requestBatchDeletion').focus();
     }
 
+    let catalogRenderGeneration = 0;
+    let catalogRenderList = [];
     function renderCatalogPage(list, page) {
-      // 按照用户要求：直接一直往下排列全部产品，无需翻页
-      renderGrid(list);
-      renderTable(list);
+      catalogRenderList = list;
+      const generation = ++catalogRenderGeneration;
+      const render = currentView === 'table' ? renderTable : renderGrid;
+      document.getElementById(currentView === 'table' ? 'productGrid' : 'tableBody').replaceChildren();
+      render(list.slice(0, 40));
+      let offset = 40;
+      function batch() {
+        if (generation !== catalogRenderGeneration || offset >= list.length) return;
+        render(list.slice(offset, offset + 40), true);
+        offset += 40;
+        requestAnimationFrame(batch);
+      }
+      requestAnimationFrame(batch);
       const pager = document.getElementById('catalogPager');
       if (pager) pager.hidden = true;
     }
 
-    function renderGrid(list) {
+    function renderGrid(list, append = false) {
       const grid = document.getElementById('productGrid');
-      grid.innerHTML = '';
+      if (!append) grid.replaceChildren();
       if (list.length === 0) {
         grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 60px; color: var(--text-secondary);">当前分类或搜索条件下暂无匹配产品</div>';
         return;
@@ -2401,9 +2414,9 @@ main {width:100%;padding-inline:16px}
       });
     }
 
-    function renderTable(list) {
+    function renderTable(list, append = false) {
       const tbody = document.getElementById('tableBody');
-      tbody.innerHTML = '';
+      if (!append) tbody.replaceChildren();
       list.forEach(p => {
         const amazonUrl = getAmazonUrl(p);
         const ratingInfo = formatRatingAndReviews(p);

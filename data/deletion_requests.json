@@ -18,5 +18,19 @@
     "reviewedBy": "主Agent",
     "decision": "不同意删除",
     "decisionNote": "运营不同意删除，商品保留在售展示"
+  },
+  {
+    "id": "c5bc3a6d-d40f-42ad-8603-d3be9f1ff649",
+    "kind": "shop",
+    "targets": [
+      {
+        "sellerId": "A16QV2T7BU3ZKC",
+        "name": "TerraGrow-EU"
+      }
+    ],
+    "submitter": "于以安",
+    "reason": "",
+    "requestedAt": "2026-11-19T10:16:18.990Z",
+    "status": "pending_local_review"
   }
 ]

@@ -31,6 +31,11 @@
     "submitter": "于以安",
     "reason": "",
     "requestedAt": "2026-11-19T10:16:18.990Z",
-    "status": "pending_local_review"
+    "status": "completed",
+    "reviewedAt": "2026-11-19T10:26:30.327Z",
+    "removed": {
+      "shops": 1,
+      "products": 336
+    }
   }
 ]

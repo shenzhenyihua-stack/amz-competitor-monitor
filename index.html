@@ -2617,7 +2617,7 @@ main {width:100%;padding-inline:16px}
           <div class="img-box" onclick="openModal('${p.asin}')">
             <span class="brand-badge">${escapeHtml(p.brand)}</span><span class="site-badge">${escapeHtml(displaySite(p))}</span>
             ${isRadarNew(p) ? `<span class="new-badge">🔥 NEW</span>` : ''}
-            <img src="${p.imgSrc}" alt="${p.asin}" loading="lazy" onerror="this.src='https://via.placeholder.com/300x300?text=No+Image'">
+            <img src="${p.imgSrc}" alt="${p.asin}" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjE4Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMjAzMTQyIi8+PHRleHQgeD0iMTUwIiB5PSIxMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiNiOWM5ZDciIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjE2Ij5JbWFnZSB1bmF2YWlsYWJsZTwvdGV4dD48L3N2Zz4='">
           </div>
           <div class="card-body">
             ${submitterOf(p) ? `<div class="submitter-label">提报人：${escapeHtml(submitterOf(p))}</div>` : ''}

@@ -1192,7 +1192,8 @@ main {width:100%;padding-inline:16px}
         </select>
 
         <select id="sortSelect" class="filter-select">
-          <option value="default">默认顺序 (按录入批次锁定)</option>
+          <option value="default">默认顺序 (关注模式按备注时间)</option>
+          <option value="remarkTimeDesc">最新备注优先（时间倒序）</option>
           <option value="priceAsc">售价从低到高（同币种比较）</option>
           <option value="priceDesc">售价从高到低（同币种比较）</option>
           <option value="ratingDesc">评分从高到低</option>
@@ -1414,14 +1415,31 @@ main {width:100%;padding-inline:16px}
             const decodedStr = decodeURIComponent(escape(atob(data.content.replace(/\s/g, ''))));
             const cloudJson = JSON.parse(decodedStr);
             
-            // 合并云端备注（以云端为权威核心，若本地有未上报的并入）
+            // 合并云端备注（以云端为绝对权威核心：云端已删掉的项，本地强制清除！）
             let changed = false;
-            for (const asin in cloudJson) {
-              if (productRemarks[asin] !== cloudJson[asin]) {
-                productRemarks[asin] = cloudJson[asin];
+            // 清理本地存在但云端已删除的陈旧残留
+            for (const localAsin in productRemarks) {
+              if (!(localAsin in cloudJson)) {
+                delete productRemarks[localAsin];
                 changed = true;
               }
             }
+            // 写入云端最新项并兼容对象格式
+            for (const asin in cloudJson) {
+              const cloudVal = cloudJson[asin];
+              const curText = getRemark(asin);
+              const cloudText = (typeof cloudVal === 'object' && cloudVal !== null) ? (cloudVal.text || '') : String(cloudVal || '');
+              if (curText !== cloudText.trim()) {
+                productRemarks[asin] = cloudVal;
+                changed = true;
+              } else if (typeof cloudVal === 'object' && cloudVal !== null && getRemarkTime(asin) !== Number(cloudVal.updatedAt || 0)) {
+                productRemarks[asin] = cloudVal;
+                changed = true;
+              }
+            }
+            // 确保测试废弃项坚决清除
+            delete productRemarks['B0FQCB1RP7'];
+            delete productRemarks['B073TZ5BBG'];
 
             // 本地缓存持久化
             localStorage.setItem('amz_product_remarks', JSON.stringify(productRemarks));
@@ -1455,11 +1473,14 @@ main {width:100%;padding-inline:16px}
           const staticJson = await res.json();
           let changed = false;
           for (const asin in staticJson) {
+            if (asin === 'B0FQCB1RP7' || asin === 'B073TZ5BBG') continue;
             if (!productRemarks[asin]) {
               productRemarks[asin] = staticJson[asin];
               changed = true;
             }
           }
+          delete productRemarks['B0FQCB1RP7'];
+          delete productRemarks['B073TZ5BBG'];
           localStorage.setItem('amz_product_remarks', JSON.stringify(productRemarks));
           updateRemarkCount();
           if (changed) refreshAllRemarksUi();
@@ -1481,12 +1502,26 @@ main {width:100%;padding-inline:16px}
     }
 
     function getRemark(asin) {
-      return productRemarks[asin] || '';
+      const val = productRemarks[asin];
+      if (!val) return '';
+      if (typeof val === 'object' && val !== null) {
+        return (val.text || '').trim();
+      }
+      return String(val || '').trim();
+    }
+
+    function getRemarkTime(asin) {
+      const val = productRemarks[asin];
+      if (!val) return 0;
+      if (typeof val === 'object' && val !== null) {
+        return Number(val.updatedAt || val.timestamp || 0);
+      }
+      return 0;
     }
 
     function updateRemarkCount() {
       refreshFollowCount();
-      const count = Object.keys(productRemarks).filter(k => (productRemarks[k] || '').trim()).length;
+      const count = Object.keys(productRemarks).filter(k => Boolean(getRemark(k))).length;
       const el1 = document.getElementById('kpiRemarkCount');
       const el2 = document.getElementById('btnRemarkBadge');
       if (el1) el1.textContent = count + ' 款';
@@ -1495,9 +1530,10 @@ main {width:100%;padding-inline:16px}
 
     function saveRemark(asin, text) {
       text = (text || '').trim();
-      const prevText = productRemarks[asin] || '';
+      const prevText = getRemark(asin);
+      const nowTime = Date.now();
       if (text) {
-        productRemarks[asin] = text;
+        productRemarks[asin] = { text: text, updatedAt: nowTime };
       } else {
         delete productRemarks[asin];
       }
@@ -1511,12 +1547,17 @@ main {width:100%;padding-inline:16px}
       updateRemarkCount();
       updateRemarkUiInPlace(asin, text);
 
+      // 如果当前处于关注产品视图，保存/删除后就地重新排序刷新
+      if (dashboardMode === 'follow') {
+        applyFilters();
+      }
+
       // 2. 异步实时推送到 GitHub 云端仓库，让所有人都能看到并修改
-      syncRemarkToCloud(asin, text, prevText);
+      syncRemarkToCloud(asin, text, prevText, nowTime);
     }
 
     // 将单次修改实时提交推送到 GitHub 云端
-    async function syncRemarkToCloud(asin, text, prevText) {
+    async function syncRemarkToCloud(asin, text, prevText, nowTime = Date.now()) {
       isCloudSyncing = true;
       updateSyncStatus('syncing', `☁️ 正在保存并广播至全员云端 (ASIN: ${asin})...`);
 
@@ -1542,10 +1583,13 @@ main {width:100%;padding-inline:16px}
               const remoteObj = JSON.parse(remoteStr);
               // 合并：以当前修改为准
               curObj = { ...remoteObj, ...productRemarks };
+              // 确保两处已废弃测试备注永远不再回写
+              delete curObj['B0FQCB1RP7'];
+              delete curObj['B073TZ5BBG'];
               if (!text) {
                 delete curObj[asin];
               } else {
-                curObj[asin] = text;
+                curObj[asin] = { text: text, updatedAt: nowTime };
               }
             } catch(e) {}
           }
@@ -2073,7 +2117,7 @@ main {width:100%;padding-inline:16px}
       if(mode==='follow') {
         tabAll.className='dash-tab'; tabNew.className='dash-tab'; banner.className='mode-banner';
         bTitle.textContent='⭐ 当前视图：关注产品看板';
-        bDesc.textContent='自动汇集有云端共享备注的产品；清除备注后自动移出，原店铺记录保留。';
+        bDesc.textContent='已按【最新备注优先（时间倒序）】排列；新加或刚改备注的产品排在最前列，清除备注后自动移出。';
         document.getElementById('kpiTitle2').textContent='关注产品总数';
         document.getElementById('kpiProducts').textContent=dashboardPool().length+' 款';
       } else if (mode === 'all') {
@@ -2317,6 +2361,11 @@ main {width:100%;padding-inline:16px}
       });
 
       list.sort((a, b) => {
+        if (sortV === 'remarkTimeDesc' || (sortV === 'default' && dashboardMode === 'follow')) {
+          const ta = getRemarkTime(a.asin);
+          const tb = getRemarkTime(b.asin);
+          if (tb !== ta) return tb - ta;
+        }
         if (sortV === 'priceAsc') return (a.priceVal || 0) - (b.priceVal || 0);
         if (sortV === 'priceDesc') return (b.priceVal || 0) - (a.priceVal || 0);
         if (sortV === 'ratingDesc') {

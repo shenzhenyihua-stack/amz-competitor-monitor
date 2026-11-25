@@ -37,5 +37,21 @@
       "shops": 1,
       "products": 336
     }
+  },
+  {
+    "id": "request_1795596945076_7h642qv5uxp",
+    "kind": "selection",
+    "targets": [
+      {
+        "sellerId": "A2943E47GVY1E3",
+        "site": "amazon.de",
+        "asin": "B0F98F8KBZ",
+        "name": "180 Pieces Stainless Steel Hose Clamps Set 304, 12 Sizes 5.8-33.1"
+      }
+    ],
+    "submitter": "一鸣",
+    "reason": "做过淘汰了 不做了",
+    "requestedAt": "2026-11-25T08:55:45.076Z",
+    "status": "pending_local_review"
   }
 ]

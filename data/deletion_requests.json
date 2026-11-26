@@ -52,6 +52,14 @@
     "submitter": "一鸣",
     "reason": "做过淘汰了 不做了",
     "requestedAt": "2026-11-25T08:55:45.076Z",
-    "status": "pending_local_review"
+    "status": "completed",
+    "reviewedAt": "2026-11-26T01:11:23.210Z",
+    "reviewedBy": "主Agent",
+    "decision": "同意删除",
+    "decisionNote": "按主Agent确认删除该选品，商品从看板移除",
+    "removed": {
+      "shops": 0,
+      "products": 1
+    }
   }
 ]
